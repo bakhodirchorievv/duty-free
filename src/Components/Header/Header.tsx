@@ -2,6 +2,15 @@ import "./Header.css";
 import "./HeaderRespnsive.css";
 
 const Header = () => {
+	const handleHeadPages = (e: any) => {
+		const headItems = document.querySelectorAll(
+			".header-item"
+		) as NodeListOf<HTMLLIElement>;
+		headItems.forEach((headItem) => (headItem.className = "header-item"));
+
+		e.target.classList.add("redFont");
+	};
+
 	return (
 		<div>
 			<header className="header">
@@ -21,10 +30,21 @@ const Header = () => {
 				</div>
 
 				<ul className="header-list">
-					<li className="header-item redFont">Главная</li>
-					<li className="header-item">Каталог</li>
-					<li className="header-item">Парфюмерия</li>
-					<li className="header-item">Алкоголь</li>
+					<li onClick={handleHeadPages} className="header-item redFont">
+						Главная
+					</li>
+					<li onClick={handleHeadPages} className="header-item">
+						О нас
+					</li>
+					<li onClick={handleHeadPages} className="header-item">
+						Условия
+					</li>
+					<li onClick={handleHeadPages} className="header-item">
+						Вопросы
+					</li>
+					<li onClick={handleHeadPages} className="header-item">
+						Контакты
+					</li>
 				</ul>
 
 				{/* <div className="header-right">
