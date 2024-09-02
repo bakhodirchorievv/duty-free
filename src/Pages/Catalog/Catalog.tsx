@@ -1,7 +1,45 @@
+import { useEffect, useState } from "react";
 import "./Catalog.css";
 import "./CatalogResponsive.css";
 
 const Catalog = () => {
+	const [minPrice, setMinPrice] = useState<number>(0);
+	const [maxPrice, setMaxPrice] = useState<number>(1000);
+
+	const gradientStyle = {
+		background: `linear-gradient(to right, 
+		  rgba(96, 97, 97, 0.6) 0%, 
+		  rgba(96, 97, 97, 0.6) ${minPrice / 10}%, 
+		  rgba(255, 0, 20, 1) ${minPrice / 10}%, 
+		  rgba(255, 0, 20, 1) ${maxPrice / 10}%, 
+		  rgba(96, 97, 97, 0.6) ${maxPrice / 10}%, 
+		  rgba(96, 97, 97, 0.6) 100%)`,
+	};
+
+	useEffect(() => {
+		document.documentElement.style.setProperty(
+			"--min-price",
+			`${minPrice / 10}%`
+		);
+		document.documentElement.style.setProperty(
+			"--max-price",
+			`${maxPrice / 10}%`
+		);
+	}, [minPrice, maxPrice]);
+
+	const handleMinPriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+		const value = Number(e.target.value);
+		if (value <= maxPrice) {
+			setMinPrice(value);
+		}
+	};
+
+	const handleMaxPriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+		const value = Number(e.target.value);
+		if (value >= minPrice) {
+			setMaxPrice(value);
+		}
+	};
 	return (
 		<>
 			<div className="catalogWrapper">
@@ -30,7 +68,31 @@ const Catalog = () => {
 						</select>
 
 						<div className="rangeSliderWrapper">
-							<p className="sliderPrice">Цена: $20 - $1000 </p>
+							<div className="sliderContainer">
+								<input
+									type="range"
+									min="0"
+									max="1000"
+									step="10"
+									className="rangeSlider"
+									value={minPrice}
+									onChange={handleMinPriceChange}
+									style={gradientStyle}
+								/>
+								<input
+									type="range"
+									min="0"
+									max="1000"
+									step="10"
+									className="rangeSlider"
+									value={maxPrice}
+									onChange={handleMaxPriceChange}
+									style={gradientStyle}
+								/>
+							</div>
+							<p className="sliderPrice">
+								Цена: ${minPrice} - ${maxPrice}
+							</p>
 						</div>
 
 						<div className="discountProduct">

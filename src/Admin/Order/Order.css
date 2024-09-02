@@ -102,9 +102,46 @@ body {
 	font-family: "Radio Canada", sans-serif;
 }
 
+.stateSelectWrap {
+	position: relative;
+}
 .stateSelect {
 	padding: 8px;
 	font-family: "Raleway", sans-serif;
+	outline: none;
+	background-color: white;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border-radius: 2px;
+	appearance: none;
+	color: rgba(96, 97, 97, 1);
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 15px;
+}
+
+.stateSelectArrows {
+	position: absolute;
+	top: 50%;
+	right: 9px;
+	transform: translateY(-50%);
+	width: 9px;
+	height: 9px;
+	width: 10px;
+}
+.arrowClose {
+	display: none;
+}
+
+.getNone {
+	display: none;
+}
+.getBlock {
+	display: block;
+}
+
+.stateSelect::-ms-expand {
+	display: none;
 }
 
 .stateSelect > option {
@@ -113,12 +150,6 @@ body {
 	padding: 4px 8px;
 	color: rgba(96, 97, 97, 1);
 	font-family: "Raleway", sans-serif;
-}
-
-.stateSelect:focus {
-	color: black;
-	background-color: rgba(217, 217, 217, 0.7);
-	font-weight: 400;
 }
 
 /* secondOrderWrapper start */
