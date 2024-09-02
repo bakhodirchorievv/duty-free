@@ -1,81 +1,79 @@
-// import Production from "./Admin/Production/Production";
-// import Order from "./Admin/Order/Order";
-// import Analyze from "./Admin/Analayze/Analyze";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
-// import Alcohol from "./Pages/Alcohol/Alcohol";
-// import ForWho from "./Pages/ForWho/ForWho";
-// import CurrencyConvert from "./Pages/CurrencyConvert/CurrencyConvert";
-// import OService from "./Pages/OService/OService";
-// import MoreInfo from "./Pages/MoreInfo/MoreInfo";
-// import Catalog from "./Pages/Catalog/Catalog";
+import { Suspense, lazy } from "react";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
-// import RealProfile from "./Pages/RealProfile/RealProfile";
-// import DCompleteOrder from "./Pages/DCompleteOrder/DCompleteOrder";
-// import DMyOrders from "./Pages/DMyOrders/DMyOrders";
-// import Orders from "./Pages/Orders/Orders";
-// import LastOrders from "./Pages/LastOrders/LastOrders";
-// import ContactInfo from "./Pages/ContactInfo/ContactInfo";
-// import Profile from "./Pages/Profile/Profile";
-// import Help from "./Pages/Help/Help";
-// import Balance from "./Pages/Balance/Balance";
-// import CompleteOrder from "./Pages/CompletedOrder/CompleteOrder";
-// import FeaturedPerformer from "./Pages/FeaturedPerformer/FeaturedPerformer";
-// import TopPerFormers from "./Pages/TopPerformers/TopPerFormers";
-// import MyOrders from "./Pages/MyOrders/MyOrders";
-// import MyOrdering from "./Pages/MyOrdering/MyOrdering";
-// import BrandDutyFree from "./Pages/BrandDutyFree/BrandDutyFree";
-import AboutDutyFree from "./Pages/AboutDutyFree/AboutDutyFree";
-// import MainPage from "./Pages/MainPage/MainPage";
+const Footer = lazy(() => import("./Components/Footer/Footer"));
+const Header = lazy(() => import("./Components/Header/Header"));
+const AboutDutyFree = lazy(() => import("./Pages/AboutDutyFree/AboutDutyFree"));
+const MainPage = lazy(() => import("./Pages/MainPage/MainPage"));
+const BrandDutyFree = lazy(() => import("./Pages/BrandDutyFree/BrandDutyFree"));
+const Production = lazy(() => import("./Admin/Production/Production"));
+const Order = lazy(() => import("./Admin/Order/Order"));
+const Analyze = lazy(() => import("./Admin/Analayze/Analyze"));
+const MyOrdering = lazy(() => import("./Pages/MyOrdering/MyOrdering"));
+const MyOrders = lazy(() => import("./Pages/MyOrders/MyOrders"));
+const TopPerformers = lazy(() => import("./Pages/TopPerformers/TopPerFormers"));
+const FeaturedPerformer = lazy(
+	() => import("./Pages/FeaturedPerformer/FeaturedPerformer")
+);
+const CompleteOrder = lazy(
+	() => import("./Pages/CompletedOrder/CompleteOrder")
+);
+const Balance = lazy(() => import("./Pages/Balance/Balance"));
+const Help = lazy(() => import("./Pages/Help/Help"));
+const Profile = lazy(() => import("./Pages/Profile/Profile"));
+const ContactInfo = lazy(() => import("./Pages/ContactInfo/ContactInfo"));
+const LastOrders = lazy(() => import("./Pages/LastOrders/LastOrders"));
+const Orders = lazy(() => import("./Pages/Orders/Orders"));
+const DMyOrders = lazy(() => import("./Pages/DMyOrders/DMyOrders"));
+const DCompleteOrder = lazy(
+	() => import("./Pages/DCompleteOrder/DCompleteOrder")
+);
+const RealProfile = lazy(() => import("./Pages/RealProfile/RealProfile"));
+const Catalog = lazy(() => import("./Pages/Catalog/Catalog"));
+const MoreInfo = lazy(() => import("./Pages/MoreInfo/MoreInfo"));
+const OService = lazy(() => import("./Pages/OService/OService"));
+const CurrencyConvert = lazy(
+	() => import("./Pages/CurrencyConvert/CurrencyConvert")
+);
+const ForWho = lazy(() => import("./Pages/ForWho/ForWho"));
+const Alcohol = lazy(() => import("./Pages/Alcohol/Alcohol"));
 
 const App = () => {
 	return (
-		<div>
-			<Header />
-
-			{/* <MainPage /> */}
-			<AboutDutyFree />
-			{/* <BrandDutyFree /> */}
-			{/* <Production /> */}
-			{/* <Order /> */}
-			{/* <Analyze /> */}
-			{/* <MyOrdering /> */}
-			{/* <MyOrders /> */}
-			{/* <TopPerFormers /> */}
-			{/* <FeaturedPerformer /> */}
-
-			{/* <CompleteOrder /> */}
-			{/* <Balance /> */}
-			{/* <Help /> */}
-
-			{/* <Profile /> */}
-
-			{/* <ContactInfo /> */}
-
-			{/* <LastOrders /> */}
-
-			{/* <Orders /> */}
-
-			{/* <DMyOrders /> */}
-
-			{/* <DCompleteOrder /> */}
-
-			{/* <RealProfile /> */}
-
-			{/* <Catalog /> */}
-
-			{/* <MoreInfo /> */}
-
-			{/* <OService /> */}
-
-			{/* <CurrencyConvert /> */}
-
-			{/* <ForWho /> */}
-
-			{/* <Alcohol /> */}
-
-			<Footer />
-		</div>
+		<Router>
+			<Suspense fallback={<div>Loading...</div>}>
+				<Header />
+				<Routes>
+					<Route path="/" element={<AboutDutyFree />} />
+					<Route path="/MainPage" element={<MainPage />} />
+					<Route path="/BrandDutyFree" element={<BrandDutyFree />} />
+					<Route path="/Production" element={<Production />} />
+					<Route path="/Order" element={<Order />} />
+					<Route path="/Analyze" element={<Analyze />} />
+					<Route path="/MyOrdering" element={<MyOrdering />} />
+					<Route path="/MyOrders" element={<MyOrders />} />
+					<Route path="/TopPerformers" element={<TopPerformers />} />
+					<Route path="/FeaturedPerformer" element={<FeaturedPerformer />} />
+					<Route path="/CompleteOrder" element={<CompleteOrder />} />
+					<Route path="/Balance" element={<Balance />} />
+					<Route path="/Help" element={<Help />} />
+					<Route path="/Profile" element={<Profile />} />
+					<Route path="/ContactInfo" element={<ContactInfo />} />
+					<Route path="/LastOrders" element={<LastOrders />} />
+					<Route path="/Orders" element={<Orders />} />
+					<Route path="/DMyOrders" element={<DMyOrders />} />
+					<Route path="/DCompleteOrder" element={<DCompleteOrder />} />
+					<Route path="/RealProfile" element={<RealProfile />} />
+					<Route path="/Catalog" element={<Catalog />} />
+					<Route path="/MoreInfo" element={<MoreInfo />} />
+					<Route path="/OService" element={<OService />} />
+					<Route path="/CurrencyConvert" element={<CurrencyConvert />} />
+					<Route path="/ForWho" element={<ForWho />} />
+					<Route path="/Alcohol" element={<Alcohol />} />
+				</Routes>
+				<Footer />
+			</Suspense>
+		</Router>
 	);
 };
 
