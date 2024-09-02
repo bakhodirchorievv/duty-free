@@ -112,7 +112,11 @@ const AboutDutyFree = () => {
 							Заинтересовало? <span className="redFont">Оставьте заявку!</span>
 						</h3>
 						<div className="howItWorkFoot-body">
-							<p className="howItWorkEmail">Введите ваш E-mail</p>
+							<input
+								type="text"
+								className="enterYourEmail"
+								placeholder="Введите ваш E-mail"
+							/>
 							<button className="howItWorkBtn generalBtn">Отправить</button>
 						</div>
 					</div>
