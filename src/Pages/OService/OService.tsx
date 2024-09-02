@@ -10,28 +10,28 @@ const OService = () => {
 						<div className="infoHeadleftItems">
 							<div className="infoHeadLeftItemWrap">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
 							</div>
 							<div className="infoHeadLeftItemWrap">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
 							</div>
 							<div className="infoHeadLeftItemWrap">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
 							</div>
 							<div className="infoHeadLeftItemWrap mtNone">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
@@ -40,7 +40,7 @@ const OService = () => {
 
 						<div className="infoHeadMainImgWrap">
 							<img
-								src="/Sources/topProduct-first.png"
+								src="/duty-free/Sources/topProduct-first.png"
 								alt=""
 								className="infoHeadMainImg"
 							/>
@@ -104,7 +104,7 @@ const OService = () => {
 							<div className="popular-product">
 								<div className="grayBack">
 									<img
-										src="/Sources/banner-right-img.png"
+										src="/duty-free/Sources/banner-right-img.png"
 										alt=""
 										className="product-img firstProductImg"
 									/>
@@ -117,7 +117,7 @@ const OService = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg2.png"
+										src="/duty-free/Sources/pProductImg2.png"
 										alt=""
 										className="product-img"
 									/>
@@ -130,7 +130,7 @@ const OService = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg3.png"
+										src="/duty-free/Sources/pProductImg3.png"
 										alt=""
 										className="product-img"
 									/>
@@ -143,7 +143,7 @@ const OService = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg6.png"
+										src="/duty-free/Sources/pProductImg6.png"
 										alt=""
 										className="product-img"
 									/>
@@ -160,7 +160,7 @@ const OService = () => {
 					</div>
 				</div>
 
-				<img src="/Sources/empty.png" alt="" className="emptyHeart" />
+				<img src="/duty-free/Sources/empty.png" alt="" className="emptyHeart" />
 			</div>
 		</>
 	);

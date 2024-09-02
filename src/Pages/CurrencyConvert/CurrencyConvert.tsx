@@ -10,28 +10,28 @@ const CurrencyConvert = () => {
 						<div className="infoHeadleftItems">
 							<div className="infoHeadLeftItemWrap">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
 							</div>
 							<div className="infoHeadLeftItemWrap">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
 							</div>
 							<div className="infoHeadLeftItemWrap">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
 							</div>
 							<div className="infoHeadLeftItemWrap mtNone">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="infoHeadleftItem"
 								/>
@@ -40,7 +40,7 @@ const CurrencyConvert = () => {
 
 						<div className="infoHeadMainImgWrap">
 							<img
-								src="/Sources/topProduct-first.png"
+								src="/duty-free/Sources/topProduct-first.png"
 								alt=""
 								className="infoHeadMainImg"
 							/>
@@ -99,7 +99,7 @@ const CurrencyConvert = () => {
 								<div className="countryCurrencies">
 									<div className="countryCurrencyItem">
 										<img
-											src="/Sources/euroFlag.png"
+											src="/duty-free/Sources/euroFlag.png"
 											alt=""
 											className="countryFlag"
 										/>
@@ -107,7 +107,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/Sources/usaFlag.png"
+											src="/duty-free/Sources/usaFlag.png"
 											alt=""
 											className="countryFlag"
 										/>
@@ -115,7 +115,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/Sources/britishFlag.png"
+											src="/duty-free/Sources/britishFlag.png"
 											alt=""
 											className="countryFlag"
 										/>
@@ -123,7 +123,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/Sources/chinaFlag.png"
+											src="/duty-free/Sources/chinaFlag.png"
 											alt=""
 											className="countryFlag"
 										/>
@@ -131,7 +131,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/Sources/japanFlag.png"
+											src="/duty-free/Sources/japanFlag.png"
 											alt=""
 											className="countryFlag"
 										/>
@@ -161,7 +161,7 @@ const CurrencyConvert = () => {
 							<div className="popular-product">
 								<div className="grayBack">
 									<img
-										src="/Sources/banner-right-img.png"
+										src="/duty-free/Sources/banner-right-img.png"
 										alt=""
 										className="product-img firstProductImg"
 									/>
@@ -174,7 +174,7 @@ const CurrencyConvert = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg2.png"
+										src="/duty-free/Sources/pProductImg2.png"
 										alt=""
 										className="product-img"
 									/>
@@ -187,7 +187,7 @@ const CurrencyConvert = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg3.png"
+										src="/duty-free/Sources/pProductImg3.png"
 										alt=""
 										className="product-img"
 									/>
@@ -200,7 +200,7 @@ const CurrencyConvert = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg6.png"
+										src="/duty-free/Sources/pProductImg6.png"
 										alt=""
 										className="product-img"
 									/>
@@ -217,7 +217,7 @@ const CurrencyConvert = () => {
 					</div>
 				</div>
 
-				<img src="/Sources/empty.png" alt="" className="emptyHeart" />
+				<img src="/duty-free/Sources/empty.png" alt="" className="emptyHeart" />
 			</div>
 		</>
 	);

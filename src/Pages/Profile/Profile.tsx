@@ -32,7 +32,7 @@ const Profile = () => {
 								<input type="file" id="file-input" className="file-input" />
 								<label htmlFor="file-input" className="file-label">
 									<img
-										src="/Sources/cameraImg.png"
+										src="/duty-free/Sources/cameraImg.png"
 										alt="Upload"
 										className="camera-icon"
 									/>
@@ -93,7 +93,7 @@ const Profile = () => {
 								<button className="countryname">Россия</button>
 								<button className="countryname">Германия</button>
 								<img
-									src="/Sources/plusMore.png"
+									src="/duty-free/Sources/plusMore.png"
 									alt=""
 									className="plusMoreSign"
 								/>

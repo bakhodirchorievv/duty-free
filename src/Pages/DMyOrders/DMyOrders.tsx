@@ -18,7 +18,7 @@ const DMyOrders = () => {
 					<div className="DmyOrdersLeft">
 						<div className="DmyOrdersLeftItem itemOnFocus">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="DmyOrdersLeftImg"
 							/>
@@ -36,7 +36,7 @@ const DMyOrders = () => {
 						</div>
 						<div className="DmyOrdersLeftItem">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="DmyOrdersLeftImg"
 							/>
@@ -57,7 +57,11 @@ const DMyOrders = () => {
 					<div className="DmyOrdersRight">
 						<div className="DmyOrdersRightHead">
 							<div>
-								<img src="/Sources/fileImg.png" alt="" className="fileImg" />
+								<img
+									src="/duty-free/Sources/fileImg.png"
+									alt=""
+									className="fileImg"
+								/>
 							</div>
 							<div className="DmyOrdersRightHeadRight">
 								<div className="DflexJustifyCenter">
@@ -67,7 +71,7 @@ const DMyOrders = () => {
 									<h3 className="HeadrightTitle">User</h3>
 								</div>
 								<img
-									src="/Sources/topNavBarImg.png"
+									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="HeadRightImg"
 								/>
@@ -110,13 +114,13 @@ const DMyOrders = () => {
 										<div className="uploadContainer">
 											<input type="file" className="fileInput" />
 											<img
-												src="/Sources/uploadingImg.png"
+												src="/duty-free/Sources/uploadingImg.png"
 												alt="Upload"
 												className="DmyOrdersUpload"
 											/>
 										</div>
 										<img
-											src="/Sources/telegramImg.png"
+											src="/duty-free/Sources/telegramImg.png"
 											alt=""
 											className="DmyOrdersSend"
 										/>
@@ -133,7 +137,7 @@ const DMyOrders = () => {
 					<div className="topBarBody">
 						<div className="topBarLeft">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="topNavBarImg"
 							/>
@@ -154,7 +158,7 @@ const DMyOrders = () => {
 							Краткая информация, которую напишет пользователь
 						</p>
 					</div>
-					<img src="/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img src="/duty-free/Sources/closeImg.png" alt="" className="navBarCloseImg" />
 				</div>
 			</div> */}
 		</>

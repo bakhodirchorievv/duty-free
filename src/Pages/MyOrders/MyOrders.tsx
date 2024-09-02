@@ -18,7 +18,7 @@ const MyOrders = () => {
 					<div className="myOrdersLeft">
 						<div className="myOrdersLeftItem itemOnFocus">
 							<img
-								src="/Sources/recoUserImg.png"
+								src="/duty-free/Sources/recoUserImg.png"
 								alt=""
 								className="myOrdersLeftImg"
 							/>
@@ -36,7 +36,7 @@ const MyOrders = () => {
 						</div>
 						<div className="myOrdersLeftItem">
 							<img
-								src="/Sources/recoUserImg.png"
+								src="/duty-free/Sources/recoUserImg.png"
 								alt=""
 								className="myOrdersLeftImg"
 							/>
@@ -57,7 +57,11 @@ const MyOrders = () => {
 					<div className="myOrdersRight">
 						<div className="myOrdersRightHead">
 							<div>
-								<img src="/Sources/fileImg.png" alt="" className="fileImg" />
+								<img
+									src="/duty-free/Sources/fileImg.png"
+									alt=""
+									className="fileImg"
+								/>
 							</div>
 							<div className="myOrdersRightHeadRight">
 								<div className="flexJustifyCenter">
@@ -67,7 +71,7 @@ const MyOrders = () => {
 									<h3 className="HeadrightTitle">Nickname</h3>
 								</div>
 								<img
-									src="/Sources/recoUserImg.png"
+									src="/duty-free/Sources/recoUserImg.png"
 									alt=""
 									className="HeadRightImg"
 								/>
@@ -108,13 +112,13 @@ const MyOrders = () => {
 										<div className="uploadContainer">
 											<input type="file" className="fileInput" />
 											<img
-												src="/Sources/uploadingImg.png"
+												src="/duty-free/Sources/uploadingImg.png"
 												alt="Upload"
 												className="myOrdersUpload"
 											/>
 										</div>
 										<img
-											src="/Sources/telegramImg.png"
+											src="/duty-free/Sources/telegramImg.png"
 											alt=""
 											className="myOrdersSend"
 										/>
@@ -131,7 +135,7 @@ const MyOrders = () => {
 					<div className="topBarBody">
 						<div className="topBarLeft">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="topNavBarImg"
 							/>
@@ -152,7 +156,7 @@ const MyOrders = () => {
 							Краткая информация, которую напишет пользователь
 						</p>
 					</div>
-					<img src="/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img src="/duty-free/Sources/closeImg.png" alt="" className="navBarCloseImg" />
 				</div>
 			</div> */}
 		</>

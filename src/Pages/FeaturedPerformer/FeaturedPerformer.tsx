@@ -16,7 +16,7 @@ const FeaturedPerformer = () => {
 					<div className="performersBodyHead">
 						<div className="inputWrapper">
 							<img
-								src="/Sources/searchIcon.png"
+								src="/duty-free/Sources/searchIcon.png"
 								alt=""
 								className="searchIcon"
 							/>
@@ -51,7 +51,7 @@ const FeaturedPerformer = () => {
 						<div className="performerItem">
 							<div className="performerItemHead">
 								<img
-									src="/Sources/recoUserImg.png"
+									src="/duty-free/Sources/recoUserImg.png"
 									alt=""
 									className="performerImg"
 								/>
@@ -59,7 +59,7 @@ const FeaturedPerformer = () => {
 								<div className="performerItemRight">
 									<h3 className="performerNick">Nickname </h3>
 									<img
-										src="/Sources/recoStar.png"
+										src="/duty-free/Sources/recoStar.png"
 										alt=""
 										className="performerStar"
 									/>
@@ -68,7 +68,7 @@ const FeaturedPerformer = () => {
 										{" "}
 										<div>
 											<img
-												src="/Sources/recoClock.png"
+												src="/duty-free/Sources/recoClock.png"
 												alt=""
 												className="performerClock"
 											/>{" "}
@@ -89,7 +89,11 @@ const FeaturedPerformer = () => {
 								</button>
 							</div>
 
-							<img src="/Sources/redHeart.png" alt="" className="redHeart" />
+							<img
+								src="/duty-free/Sources/redHeart.png"
+								alt=""
+								className="redHeart"
+							/>
 						</div>
 					</div>
 				</div>

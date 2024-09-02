@@ -21,12 +21,12 @@ const Help = () => {
 									Где дешевле в обычных магазинах или дьюти фри?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus getNone"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus getBlock"
 										/>
@@ -44,12 +44,12 @@ const Help = () => {
 									Можно ли в дьюти фри расплачиваться долларами?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -62,12 +62,12 @@ const Help = () => {
 									Какая валюта в дьюти фри?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -80,12 +80,12 @@ const Help = () => {
 									Сколько можно покупать алкоголя в дьюти фри на человека?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -98,12 +98,12 @@ const Help = () => {
 									Есть ли duty free на внутренних рейсах?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -116,12 +116,12 @@ const Help = () => {
 									Кому принадлежит duty free?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>

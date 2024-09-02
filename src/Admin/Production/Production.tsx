@@ -55,7 +55,7 @@ const Production = () => {
 										<input type="file" id="file-input" className="file-input" />
 										<label htmlFor="file-input" className="file-label">
 											<img
-												src="/Sources/cameraImg.png"
+												src="/duty-free/Sources/cameraImg.png"
 												alt="Upload"
 												className="camera-icon"
 											/>
@@ -127,7 +127,7 @@ const Production = () => {
 					<li className="productRealInfo productRealDoc liHasImg">
 						<span className="prosmotr">Просмотр </span>
 						<img
-							src="/Sources/downloadIndicator.png"
+							src="/duty-free/Sources/downloadIndicator.png"
 							alt=""
 							className="downloadIndicator"
 						/>

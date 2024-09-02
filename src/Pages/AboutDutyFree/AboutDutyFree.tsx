@@ -24,13 +24,13 @@ const AboutDutyFree = () => {
 					</div>
 					<div className="about-right-side">
 						<img
-							src="/Sources/about-banner-img.png"
+							src="/duty-free/Sources/about-banner-img.png"
 							alt=""
 							className="about-right-img"
 						/>
 					</div>
 					<img
-						src="/Sources/about-giftbox.png"
+						src="/duty-free/Sources/about-giftbox.png"
 						alt=""
 						className="about-giftbox"
 					/>
@@ -45,7 +45,7 @@ const AboutDutyFree = () => {
 					<div className="aboutTrading-body">
 						<div className="aboutTrading-leftSide">
 							<img
-								src="/Sources/about-trading-img.png"
+								src="/duty-free/Sources/about-trading-img.png"
 								alt=""
 								className="aboutTardingImg"
 							/>
@@ -76,7 +76,7 @@ const AboutDutyFree = () => {
 					<div className="howItWorkBody">
 						<div className="howItWorkItem">
 							<img
-								src="/Sources/howItWork-first.png"
+								src="/duty-free/Sources/howItWork-first.png"
 								alt=""
 								className="howItWorkImg"
 							/>
@@ -86,7 +86,7 @@ const AboutDutyFree = () => {
 						</div>
 						<div className="howItWorkItem">
 							<img
-								src="/Sources/howItWork-second.png"
+								src="/duty-free/Sources/howItWork-second.png"
 								alt=""
 								className="howItWorkImg"
 							/>
@@ -97,7 +97,7 @@ const AboutDutyFree = () => {
 						</div>
 						<div className="howItWorkItem">
 							<img
-								src="/Sources/howItWork-third.png"
+								src="/duty-free/Sources/howItWork-third.png"
 								alt=""
 								className="howItWorkImg"
 							/>
@@ -127,7 +127,7 @@ const AboutDutyFree = () => {
 						<div className="topProduct-item">
 							<div className="topProductGrayBack">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="topProductImg"
 								/>
@@ -141,7 +141,7 @@ const AboutDutyFree = () => {
 						<div className="topProduct-item">
 							<div className="topProductGrayBack">
 								<img
-									src="/Sources/topProduct-second.png"
+									src="/duty-free/Sources/topProduct-second.png"
 									alt=""
 									className="topProductImg"
 								/>
@@ -157,7 +157,7 @@ const AboutDutyFree = () => {
 						<div className="topProduct-item">
 							<div className="topProductGrayBack">
 								<img
-									src="/Sources/topProduct-third.png"
+									src="/duty-free/Sources/topProduct-third.png"
 									alt=""
 									className="topProductImg"
 								/>
@@ -173,7 +173,7 @@ const AboutDutyFree = () => {
 						<div className="topProduct-item">
 							<div className="topProductGrayBack">
 								<img
-									src="/Sources/topProduct-fourth.png"
+									src="/duty-free/Sources/topProduct-fourth.png"
 									alt=""
 									className="topProductImg"
 								/>
@@ -187,7 +187,7 @@ const AboutDutyFree = () => {
 						<div className="topProduct-item">
 							<div className="topProductGrayBack">
 								<img
-									src="/Sources/topProduct-fifth.png"
+									src="/duty-free/Sources/topProduct-fifth.png"
 									alt=""
 									className="topProductImg"
 								/>
@@ -201,7 +201,7 @@ const AboutDutyFree = () => {
 						<div className="topProduct-item">
 							<div className="topProductGrayBack">
 								<img
-									src="/Sources/topProduct-sixth.png"
+									src="/duty-free/Sources/topProduct-sixth.png"
 									alt=""
 									className="topProductImg"
 								/>
@@ -222,7 +222,7 @@ const AboutDutyFree = () => {
 					<button className="topProductsBtn">ПЕРЕЙТИ НА САЙТ</button>
 
 					<img
-						src="/Sources/topProduct-last.png"
+						src="/duty-free/Sources/topProduct-last.png"
 						alt=""
 						className="topProductLastImg"
 					/>
@@ -254,7 +254,7 @@ const AboutDutyFree = () => {
 						</div>
 						<div className="restWithRight">
 							<img
-								src="/Sources/restWith-first.png"
+								src="/duty-free/Sources/restWith-first.png"
 								alt=""
 								className="restWith-first"
 							/>
@@ -262,7 +262,7 @@ const AboutDutyFree = () => {
 					</div>
 
 					<img
-						src="/Sources/restWith-second.png"
+						src="/duty-free/Sources/restWith-second.png"
 						alt=""
 						className="restwith-second"
 					/>
@@ -280,12 +280,12 @@ const AboutDutyFree = () => {
 									Где дешевле в обычных магазинах или дьюти фри?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus getNone"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus getBlock"
 										/>
@@ -303,12 +303,12 @@ const AboutDutyFree = () => {
 									Можно ли в дьюти фри расплачиваться долларами?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -321,12 +321,12 @@ const AboutDutyFree = () => {
 									Какая валюта в дьюти фри?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -339,12 +339,12 @@ const AboutDutyFree = () => {
 									Сколько можно покупать алкоголя в дьюти фри на человека?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -357,12 +357,12 @@ const AboutDutyFree = () => {
 									Есть ли duty free на внутренних рейсах?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -375,12 +375,12 @@ const AboutDutyFree = () => {
 									Кому принадлежит duty free?
 									<div>
 										<img
-											src="/Sources/plus.png"
+											src="/duty-free/Sources/plus.png"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/Sources/minus.png"
+											src="/duty-free/Sources/minus.png"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -390,7 +390,7 @@ const AboutDutyFree = () => {
 							</li>
 						</ul>
 						<img
-							src="/Sources/questionarieImg.png"
+							src="/duty-free/Sources/questionarieImg.png"
 							alt=""
 							className="questionarieImg"
 						/>

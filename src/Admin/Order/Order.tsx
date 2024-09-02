@@ -96,7 +96,7 @@ const Order = () => {
 									></textarea>
 									<div>
 										<img
-											src="/Sources/sendImage.png"
+											src="/duty-free/Sources/sendImage.png"
 											alt=""
 											className="sendImg"
 										/>

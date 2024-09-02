@@ -12,7 +12,7 @@ const RealProfile = () => {
 						<div className="profileContentHead">
 							<div className="contentHeadLeft">
 								<img
-									src="/Sources/recoUserImg.png"
+									src="/duty-free/Sources/recoUserImg.png"
 									alt=""
 									className="realProfileMainImg"
 								/>
@@ -20,13 +20,13 @@ const RealProfile = () => {
 							<div className="contentHeadRight">
 								<h3 className="realProfileUserName">Nickname</h3>
 								<img
-									src="/Sources/recoStar.png"
+									src="/duty-free/Sources/recoStar.png"
 									alt=""
 									className="realProfileGoldStar"
 								/>
 								<p className="realProfileUserInfo">
 									<img
-										src="/Sources/recoClock.png"
+										src="/duty-free/Sources/recoClock.png"
 										alt=""
 										className="realProfileClock"
 									/>
@@ -60,7 +60,7 @@ const RealProfile = () => {
 							<div className="realProfileUser">
 								<div className="realProfileUserLeft">
 									<img
-										src="/Sources/topNavBarImg.png"
+										src="/duty-free/Sources/topNavBarImg.png"
 										alt=""
 										className="realProfileUserImg"
 									/>
@@ -72,7 +72,7 @@ const RealProfile = () => {
 											Заказ <span className="montserratFamily">№123</span>
 										</h4>
 										<img
-											src="/Sources/fullGold.png"
+											src="/duty-free/Sources/fullGold.png"
 											alt=""
 											className="realProGoldStar"
 										/>
@@ -85,7 +85,7 @@ const RealProfile = () => {
 							<div className="realProfileUser hasBorderTop">
 								<div className="realProfileUserLeft">
 									<img
-										src="/Sources/topNavBarImg.png"
+										src="/duty-free/Sources/topNavBarImg.png"
 										alt=""
 										className="realProfileUserImg"
 									/>
@@ -97,7 +97,7 @@ const RealProfile = () => {
 											Заказ <span className="montserratFamily">№123</span>
 										</h4>
 										<img
-											src="/Sources/fullGold.png"
+											src="/duty-free/Sources/fullGold.png"
 											alt=""
 											className="realProGoldStar"
 										/>

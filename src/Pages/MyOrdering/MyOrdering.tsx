@@ -8,7 +8,7 @@ const MyOrdering = () => {
 				<div className="myOrderingHead">
 					<div className="orderingHeadItem">
 						<img
-							src="/Sources/orderingHead1.png"
+							src="/duty-free/Sources/orderingHead1.png"
 							alt=""
 							className="orderingHeadItemImg"
 						/>
@@ -16,14 +16,14 @@ const MyOrdering = () => {
 					</div>
 					<div>
 						<img
-							src="/Sources/orderingDashImg.png"
+							src="/duty-free/Sources/orderingDashImg.png"
 							alt=""
 							className="orderingHeadDash"
 						/>
 					</div>
 					<div className="orderingHeadItem">
 						<img
-							src="/Sources/orderingHead2.png"
+							src="/duty-free/Sources/orderingHead2.png"
 							alt=""
 							className="orderingHeadItemImg"
 						/>
@@ -33,14 +33,14 @@ const MyOrdering = () => {
 					</div>
 					<div>
 						<img
-							src="/Sources/orderingDashImg.png"
+							src="/duty-free/Sources/orderingDashImg.png"
 							alt=""
 							className="orderingHeadDash"
 						/>
 					</div>
 					<div className="orderingHeadItem">
 						<img
-							src="/Sources/orderingHead3.png"
+							src="/duty-free/Sources/orderingHead3.png"
 							alt=""
 							className="orderingHeadItemImg"
 						/>
@@ -48,14 +48,14 @@ const MyOrdering = () => {
 					</div>
 					<div>
 						<img
-							src="/Sources/orderingDashImg.png"
+							src="/duty-free/Sources/orderingDashImg.png"
 							alt=""
 							className="orderingHeadDash"
 						/>
 					</div>
 					<div className="orderingHeadItem">
 						<img
-							src="/Sources/orderingHead4.png"
+							src="/duty-free/Sources/orderingHead4.png"
 							alt=""
 							className="orderingHeadItemImg"
 						/>
@@ -88,7 +88,7 @@ const MyOrdering = () => {
 									className="fileOrderingLabel"
 								>
 									<img
-										src="/Sources/uploadingImg.png"
+										src="/duty-free/Sources/uploadingImg.png"
 										alt=""
 										className="uploadingImg"
 									/>
@@ -143,7 +143,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/Sources/topProduct-first.png"
+									src="/duty-free/Sources/topProduct-first.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -157,7 +157,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/Sources/topProduct-second.png"
+									src="/duty-free/Sources/topProduct-second.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -173,7 +173,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/Sources/topProduct-third.png"
+									src="/duty-free/Sources/topProduct-third.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -189,7 +189,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/Sources/topProduct-fourth.png"
+									src="/duty-free/Sources/topProduct-fourth.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -203,7 +203,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/Sources/topProduct-fifth.png"
+									src="/duty-free/Sources/topProduct-fifth.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -217,7 +217,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/Sources/topProduct-sixth.png"
+									src="/duty-free/Sources/topProduct-sixth.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -247,7 +247,7 @@ const MyOrdering = () => {
 							<div className="recommendationHead">
 								<div className="recoHeadLeft">
 									<img
-										src="/Sources/recoUserImg.png"
+										src="/duty-free/Sources/recoUserImg.png"
 										alt=""
 										className="recoUserImg"
 									/>
@@ -255,13 +255,13 @@ const MyOrdering = () => {
 								<div className="recoHeadRight">
 									<h3 className="realNickName">Nickname</h3>
 									<img
-										src="/Sources/recoStar.png"
+										src="/duty-free/Sources/recoStar.png"
 										alt=""
 										className="recoStarImg"
 									/>
 									<div className="recoRightPeriod">
 										<img
-											src="/Sources/recoClock.png"
+											src="/duty-free/Sources/recoClock.png"
 											alt=""
 											className="recoRightClock"
 										/>
@@ -310,7 +310,7 @@ const MyOrdering = () => {
 										className="realfileOrderingLabel"
 									>
 										<img
-											src="/Sources/uploadingImg.png"
+											src="/duty-free/Sources/uploadingImg.png"
 											alt=""
 											className="realuploadingImg"
 										/>
@@ -359,7 +359,7 @@ const MyOrdering = () => {
 					</div>
 
 					<img
-						src="/Sources/newOrderExitImg.png"
+						src="/duty-free/Sources/newOrderExitImg.png"
 						alt=""
 						className="newOrderExitImg"
 					/>

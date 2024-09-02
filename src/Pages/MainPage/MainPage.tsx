@@ -16,12 +16,16 @@ const MainPage = () => {
 					</div>
 					<div className="right-side">
 						<img
-							src="/Sources/banner-right-img.png"
+							src="/duty-free/Sources/banner-right-img.png"
 							alt=""
 							className="mainBanner-right"
 						/>
 					</div>
-					<img src="/Sources/banner-dots.png" alt="" className="banner-dots" />
+					<img
+						src="/duty-free/Sources/banner-dots.png"
+						alt=""
+						className="banner-dots"
+					/>
 				</div>
 
 				<div className="popular-products">
@@ -33,7 +37,7 @@ const MainPage = () => {
 						<div className="Mpopular-product">
 							<div className="grayBack">
 								<img
-									src="/Sources/banner-right-img.png"
+									src="/duty-free/Sources/banner-right-img.png"
 									alt=""
 									className="product-img firstProductImg"
 								/>
@@ -46,7 +50,7 @@ const MainPage = () => {
 							{" "}
 							<div className="grayBack">
 								<img
-									src="/Sources/pProductImg2.png"
+									src="/duty-free/Sources/pProductImg2.png"
 									alt=""
 									className="product-img"
 								/>
@@ -59,7 +63,7 @@ const MainPage = () => {
 							{" "}
 							<div className="grayBack">
 								<img
-									src="/Sources/pProductImg3.png"
+									src="/duty-free/Sources/pProductImg3.png"
 									alt=""
 									className="product-img"
 								/>
@@ -72,7 +76,7 @@ const MainPage = () => {
 							{" "}
 							<div className="grayBack">
 								<img
-									src="/Sources/pProductImg4.png"
+									src="/duty-free/Sources/pProductImg4.png"
 									alt=""
 									className="product-img"
 								/>
@@ -87,7 +91,7 @@ const MainPage = () => {
 							{" "}
 							<div className="grayBack">
 								<img
-									src="/Sources/pProductImg5.png"
+									src="/duty-free/Sources/pProductImg5.png"
 									alt=""
 									className="product-img"
 								/>
@@ -102,7 +106,7 @@ const MainPage = () => {
 							{" "}
 							<div className="grayBack">
 								<img
-									src="/Sources/pProductImg6.png"
+									src="/duty-free/Sources/pProductImg6.png"
 									alt=""
 									className="product-img"
 								/>

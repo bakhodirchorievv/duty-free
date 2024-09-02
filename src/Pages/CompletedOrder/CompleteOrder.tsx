@@ -18,7 +18,7 @@ const CompleteOrder = () => {
 					<div className="myOrdersLeft">
 						<div className="myOrdersLeftItem">
 							<img
-								src="/Sources/recoUserImg.png"
+								src="/duty-free/Sources/recoUserImg.png"
 								alt=""
 								className="myOrdersLeftImg"
 							/>
@@ -38,7 +38,11 @@ const CompleteOrder = () => {
 					<div className="myOrdersRight">
 						<div className="myOrdersRightHead">
 							<div>
-								<img src="/Sources/fileImg.png" alt="" className="fileImg" />
+								<img
+									src="/duty-free/Sources/fileImg.png"
+									alt=""
+									className="fileImg"
+								/>
 							</div>
 							<div className="myOrdersRightHeadRight">
 								<div className="flexJustifyCenter">
@@ -48,7 +52,7 @@ const CompleteOrder = () => {
 									<h3 className="HeadrightTitle">Nickname</h3>
 								</div>
 								<img
-									src="/Sources/recoUserImg.png"
+									src="/duty-free/Sources/recoUserImg.png"
 									alt=""
 									className="HeadRightImg"
 								/>
@@ -87,13 +91,13 @@ const CompleteOrder = () => {
 										<div className="uploadContainer">
 											<input type="file" className="fileInput" />
 											<img
-												src="/Sources/uploadingImg.png"
+												src="/duty-free/Sources/uploadingImg.png"
 												alt="Upload"
 												className="myOrdersUpload"
 											/>
 										</div>
 										<img
-											src="/Sources/telegramImg.png"
+											src="/duty-free/Sources/telegramImg.png"
 											alt=""
 											className="myOrdersSend"
 										/>
@@ -108,7 +112,7 @@ const CompleteOrder = () => {
 					<div className="smallBarBody">
 						<div className="smallBarBodyLeft">
 							<img
-								src="/Sources/recoUserImg.png"
+								src="/duty-free/Sources/recoUserImg.png"
 								alt=""
 								className="smallBarImg"
 							/>
@@ -133,19 +137,23 @@ const CompleteOrder = () => {
 					<div className="topBarBody">
 						<div className="topBarLeft">
 							<img
-								src="/Sources/recoUserImg.png"
+								src="/duty-free/Sources/recoUserImg.png"
 								alt=""
 								className="topNavBarImg"
 							/>
 						</div>
 						<div className="topBarRight">
 							<h3 className="topBarTitle">Nickname</h3>
-							<img src="/Sources/recoStar.png" alt="" className="topBarDesc" />
+							<img
+								src="/duty-free/Sources/recoStar.png"
+								alt=""
+								className="topBarDesc"
+							/>
 							<p className="performerDesc navBarClock">
 								{" "}
 								<div>
 									<img
-										src="/Sources/recoClock.png"
+										src="/duty-free/Sources/recoClock.png"
 										alt=""
 										className="performerClock"
 									/>{" "}
@@ -155,7 +163,7 @@ const CompleteOrder = () => {
 						</div>
 
 						<img
-							src="/Sources/redHeart.png"
+							src="/duty-free/Sources/redHeart.png"
 							alt=""
 							className="navBarRedHeart"
 						/>
@@ -183,7 +191,7 @@ const CompleteOrder = () => {
 									placeholder="Написать отзыв"
 								/>
 								<img
-									src="/Sources/grayStars.png"
+									src="/duty-free/Sources/grayStars.png"
 									alt=""
 									className="grayStars"
 								/>
@@ -194,7 +202,11 @@ const CompleteOrder = () => {
 							<option value="">Сначала новые</option>
 						</select>
 					</div>
-					<img src="/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img
+						src="/duty-free/Sources/closeImg.png"
+						alt=""
+						className="navBarCloseImg"
+					/>
 				</div>
 			</div>
 		</>

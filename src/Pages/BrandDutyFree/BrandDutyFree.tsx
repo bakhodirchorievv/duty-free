@@ -27,7 +27,7 @@ const BrandDutyFree = () => {
 					</div>
 					<div className="brandBannerLightSide">
 						<img
-							src="/Sources/brandDutyBannerImg.png"
+							src="/duty-free/Sources/brandDutyBannerImg.png"
 							alt=""
 							className="brandDutyBannerImg"
 						/>
@@ -43,7 +43,7 @@ const BrandDutyFree = () => {
 						<div className="principleItemWrap principleItemWrap1">
 							<div className="principleItem principleItem1">
 								<img
-									src="/Sources/principleFirstImg.png"
+									src="/duty-free/Sources/principleFirstImg.png"
 									alt=""
 									className="principleItemImg principleItemImg1"
 								/>
@@ -58,7 +58,7 @@ const BrandDutyFree = () => {
 						<div className="principleItemWrap principleItemWrap2">
 							<div className="principleItem principleItem2">
 								<img
-									src="/Sources/principleSecondImg.png"
+									src="/duty-free/Sources/principleSecondImg.png"
 									alt=""
 									className="principleItemImg principleItemImg2"
 								/>
@@ -74,7 +74,7 @@ const BrandDutyFree = () => {
 						<div className="principleItemWrap principleItemWrap3">
 							<div className="principleItem principleItem3">
 								<img
-									src="/Sources/principleThirdImg.png"
+									src="/duty-free/Sources/principleThirdImg.png"
 									alt=""
 									className="principleItemImg principleItemImg3"
 								/>
@@ -88,12 +88,12 @@ const BrandDutyFree = () => {
 						</div>
 
 						<img
-							src="/Sources/principleFirstArrow.png"
+							src="/duty-free/Sources/principleFirstArrow.png"
 							alt=""
 							className="principleFirstArrow"
 						/>
 						<img
-							src="/Sources/principleSecondArrow.png"
+							src="/duty-free/Sources/principleSecondArrow.png"
 							alt=""
 							className="principleSecondArrow"
 						/>
@@ -107,7 +107,11 @@ const BrandDutyFree = () => {
 
 					<div className="whyWeBody">
 						<div className="whyWeLeftSide">
-							<img src="/Sources/whyWeImg.png" alt="" className="whyWeImg" />
+							<img
+								src="/duty-free/Sources/whyWeImg.png"
+								alt=""
+								className="whyWeImg"
+							/>
 						</div>
 						<div className="whyWeRightSide">
 							<h4 className="whyWeSubtitle">
@@ -135,7 +139,7 @@ const BrandDutyFree = () => {
 							<div className="circleWrapAbsolute">
 								<div className="circleImgWrap">
 									<img
-										src="/Sources/roadCircleImg.png"
+										src="/duty-free/Sources/roadCircleImg.png"
 										alt=""
 										className="circleImg"
 									/>
@@ -150,7 +154,7 @@ const BrandDutyFree = () => {
 							<div className="circleWrapAbsolute">
 								<div className="circleImgWrap">
 									<img
-										src="/Sources/roadCircleImg.png"
+										src="/duty-free/Sources/roadCircleImg.png"
 										alt=""
 										className="circleImg"
 									/>
@@ -165,7 +169,7 @@ const BrandDutyFree = () => {
 							<div className="circleWrapAbsolute">
 								<div className="circleImgWrap">
 									<img
-										src="/Sources/roadCircleImg.png"
+										src="/duty-free/Sources/roadCircleImg.png"
 										alt=""
 										className="circleImg"
 									/>
@@ -180,7 +184,7 @@ const BrandDutyFree = () => {
 							<div className="circleWrapAbsolute">
 								<div className="circleImgWrap">
 									<img
-										src="/Sources/roadCircleImg.png"
+										src="/duty-free/Sources/roadCircleImg.png"
 										alt=""
 										className="circleImg"
 									/>
@@ -195,13 +199,13 @@ const BrandDutyFree = () => {
 						<div className="roadMapItem">
 							<div className="roadLeftImgWrap">
 								<img
-									src="/Sources/roadFirstImg.png"
+									src="/duty-free/Sources/roadFirstImg.png"
 									alt=""
 									className="roadLeftImg"
 								/>
 								<div className="roadLeftImgInfo">
 									<img
-										src="/Sources/roadFirstInner.png"
+										src="/duty-free/Sources/roadFirstInner.png"
 										alt=""
 										className="roadLeftInnerImg"
 									/>
@@ -230,13 +234,13 @@ const BrandDutyFree = () => {
 						<div className="roadMapItem">
 							<div className="roadLeftImgWrap justifyCenter">
 								<img
-									src="/Sources/roadSecondImg.png"
+									src="/duty-free/Sources/roadSecondImg.png"
 									alt=""
 									className="roadLeftImg"
 								/>
 								<div className="roadLeftImgInfo">
 									<img
-										src="/Sources/roadSecondInner.png"
+										src="/duty-free/Sources/roadSecondInner.png"
 										alt=""
 										className="roadLeftInnerImg"
 									/>
@@ -257,13 +261,13 @@ const BrandDutyFree = () => {
 						<div className="roadMapItem">
 							<div className="roadLeftImgWrap">
 								<img
-									src="/Sources/roadThirdImg.png"
+									src="/duty-free/Sources/roadThirdImg.png"
 									alt=""
 									className="roadLeftImg"
 								/>
 								<div className="roadLeftImgInfo">
 									<img
-										src="/Sources/roadThirdInner.png"
+										src="/duty-free/Sources/roadThirdInner.png"
 										alt=""
 										className="roadLeftInnerImg"
 									/>
@@ -286,12 +290,12 @@ const BrandDutyFree = () => {
 					</div>
 
 					<img
-						src="/Sources/roadLeftPlane.png"
+						src="/duty-free/Sources/roadLeftPlane.png"
 						alt=""
 						className="roadLeftPlane"
 					/>
 					<img
-						src="/Sources/roadRightPlane.png"
+						src="/duty-free/Sources/roadRightPlane.png"
 						alt=""
 						className="roadRightPlane"
 					/>
@@ -320,12 +324,12 @@ const BrandDutyFree = () => {
 												Как я смогу заработать с помощью Duty Free?
 												<div>
 													<img
-														src="/Sources/plus.png"
+														src="/duty-free/Sources/plus.png"
 														alt=""
 														className="workWith-moreAnswerPlus getNone"
 													/>
 													<img
-														src="/Sources/minus.png"
+														src="/duty-free/Sources/minus.png"
 														alt=""
 														className="workWith-moreAnswerMinus getBlock"
 													/>
@@ -342,12 +346,12 @@ const BrandDutyFree = () => {
 												Какой максимальный процент я могу получить?
 												<div>
 													<img
-														src="/Sources/plus.png"
+														src="/duty-free/Sources/plus.png"
 														alt=""
 														className="workWith-moreAnswerPlus"
 													/>
 													<img
-														src="/Sources/minus.png"
+														src="/duty-free/Sources/minus.png"
 														alt=""
 														className="workWith-moreAnswerMinus"
 													/>
@@ -360,12 +364,12 @@ const BrandDutyFree = () => {
 												Могу ли я купить акции компании?
 												<div>
 													<img
-														src="/Sources/plus.png"
+														src="/duty-free/Sources/plus.png"
 														alt=""
 														className="workWith-moreAnswerPlus"
 													/>
 													<img
-														src="/Sources/minus.png"
+														src="/duty-free/Sources/minus.png"
 														alt=""
 														className="workWith-moreAnswerMinus"
 													/>
@@ -378,12 +382,12 @@ const BrandDutyFree = () => {
 												Сколько стоит открыть франшизу?
 												<div>
 													<img
-														src="/Sources/plus.png"
+														src="/duty-free/Sources/plus.png"
 														alt=""
 														className="workWith-moreAnswerPlus"
 													/>
 													<img
-														src="/Sources/minus.png"
+														src="/duty-free/Sources/minus.png"
 														alt=""
 														className="workWith-moreAnswerMinus"
 													/>

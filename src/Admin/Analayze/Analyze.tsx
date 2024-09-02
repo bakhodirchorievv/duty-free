@@ -48,14 +48,14 @@ const Analyze = () => {
 								</select>
 							</div>
 							<img
-								src="/Sources/calendarPicture.png"
+								src="/duty-free/Sources/calendarPicture.png"
 								alt=""
 								className="calendarImg"
 							/>
 						</div>
 						<div className="analyzeBodyRight">
 							<img
-								src="/Sources/chartPicture.png"
+								src="/duty-free/Sources/chartPicture.png"
 								alt=""
 								className="chartPicture"
 							/>

@@ -16,7 +16,7 @@ const Alcohol = () => {
 								placeholder="Поиск"
 							/>
 							<img
-								src="/Sources/realSearchIcon.png"
+								src="/duty-free/Sources/realSearchIcon.png"
 								alt=""
 								className="catalogSearchIcon"
 							/>
@@ -59,7 +59,7 @@ const Alcohol = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg4.png"
+										src="/duty-free/Sources/pProductImg4.png"
 										alt=""
 										className="product-img"
 									/>
@@ -74,7 +74,7 @@ const Alcohol = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg5.png"
+										src="/duty-free/Sources/pProductImg5.png"
 										alt=""
 										className="product-img"
 									/>
@@ -89,7 +89,7 @@ const Alcohol = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg6.png"
+										src="/duty-free/Sources/pProductImg6.png"
 										alt=""
 										className="product-img"
 									/>
@@ -110,7 +110,7 @@ const Alcohol = () => {
 			<div className="alcoholLimit">
 				<div className="eighteenRelative">
 					<img
-						src="/Sources/18PlusImg.png"
+						src="/duty-free/Sources/18PlusImg.png"
 						alt=""
 						className="eighteenPlusImg"
 					/>
@@ -126,7 +126,7 @@ const Alcohol = () => {
 						<button className="eighteenPlusBtn">Мне не 18 лет</button>
 					</div>
 					<img
-						src="/Sources/18PlusCloseImg.png"
+						src="/duty-free/Sources/18PlusCloseImg.png"
 						alt=""
 						className="eighteenPlusClose"
 					/>

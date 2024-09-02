@@ -11,7 +11,7 @@ const Orders = () => {
 					<div className="performersBodyHead">
 						<div className="inputWrapper">
 							<img
-								src="/Sources/searchIcon.png"
+								src="/duty-free/Sources/searchIcon.png"
 								alt=""
 								className="searchIcon"
 							/>
@@ -46,7 +46,7 @@ const Orders = () => {
 						<div className="allOrderItem">
 							<div className="orderItemHead orderItemHeadLong">
 								<img
-									src="/Sources/topNavBarImg.png"
+									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="orderItemHadImg"
 								/>
@@ -80,7 +80,7 @@ const Orders = () => {
 						<div className="allOrderItem">
 							<div className="orderItemHead orderItemHeadLong">
 								<img
-									src="/Sources/topNavBarImg.png"
+									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="orderItemHadImg"
 								/>

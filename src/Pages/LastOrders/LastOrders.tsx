@@ -48,7 +48,7 @@ const LastOrders = () => {
 						<div className="allOrderItem">
 							<div className="orderItemHead orderItemHeadLong">
 								<img
-									src="/Sources/topNavBarImg.png"
+									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="orderItemHadImg"
 								/>
@@ -82,7 +82,7 @@ const LastOrders = () => {
 						<div className="allOrderItem">
 							<div className="orderItemHead orderItemHeadLong">
 								<img
-									src="/Sources/topNavBarImg.png"
+									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="orderItemHadImg"
 								/>

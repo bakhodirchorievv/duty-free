@@ -7,12 +7,16 @@ const Header = () => {
 			<header className="header">
 				<div className="header-left">
 					<img
-						src="/Sources/HeadMainImg.png"
+						src="/duty-free/Sources/HeadMainImg.png"
 						alt=""
 						className="headerMainImg"
 					/>
 					<div>
-						<img src="/Sources/Duty Free.png" alt="" className="headTitle" />
+						<img
+							src="/duty-free/Sources/Duty Free.png"
+							alt=""
+							className="headTitle"
+						/>
 					</div>
 				</div>
 
@@ -25,17 +29,17 @@ const Header = () => {
 
 				{/* <div className="header-right">
 					<img
-						src="/Sources/HeadSearchImg.png"
+						src="/duty-free/Sources/HeadSearchImg.png"
 						alt=""
 						className="headRightImgs"
 					/>
 					<img
-						src="/Sources/HeadCartImg.png"
+						src="/duty-free/Sources/HeadCartImg.png"
 						alt=""
 						className="headRightImgs"
 					/>
 					<img
-						src="/Sources/HeadContactImg.png"
+						src="/duty-free/Sources/HeadContactImg.png"
 						alt=""
 						className="headRightImgs"
 					/>

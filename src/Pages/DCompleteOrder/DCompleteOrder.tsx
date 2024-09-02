@@ -18,7 +18,7 @@ const DCompleteOrder = () => {
 					<div className="myOrdersLeft">
 						<div className="myOrdersLeftItem">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="myOrdersLeftImg"
 							/>
@@ -38,7 +38,11 @@ const DCompleteOrder = () => {
 					<div className="myOrdersRight">
 						<div className="myOrdersRightHead">
 							<div>
-								<img src="/Sources/fileImg.png" alt="" className="fileImg" />
+								<img
+									src="/duty-free/Sources/fileImg.png"
+									alt=""
+									className="fileImg"
+								/>
 							</div>
 							<div className="myOrdersRightHeadRight">
 								<div className="DflexJustifyCenter">
@@ -48,7 +52,7 @@ const DCompleteOrder = () => {
 									<h3 className="HeadrightTitle">User</h3>
 								</div>
 								<img
-									src="/Sources/topNavBarImg.png"
+									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="HeadRightImg"
 								/>
@@ -87,7 +91,7 @@ const DCompleteOrder = () => {
 					<div className="smallBarBody">
 						<div className="smallBarBodyLeft">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="smallBarImg"
 							/>
@@ -114,19 +118,19 @@ const DCompleteOrder = () => {
 					<div className="topBarBody">
 						<div className="topBarLeft">
 							<img
-								src="/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/topNavBarImg.png"
 								alt=""
 								className="topNavBarImg"
 							/>
 						</div>
 						<div className="topBarRight">
 							<h3 className="topBarTitle">User</h3>
-							<img src="/Sources/recoStar.png" alt="" className="topBarDesc" />
+							<img src="/duty-free/Sources/recoStar.png" alt="" className="topBarDesc" />
 							<p className="performerDesc navBarClock">
 								{" "}
 								<div>
 									<img
-										src="/Sources/recoClock.png"
+										src="/duty-free/Sources/recoClock.png"
 										alt=""
 										className="performerClock"
 									/>{" "}
@@ -136,7 +140,7 @@ const DCompleteOrder = () => {
 						</div>
 
 						<img
-							src="/Sources/redHeart.png"
+							src="/duty-free/Sources/redHeart.png"
 							alt=""
 							className="navBarRedHeart"
 						/>
@@ -164,7 +168,7 @@ const DCompleteOrder = () => {
 									placeholder="Написать отзыв"
 								/>
 								<img
-									src="/Sources/grayStars.png"
+									src="/duty-free/Sources/grayStars.png"
 									alt=""
 									className="grayStars"
 								/>
@@ -175,7 +179,7 @@ const DCompleteOrder = () => {
 							<option value="">Сначала новые</option>
 						</select>
 					</div>
-					<img src="/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img src="/duty-free/Sources/closeImg.png" alt="" className="navBarCloseImg" />
 				</div>
 			</div> */}
 		</>

@@ -16,7 +16,7 @@ const ForWho = () => {
 								placeholder="Поиск"
 							/>
 							<img
-								src="/Sources/realSearchIcon.png"
+								src="/duty-free/Sources/realSearchIcon.png"
 								alt=""
 								className="catalogSearchIcon"
 							/>
@@ -78,7 +78,7 @@ const ForWho = () => {
 							<div className="popular-product">
 								<div className="grayBack">
 									<img
-										src="/Sources/banner-right-img.png"
+										src="/duty-free/Sources/banner-right-img.png"
 										alt=""
 										className="product-img firstProductImg"
 									/>
@@ -91,7 +91,7 @@ const ForWho = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg3.png"
+										src="/duty-free/Sources/pProductImg3.png"
 										alt=""
 										className="product-img"
 									/>
@@ -106,7 +106,7 @@ const ForWho = () => {
 								{" "}
 								<div className="grayBack">
 									<img
-										src="/Sources/pProductImg2.png"
+										src="/duty-free/Sources/pProductImg2.png"
 										alt=""
 										className="product-img"
 									/>
