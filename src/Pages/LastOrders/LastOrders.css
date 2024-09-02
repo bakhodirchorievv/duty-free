@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+/* last orders start */
+.lastOrders {
+	margin: 131px 100px;
+}
+
+.lastOrdersBottom {
+	margin-top: 130px;
+}
+
+.lastOrdersTitle {
+	margin-bottom: 74px;
+	display: flex;
+	align-items: center;
+}
+.pinkBackFont {
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: 600;
+	color: rgba(34, 34, 34, 0.78);
+	background-color: rgba(253, 195, 217, 1);
+	padding: 8px 19px;
+	border-radius: 1000px;
+	margin-left: 20px;
+}
+.allOrdersWrapper {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.allOrderItem {
+	background-color: rgba(82, 82, 82, 0.1);
+	border-radius: 5px;
+	padding: 20px 25px;
+}
+.orderItemHead {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 10px;
+	gap: 180px;
+	align-items: center;
+}
+
+.orderItemHeadLong {
+	gap: 240px;
+}
+.inProccess {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	color: rgba(249, 77, 141, 1);
+	padding: 4px 22px;
+	border-radius: 1000px;
+	font-family: inherit;
+	border: 0.5px solid rgba(249, 77, 141, 1);
+}
+.numberOfOrder {
+	font-family: "Montserrat", sans-serif;
+}
+.orderItemBody {
+	margin-bottom: 30px;
+}
+.orderItemInfo {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+.lighterSpan {
+	font-weight: 300 !important;
+}
+.orderPriceWeight {
+	font-family: "Montserrat", sans-serif;
+}
+.orderItemFoot {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.orderItemDate {
+	color: rgba(106, 106, 106, 1);
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.orderItemState {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	font-family: inherit;
+	color: white;
+	padding: 5px 36px;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(249, 77, 141, 1);
+}
+
+.orderItemFootRight {
+	display: flex;
+	justify-content: flex-start;
+	gap: 5px;
+}
+.orderItemFootBtn {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 5px 8px;
+	color: rgba(249, 77, 141, 1);
+	background-color: inherit;
+	font-family: inherit;
+	font-weight: 800;
+	border: 0.5px solid rgba(249, 77, 141, 1);
+	border-radius: 3px;
+	width: 130px;
+	letter-spacing: 1px;
+}
+
+.orderItemFootPinkbtn {
+	background-color: rgba(249, 77, 141, 1);
+	color: white;
+}
+
+.orderItemHadImg {
+	width: 81px;
+	height: 81px;
+}

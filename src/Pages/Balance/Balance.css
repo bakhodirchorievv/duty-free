@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+	font-family: "Raleway", sans-serif;
+}
+
+.balanceWrapper {
+	margin: 16px 100px;
+	padding: 130px 0;
+	position: relative;
+}
+.balanceTitle {
+	font-size: 32px;
+	line-height: 37px;
+	font-weight: 700;
+	color: rgba(34, 34, 34, 1);
+	margin-bottom: 34px;
+}
+.balanceBody {
+	display: flex;
+	justify-content: flex-start;
+}
+.balanceItem {
+	background-color: rgba(238, 238, 238, 1);
+	width: 32%;
+	padding: 25px 28px;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.balanceDesc {
+	margin-bottom: 18px;
+}
+.balanceValue {
+	font-size: 48px;
+	line-height: 56px;
+	margin-bottom: 60px;
+}
+.balanceItemBtn {
+	border-radius: 3px;
+	background-color: rgba(249, 77, 141, 1);
+	padding: 8px 32px;
+	border: none;
+	color: white;
+	font-size: 24px;
+	line-height: 28px;
+	font-family: inherit;
+}
+
+/* userLoginWrapper start */
+.userLoginWrap {
+	border: 0.5px solid rgba(255, 0, 90, 1);
+	border-radius: 5px;
+	width: 213px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: white;
+}
+.userLoginHead {
+	border-bottom: 0.5px solid rgba(255, 0, 90, 1);
+	padding: 11px;
+}
+.userName {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+}
+.userEmail {
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 11px;
+}
+.userLoginUl {
+	list-style: none;
+	padding: 11px 11px 0 11px;
+}
+.userLoginItem {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: inherit;
+}
+.loginFocus {
+	color: rgba(255, 0, 90, 1);
+}

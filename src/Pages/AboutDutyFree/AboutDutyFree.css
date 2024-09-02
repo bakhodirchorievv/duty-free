@@ -1,0 +1,385 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* about banner start */
+.aboutBanner {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding-bottom: 140px;
+	box-shadow: inset 0px -70.93px 57.63px rgba(169, 169, 169, 0.4),
+		/* Darker and more opaque for the bottom */ inset 0px 0.89px 57.63px
+			rgba(255, 255, 255, 1),
+		/* Pure white for the top */ inset 0px 3.55px 14.19px
+			rgba(233, 233, 233, 0.2);
+	border-radius: 0 0 100px 100px;
+}
+.about-left-side {
+	margin-left: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 50px;
+}
+.about-banner-title {
+	font-size: 55px;
+	line-height: 63px;
+	font-weight: 800;
+	color: rgba(63, 67, 71, 1);
+	font-family: "Montserrat", sans-serif;
+	max-width: 800px;
+}
+.redFont {
+	color: rgba(255, 0, 90, 1);
+}
+.largerFont {
+	font-size: larger;
+	font-weight: bolder;
+}
+.largerWeight {
+	font-weight: bolder;
+}
+.about-banner-desc {
+	font-size: 22px;
+	line-height: 32px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: rgba(63, 67, 71, 1);
+	margin-top: 10px;
+	margin-bottom: 37px;
+	max-width: 700px;
+}
+.about-banner-btns {
+	display: flex;
+	justify-content: flex-start;
+	gap: 25px;
+}
+.aboutBannerBtn {
+	font-size: 17px;
+	line-height: 20px;
+	font-family: "Montserrat", sans-serif;
+	color: rgba(0, 0, 0, 1);
+	font-weight: 400;
+	border-radius: 7px;
+	padding: 17px 50px;
+	border: none;
+	background-color: inherit;
+}
+
+.generalBtn {
+	font-size: 17px;
+	line-height: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	border-radius: 7px;
+	padding: 17px 50px;
+	border: none;
+	background-color: rgba(255, 0, 90, 1);
+	color: white;
+}
+.redBack {
+	background-color: rgba(255, 0, 90, 1);
+	color: white;
+}
+.about-right-side {
+	padding-right: 54px;
+}
+.about-right-img {
+	width: 480px;
+	height: 390px;
+}
+.about-giftbox {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+}
+
+/* about trading start */
+.aboutTrading {
+	margin: 150px 100px;
+}
+.generalTitle {
+	font-size: 55px;
+	line-height: 63px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	color: rgba(63, 67, 71, 1);
+}
+.aboutTradingTitle {
+	margin-bottom: 105px;
+}
+.aboutTrading-body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutTrading-leftSide {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.aboutTardingImg {
+	display: block;
+	width: 500px;
+	height: 500px;
+}
+.aboutTrading-rightSide {
+	max-width: 700px;
+}
+.aboutTardingdesc {
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+}
+
+.aboutTardingdesc:nth-child(2) {
+	margin-top: 25px;
+}
+
+.aboutTradingBtn {
+	margin-top: 30px;
+}
+
+/* howItWork start */
+.howItWork {
+	box-shadow: inset 0px -70.93px 57.63px rgba(212, 212, 212, 0.2),
+		inset 0px 0.89px 57.63px rgba(212, 212, 212, 0.2),
+		inset 0px 3.55px 14.19px rgba(233, 233, 233, 0.2);
+	border-radius: 50px;
+	margin: 0 100px;
+	padding: 65px 10px 85px;
+}
+
+.howItWorkTitle {
+	margin-bottom: 105px;
+}
+
+.howItWorkBody {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+.howItWorkItem {
+	width: 27%;
+}
+.howItWorkImg {
+	display: block;
+	width: 100%;
+}
+.howItWorkDesc {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	font-weight: 400;
+}
+.howItworkFoot {
+	margin-top: 140px;
+	margin-bottom: 40px;
+}
+.howItWork-subtitle {
+	font-size: 35px;
+	line-height: 42px;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+.howItWorkFoot-body {
+	display: flex;
+	justify-content: space-between;
+	max-width: 850px;
+	margin: 55px auto 0;
+	align-items: center;
+}
+.howItWorkEmail {
+	font-size: 21px;
+	line-height: 25px;
+	color: rgba(63, 67, 71, 0.65);
+	font-weight: 400;
+}
+.howItWorkBtn {
+	font-weight: 500;
+}
+
+/* top products start */
+.topProducts {
+	margin: 200px 100px 150px;
+	position: relative;
+}
+.topProductsTitle {
+	margin-bottom: 107px;
+}
+.topProducts-body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.topProduct-item {
+	width: 16%;
+}
+.topProductGrayBack {
+	background-color: rgba(26, 26, 26, 0.03);
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+}
+.topProductImg {
+	display: block;
+	margin: 0 auto;
+}
+.topProductDesc,
+.topProductPrice,
+.topProductName,
+.oldPrice {
+	font-family: "Raleway", sans-serif;
+}
+.topProductDesc {
+	font-size: 15px;
+	line-height: 16px;
+	color: rgba(26, 26, 26, 1);
+	margin: 10px 0 5px;
+	font-weight: 600;
+}
+.pinkFont {
+	color: rgba(239, 24, 101, 1);
+}
+.topProductPrice {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 29px;
+	color: rgba(26, 26, 26, 1);
+}
+.topProductName {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	color: rgba(26, 26, 26, 0.5);
+	margin-top: 8px;
+}
+.oldPrice {
+	font-size: 25px;
+	line-height: 29px;
+	font-weight: 400;
+	color: rgba(26, 26, 26, 0.5);
+}
+.topProductsBtn {
+	border: 1px solid rgba(255, 0, 90, 1);
+	border-radius: 7px;
+	background-color: inherit;
+	color: rgba(255, 0, 90, 1);
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: "Montserrat", sans-serif;
+	padding: 18px 44px;
+	display: block;
+	margin: 40px auto 0;
+}
+
+.topProductLastImg {
+	position: absolute;
+	top: -150px;
+	left: -100px;
+}
+
+/* rest with start */
+.restWith {
+	margin: 0 100px;
+	position: relative;
+}
+.restWithTitle {
+	max-width: 1000px;
+	margin: 0 auto 110px;
+}
+
+.restWithBody {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.restWithDesc {
+	font-family: "Montserrat", sans-serif;
+	font-size: 23px;
+	line-height: 44px;
+	font-weight: 400;
+}
+.restWithDesc:nth-child(2) {
+	margin-top: 17px;
+	margin-bottom: 50px;
+}
+.restWithBtn {
+	font-weight: 500;
+}
+.restWithRight {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.restWith-first {
+	width: 600px;
+	height: 450px;
+}
+.restwith-second {
+	position: absolute;
+	top: -75px;
+	right: -100px;
+}
+
+/* questionarie start */
+.moreAnswerMinus {
+	display: none;
+}
+
+.getNone {
+	display: none;
+}
+.getBlock {
+	display: block;
+}
+.questionarie {
+	margin: 150px 100px;
+	position: relative;
+}
+
+.questionarieBody {
+	margin-top: 150px;
+}
+.questions-ul {
+	list-style: none;
+}
+.question-item {
+	margin-top: 42px;
+	border-top: 1.36px solid rgba(234, 236, 240, 1);
+	padding: 32px 0 0 0;
+	color: rgba(16, 24, 40, 1);
+	font-size: 26px;
+	line-height: 38px;
+	font-weight: 500;
+	font-family: "Raleway";
+}
+.question-item:nth-child(1) {
+	border: none;
+}
+.question-face {
+	display: flex;
+	justify-content: space-between;
+}
+.answer-item {
+	color: rgba(102, 112, 133, 1);
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 32px;
+}
+.questionarieImg {
+	position: absolute;
+	top: 10px;
+	left: -100px;
+}
