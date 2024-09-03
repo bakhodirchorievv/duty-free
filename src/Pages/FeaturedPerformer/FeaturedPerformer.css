@@ -68,8 +68,20 @@ body {
 	font-size: 17px;
 	line-height: 20px;
 	font-family: inherit;
-	padding: 8px 20px 10px 8px;
+	padding: 8px 40px 10px 8px;
+	appearance: none;
 }
+
+.featuredSelectWrap {
+	position: relative;
+}
+.arrowOpenFeatured {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 16px;
+}
+
 .performToggleWrap {
 	display: flex;
 	align-items: center;

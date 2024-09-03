@@ -26,6 +26,30 @@ body {
 	letter-spacing: 10%;
 }
 
+.selectDirection {
+	height: 100%;
+	margin-left: 10px;
+	border: 0.5px solid rgba(255, 0, 90, 1);
+	border-radius: 5px;
+	outline: none;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: inherit;
+	padding: 8px 40px 10px 8px !important;
+	appearance: none;
+}
+
+.ordersSelectWrap {
+	position: relative;
+}
+.arrowOpenOrders {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 16px;
+	width: 12px;
+}
+
 /* real body start */
 .allOrdersWrapper {
 	display: flex;

@@ -142,9 +142,16 @@ const CurrencyConvert = () => {
 							<div className="converterRight">
 								<h3 className="coverterRightTitle">Выберите другую валюту:</h3>
 								<div className="converterRightBody">
-									<select name="" id="" className="currencySelect">
-										<option value="">Выберите валюту</option>
-									</select>
+									<div className="currencySelectWrap">
+										<select name="" id="" className="currencySelect">
+											<option value="">Выберите валюту</option>
+										</select>
+										<img
+											src="/duty-free/Sources/arrowOpen.svg"
+											alt=""
+											className="arrowOpenCurrency"
+										/>
+									</div>
 
 									<button className="converterBtn">Конвертировать</button>
 								</div>
@@ -217,7 +224,11 @@ const CurrencyConvert = () => {
 					</div>
 				</div>
 
-				<img src="/duty-free/Sources/empty.png" alt="" className="emptyHeart" />
+				<img
+					src="/duty-free/Sources/realRedHeart.png"
+					alt=""
+					className="emptyHeart"
+				/>
 			</div>
 		</>
 	);

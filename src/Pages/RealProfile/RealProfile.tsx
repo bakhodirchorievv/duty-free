@@ -51,9 +51,16 @@ const RealProfile = () => {
 
 						<div className="realProfileFootHead">
 							<h3 className="realProfileReview realProfileGTitle">Отзывы</h3>
-							<select name="" id="" className="realProfileSelect">
-								<option value="">Сначала новые</option>
-							</select>
+							<div className="realProfileSelectWrap">
+								<select name="" id="" className="realProfileSelect">
+									<option value="">Сначала новые</option>
+								</select>
+								<img
+									src="/duty-free/Sources/arrowOpen.svg"
+									alt=""
+									className="arrowOpenRealProfile"
+								/>
+							</div>
 						</div>
 
 						<div className="realProfileUsers">

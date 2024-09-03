@@ -22,10 +22,15 @@ const Orders = () => {
 							/>
 						</div>
 
-						<div>
+						<div className="ordersSelectWrap">
 							<select name="" id="" className="selectDirection">
 								<option value="">Основные направления</option>
 							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenOrders"
+							/>
 						</div>
 
 						<div className="performToggleWrap">

@@ -25,10 +25,15 @@ const TopPerFormers = () => {
 							/>
 						</div>
 
-						<div>
+						<div className="topPerformersSelectWrap">
 							<select name="" id="" className="selectDirection">
 								<option value="">Основные направления</option>
 							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenTopPerformers"
+							/>
 						</div>
 
 						<div className="performToggleWrap">
@@ -217,7 +222,11 @@ const TopPerFormers = () => {
 						</div>
 						<div className="topBarRight">
 							<h3 className="topBarTitle">Nickname</h3>
-							<img src="/duty-free/Sources/recoStar.png" alt="" className="topBarDesc" />
+							<img
+								src="/duty-free/Sources/recoStar.png"
+								alt=""
+								className="topBarDesc"
+							/>
 							<p className="performerDesc navBarClock">
 								{" "}
 								<div>
@@ -267,11 +276,22 @@ const TopPerFormers = () => {
 							</div>
 						</div>
 
-						<select name="" id="" className="navBarSelect">
-							<option value="">Сначала новые</option>
-						</select>
+						<div className="navBarSelectWrap">
+							<select name="" id="" className="navBarSelect">
+								<option value="">Сначала новые</option>
+							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenNavBar"
+							/>
+						</div>
 					</div>
-					<img src="/duty-free/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img
+						src="/duty-free/Sources/closeImg.png"
+						alt=""
+						className="navBarCloseImg"
+					/>
 				</div>
 			</div> */}
 		</>

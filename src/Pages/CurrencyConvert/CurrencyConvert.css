@@ -222,7 +222,20 @@ body {
 	border: none;
 	outline: none;
 	border-bottom: 1px solid rgba(16, 16, 16, 1);
-	padding: 4px 70px 4px 0;
+	padding: 4px 80px 4px 0;
+	appearance: none;
+}
+
+.currencySelectWrap {
+	position: relative;
+	height: fit-content;
+}
+.arrowOpenCurrency {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	width: 12px;
 }
 
 .converterBtn {

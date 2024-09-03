@@ -69,8 +69,20 @@ body {
 	font-size: 17px;
 	line-height: 20px;
 	font-family: inherit;
-	padding: 8px 20px 10px 8px;
+	padding: 8px 40px 10px 8px;
+	appearance: none;
 }
+
+.topPerformersSelectWrap {
+	position: relative;
+}
+.arrowOpenTopPerformers {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 16px;
+}
+
 .performToggleWrap {
 	display: flex;
 	align-items: center;
@@ -326,11 +338,26 @@ body {
 .navBarSelect {
 	font-size: 16px;
 	line-height: 20px;
-	margin-top: 15px;
 	border: 0.5px solid rgba(255, 0, 90, 1);
-	padding: 5px 20px;
+	padding: 5px 50px 5px 20px;
 	border-radius: 5px;
 	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.navBarSelectWrap {
+	margin-top: 15px;
+	position: relative;
+	width: fit-content;
+}
+.arrowOpenNavBar {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 14px;
+	width: 12px;
 }
 
 .flexDisplay {

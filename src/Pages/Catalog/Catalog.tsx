@@ -60,12 +60,26 @@ const Catalog = () => {
 							/>
 						</div>
 
-						<select name="" id="" className="catalogFirstSelect">
-							<option value="">Сортировать по</option>
-						</select>
-						<select name="" id="" className="catalogFirstSelect">
-							<option value="">Категория</option>
-						</select>
+						<div className="catalogSelectWrap">
+							<select name="" id="" className="catalogFirstSelect">
+								<option value="">Сортировать по</option>
+							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenCatalog"
+							/>
+						</div>
+						<div className="catalogSelectWrap">
+							<select name="" id="" className="catalogFirstSelect">
+								<option value="">Категория</option>
+							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenCatalog"
+							/>
+						</div>
 
 						<div className="rangeSliderWrapper">
 							<div className="sliderContainer">

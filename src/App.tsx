@@ -37,6 +37,7 @@ const CurrencyConvert = lazy(
 );
 const ForWho = lazy(() => import("./Pages/ForWho/ForWho"));
 const Alcohol = lazy(() => import("./Pages/Alcohol/Alcohol"));
+const Search = lazy(() => import("./Pages/Search/Search"));
 
 const App = () => {
 	return (
@@ -70,6 +71,7 @@ const App = () => {
 					<Route path="/CurrencyConvert" element={<CurrencyConvert />} />
 					<Route path="/ForWho" element={<ForWho />} />
 					<Route path="/Alcohol" element={<Alcohol />} />
+					<Route path="/Search" element={<Search />} />
 				</Routes>
 				<Footer />
 			</Suspense>

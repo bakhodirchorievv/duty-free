@@ -47,6 +47,10 @@ body {
 	gap: 17px;
 }
 
+.lighterWeight {
+	font-weight: 400 !important;
+}
+
 .myOrdersLeftItem {
 	background-color: rgba(230, 230, 230, 1);
 	border-radius: 5px;

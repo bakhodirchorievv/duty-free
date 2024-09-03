@@ -27,10 +27,15 @@ const FeaturedPerformer = () => {
 							/>
 						</div>
 
-						<div>
+						<div className="featuredSelectWrap">
 							<select name="" id="" className="selectDirection">
 								<option value="">Основные направления</option>
 							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenFeatured"
+							/>
 						</div>
 
 						<div className="performToggleWrap">
