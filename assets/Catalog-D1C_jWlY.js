@@ -1,4 +1,4 @@
-import{r as l,j as e}from"./index-CBFWRLID.js";const o=()=>{const[s,t]=l.useState(0),[a,d]=l.useState(1e3),i={background:`linear-gradient(to right, 
+import{r as l,j as e}from"./index-qhBfG_da.js";const o=()=>{const[s,t]=l.useState(0),[a,d]=l.useState(1e3),i={background:`linear-gradient(to right, 
 		  rgba(96, 97, 97, 0.6) 0%, 
 		  rgba(96, 97, 97, 0.6) ${s/10}%, 
 		  rgba(255, 0, 20, 1) ${s/10}%, 
