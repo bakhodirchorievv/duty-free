@@ -6,11 +6,12 @@
 
 body {
 	font-family: "Raleway", sans-serif;
-}
-
-.allOrderingWrapper {
 	position: relative;
 }
+
+/* .allOrderingWrapper {
+	position: relative;
+} */
 
 .myOrderingWrapper {
 	margin: 130px 100px 0;
@@ -361,10 +362,20 @@ body {
 	padding: 20px;
 	height: 100vh;
 	background-image: url(/Sources/realNewOrderBackImg.png);
-	background-size: contain;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100%;
+	top: -200px;
 }
 .relativeInAbsolute {
 	position: relative;
+}
+
+.getNone {
+	display: none !important;
+}
+.getBlock {
+	display: block !important;
 }
 
 .realNewOrderBody {

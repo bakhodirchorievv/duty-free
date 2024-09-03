@@ -1,5 +1,6 @@
 import { Suspense, lazy } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Container from "./Utils/Container";
 
 const Footer = lazy(() => import("./Components/Footer/Footer"));
 const Header = lazy(() => import("./Components/Header/Header"));
@@ -38,42 +39,50 @@ const CurrencyConvert = lazy(
 const ForWho = lazy(() => import("./Pages/ForWho/ForWho"));
 const Alcohol = lazy(() => import("./Pages/Alcohol/Alcohol"));
 const Search = lazy(() => import("./Pages/Search/Search"));
+const ChatWithClient = lazy(
+	() => import("./Admin/ChatWithClient/ChatWithClient")
+);
+const Registration = lazy(() => import("./Pages/Registration/Registration"));
 
 const App = () => {
 	return (
 		<Router>
 			<Suspense fallback={<div>Loading...</div>}>
-				<Header />
-				<Routes>
-					<Route path="/" element={<AboutDutyFree />} />
-					<Route path="/MainPage" element={<MainPage />} />
-					<Route path="/BrandDutyFree" element={<BrandDutyFree />} />
-					<Route path="/Production" element={<Production />} />
-					<Route path="/Order" element={<Order />} />
-					<Route path="/Analyze" element={<Analyze />} />
-					<Route path="/MyOrdering" element={<MyOrdering />} />
-					<Route path="/MyOrders" element={<MyOrders />} />
-					<Route path="/TopPerformers" element={<TopPerformers />} />
-					<Route path="/FeaturedPerformer" element={<FeaturedPerformer />} />
-					<Route path="/CompleteOrder" element={<CompleteOrder />} />
-					<Route path="/Balance" element={<Balance />} />
-					<Route path="/Help" element={<Help />} />
-					<Route path="/Profile" element={<Profile />} />
-					<Route path="/ContactInfo" element={<ContactInfo />} />
-					<Route path="/LastOrders" element={<LastOrders />} />
-					<Route path="/Orders" element={<Orders />} />
-					<Route path="/DMyOrders" element={<DMyOrders />} />
-					<Route path="/DCompleteOrder" element={<DCompleteOrder />} />
-					<Route path="/RealProfile" element={<RealProfile />} />
-					<Route path="/Catalog" element={<Catalog />} />
-					<Route path="/MoreInfo" element={<MoreInfo />} />
-					<Route path="/OService" element={<OService />} />
-					<Route path="/CurrencyConvert" element={<CurrencyConvert />} />
-					<Route path="/ForWho" element={<ForWho />} />
-					<Route path="/Alcohol" element={<Alcohol />} />
-					<Route path="/Search" element={<Search />} />
-				</Routes>
-				<Footer />
+				<Container>
+					<Header />
+					<Routes>
+						<Route path="/" element={<AboutDutyFree />} />
+						<Route path="/MainPage" element={<MainPage />} />
+						<Route path="/BrandDutyFree" element={<BrandDutyFree />} />
+						<Route path="/Production" element={<Production />} />
+						<Route path="/Order" element={<Order />} />
+						<Route path="/ChatWithClient" element={<ChatWithClient />} />
+						<Route path="/Analyze" element={<Analyze />} />
+						<Route path="/MyOrdering" element={<MyOrdering />} />
+						<Route path="/MyOrders" element={<MyOrders />} />
+						<Route path="/TopPerformers" element={<TopPerformers />} />
+						<Route path="/FeaturedPerformer" element={<FeaturedPerformer />} />
+						<Route path="/CompleteOrder" element={<CompleteOrder />} />
+						<Route path="/Balance" element={<Balance />} />
+						<Route path="/Help" element={<Help />} />
+						<Route path="/Profile" element={<Profile />} />
+						<Route path="/ContactInfo" element={<ContactInfo />} />
+						<Route path="/LastOrders" element={<LastOrders />} />
+						<Route path="/Orders" element={<Orders />} />
+						<Route path="/DMyOrders" element={<DMyOrders />} />
+						<Route path="/DCompleteOrder" element={<DCompleteOrder />} />
+						<Route path="/RealProfile" element={<RealProfile />} />
+						<Route path="/Catalog" element={<Catalog />} />
+						<Route path="/MoreInfo" element={<MoreInfo />} />
+						<Route path="/OService" element={<OService />} />
+						<Route path="/CurrencyConvert" element={<CurrencyConvert />} />
+						<Route path="/ForWho" element={<ForWho />} />
+						<Route path="/Alcohol" element={<Alcohol />} />
+						<Route path="/Search" element={<Search />} />
+						<Route path="/Registration" element={<Registration />} />
+					</Routes>
+					<Footer />
+				</Container>
 			</Suspense>
 		</Router>
 	);

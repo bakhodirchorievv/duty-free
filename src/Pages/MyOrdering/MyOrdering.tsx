@@ -2,6 +2,19 @@ import "./MyOrdering.css";
 import "./MyOrderingResponsive.css";
 
 const MyOrdering = () => {
+	const handleNewOrdering = () => {
+		const realNewOrdering = document.querySelector(
+			".realNewOrdering"
+		) as HTMLElement;
+		if (realNewOrdering.classList.contains("getNone")) {
+			realNewOrdering.classList.remove("getNone");
+			document.body.style.overflowY = "hidden";
+		} else {
+			realNewOrdering.classList.add("getNone");
+			document.body.style.overflowY = "visible";
+		}
+	};
+
 	return (
 		<div className="allOrderingWrapper">
 			<div className="myOrderingWrapper">
@@ -95,7 +108,9 @@ const MyOrdering = () => {
 									Прикрепить файл
 								</label>
 							</div>
-							<button className="doOrderBtn">Создать заказ</button>
+							<button onClick={handleNewOrdering} className="doOrderBtn">
+								Создать заказ
+							</button>
 						</div>
 					</div>
 				</div>
@@ -284,7 +299,7 @@ const MyOrdering = () => {
 					</div>
 				</div>
 			</div>
-			<div className="realNewOrdering">
+			<div className="realNewOrdering getNone">
 				<div className="relativeInAbsolute">
 					<h2 className="realNewOrderTitle">Новый заказ</h2>
 					<div className="realNewOrderBody">
@@ -359,6 +374,7 @@ const MyOrdering = () => {
 					</div>
 
 					<img
+						onClick={handleNewOrdering}
 						src="/duty-free/Sources/newOrderExitImg.png"
 						alt=""
 						className="newOrderExitImg"

@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+.asBody {
+	background-color: rgba(242, 237, 239, 1);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.registrationWrapper {
+	width: 900px;
+	/* height: 500px; */
+	background-color: white;
+	border-radius: 10px;
+}
+.registerTitle {
+	text-align: center;
+	font-size: 48px;
+	line-height: 56px;
+	font-weight: 700;
+	margin-top: 55px;
+}
+.registerBody {
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.asWhoWrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.asWhoWrapper {
+	display: flex;
+	margin-top: 30px;
+	padding: 6px;
+	background-color: white;
+	box-shadow: 2px 8px 35.1px 0 rgba(249, 77, 141, 0.21);
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.asWhoBtn {
+	flex-grow: 1;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+	color: rgba(26, 26, 26, 1);
+	font-family: inherit;
+	background-color: white;
+	border: none;
+	background-color: inherit;
+	padding: 8px;
+	border-radius: 3px;
+	font-weight: 600;
+}
+.asWhoChoosen {
+	background-color: rgba(249, 77, 141, 0.2);
+}
+.asWhoInputsWrap {
+	display: flex;
+	gap: 18px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.asWhoInput {
+	width: 48.5%;
+	border: 0.5px solid rgba(249, 77, 141, 1);
+	border-radius: 3px;
+	font-size: 15px;
+	line-height: 17px;
+	font-family: inherit;
+	font-weight: 400;
+	color: rgba(106, 106, 106, 1);
+	padding: 12px 15px 13px;
+}
+.registrationBtn {
+	background-color: rgba(251, 55, 129, 1);
+	width: 100%;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 700;
+	font-family: inherit;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 12px;
+	margin-top: 30px;
+}
+.orWrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-top: 50px;
+}
+.orLeft,
+.orRght {
+	width: 45%;
+	height: 1px;
+	background-color: rgba(136, 136, 136, 1);
+}
+.orWord {
+	color: rgba(136, 136, 136, 1);
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+}
+.byGoogleBtn {
+	background-color: rgba(252, 234, 241, 1);
+	width: 100%;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 700;
+	font-family: inherit;
+	color: rgba(228, 171, 193, 1);
+	border: none;
+	border-radius: 3px;
+	padding: 12px;
+	margin-top: 20px;
+}
+.alreadySignedIn {
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.alreadyHaveOne {
+	color: rgba(251, 55, 129, 1);
+}
+
+.getNone {
+	display: none;
+}

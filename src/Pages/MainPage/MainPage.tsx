@@ -21,11 +21,17 @@ const MainPage = () => {
 							className="mainBanner-right"
 						/>
 					</div>
-					<img
+					{/* <img
 						src="/duty-free/Sources/banner-dots.png"
 						alt=""
 						className="banner-dots"
-					/>
+					/> */}
+					<div className="banner-dots">
+						<div className="bannerDot onThisDot"></div>
+						<div className="bannerDot"></div>
+						<div className="bannerDot"></div>
+						<div className="bannerDot"></div>
+					</div>
 				</div>
 
 				<div className="popular-products">
