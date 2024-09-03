@@ -44,7 +44,7 @@ const App = () => {
 			<Suspense fallback={<div>Loading...</div>}>
 				<Header />
 				<Routes>
-					<Route path="/AboutDutyFree" element={<AboutDutyFree />} />
+					<Route path="/" element={<AboutDutyFree />} />
 					<Route path="/MainPage" element={<MainPage />} />
 					<Route path="/BrandDutyFree" element={<BrandDutyFree />} />
 					<Route path="/Production" element={<Production />} />
@@ -64,7 +64,7 @@ const App = () => {
 					<Route path="/DMyOrders" element={<DMyOrders />} />
 					<Route path="/DCompleteOrder" element={<DCompleteOrder />} />
 					<Route path="/RealProfile" element={<RealProfile />} />
-					<Route path="/" element={<Catalog />} />
+					<Route path="/Catalog" element={<Catalog />} />
 					<Route path="/MoreInfo" element={<MoreInfo />} />
 					<Route path="/OService" element={<OService />} />
 					<Route path="/CurrencyConvert" element={<CurrencyConvert />} />
