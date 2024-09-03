@@ -195,7 +195,7 @@ body {
 }
 
 /* userLoginWrapper start */
-.userLoginWrap {
+/* .userLoginWrap {
 	border: 0.5px solid rgba(255, 0, 90, 1);
 	border-radius: 5px;
 	width: 213px;
@@ -230,4 +230,4 @@ body {
 }
 .loginFocus {
 	color: rgba(255, 0, 90, 1);
-}
+} */

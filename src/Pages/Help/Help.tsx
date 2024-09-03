@@ -148,7 +148,7 @@ const Help = () => {
 					</div>
 				</div>
 
-				<div className="userLoginWrap">
+				{/* <div className="userLoginWrap">
 					<div className="userLoginHead">
 						<h3 className="userName">UserNickname</h3>
 						<p className="userEmail">DutyFree@gmail.com</p>
@@ -160,7 +160,7 @@ const Help = () => {
 						<li className="userLoginItem loginFocus">Помощь</li>
 						<li className="userLoginItem">Выход</li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);

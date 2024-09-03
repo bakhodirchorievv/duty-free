@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Profile.css";
 import "./ProfileResponsive.css";
 
@@ -10,9 +11,11 @@ const Profile = () => {
 						<span className="forUnderline">Профиль</span>
 					</h3>
 
-					<h3 className="profileHeadTitle">
-						<span className="forUnderline">Контактная информация</span>
-					</h3>
+					<Link to={"/ContactInfo"}>
+						<h3 className="profileHeadTitle">
+							<span className="forUnderline">Контактная информация</span>
+						</h3>
+					</Link>
 				</div>
 
 				<div className="profileBody">
@@ -102,7 +105,7 @@ const Profile = () => {
 					</div>
 				</div>
 
-				<div className="userLoginWrap">
+				{/* <div className="userLoginWrap">
 					<div className="userLoginHead">
 						<h3 className="userName">UserNickname</h3>
 						<p className="userEmail">DutyFree@gmail.com</p>
@@ -114,7 +117,7 @@ const Profile = () => {
 						<li className="userLoginItem">Помощь</li>
 						<li className="userLoginItem">Выход</li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);

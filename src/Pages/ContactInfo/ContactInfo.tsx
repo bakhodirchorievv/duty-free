@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ContactInfo.css";
 import "./ContactInfoResponsive.css";
 
@@ -6,9 +7,11 @@ const ContactInfo = () => {
 		<>
 			<div className="contactWrapper">
 				<div className="contactHead">
-					<h3 className="contactHeadTitle">
-						<span className="forUnderline">Профиль</span>
-					</h3>
+					<Link to={"/Profile"}>
+						<h3 className="contactHeadTitle">
+							<span className="forUnderline">Профиль</span>
+						</h3>
+					</Link>
 
 					<h3 className="contactHeadTitle settingOn">
 						<span className="forUnderline">Контактная информация</span>
@@ -104,7 +107,7 @@ const ContactInfo = () => {
 					</div>
 				</div>
 
-				<div className="userLoginWrap">
+				{/* <div className="userLoginWrap">
 					<div className="userLoginHead">
 						<h3 className="userName">UserNickname</h3>
 						<p className="userEmail">DutyFree@gmail.com</p>
@@ -116,7 +119,7 @@ const ContactInfo = () => {
 						<li className="userLoginItem">Помощь</li>
 						<li className="userLoginItem">Выход</li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);
