@@ -270,13 +270,13 @@ const MyOrdering = () => {
 								<div className="recoHeadRight">
 									<h3 className="realNickName">Nickname</h3>
 									<img
-										src="/duty-free/Sources/recoStar.png"
+										src="/duty-free/Sources/realStars.svg"
 										alt=""
 										className="recoStarImg"
 									/>
 									<div className="recoRightPeriod">
 										<img
-											src="/duty-free/Sources/recoClock.png"
+											src="/duty-free/Sources/realClockIcon.svg"
 											alt=""
 											className="recoRightClock"
 										/>

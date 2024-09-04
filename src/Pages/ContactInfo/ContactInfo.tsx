@@ -7,7 +7,7 @@ const ContactInfo = () => {
 		<>
 			<div className="contactWrapper">
 				<div className="contactHead">
-					<Link to={"/Profile"}>
+					<Link to={"/profile"}>
 						<h3 className="contactHeadTitle">
 							<span className="forUnderline">Профиль</span>
 						</h3>

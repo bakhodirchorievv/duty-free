@@ -56,9 +56,14 @@ const MyOrders = () => {
 
 					<div className="myOrdersRight">
 						<div className="myOrdersRightHead">
-							<div>
+							<div className="exitAndFile">
 								<img
-									src="/duty-free/Sources/fileImg.png"
+									src="/duty-free/Sources/exitSign.svg"
+									alt=""
+									className="exitChatBtn"
+								/>
+								<img
+									src="/duty-free/Sources/realFileImg.svg"
 									alt=""
 									className="fileImg"
 								/>
@@ -112,13 +117,13 @@ const MyOrders = () => {
 										<div className="uploadContainer">
 											<input type="file" className="fileInput" />
 											<img
-												src="/duty-free/Sources/uploadingImg.png"
+												src="/duty-free/Sources/uploadingImg.svg"
 												alt="Upload"
 												className="myOrdersUpload"
 											/>
 										</div>
 										<img
-											src="/duty-free/Sources/telegramImg.png"
+											src="/duty-free/Sources/telegramImg.svg"
 											alt=""
 											className="myOrdersSend"
 										/>

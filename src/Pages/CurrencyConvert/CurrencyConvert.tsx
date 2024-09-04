@@ -99,7 +99,7 @@ const CurrencyConvert = () => {
 								<div className="countryCurrencies">
 									<div className="countryCurrencyItem">
 										<img
-											src="/duty-free/Sources/euroFlag.png"
+											src="/duty-free/Sources/euroFlag.svg"
 											alt=""
 											className="countryFlag"
 										/>
@@ -107,7 +107,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/duty-free/Sources/usaFlag.png"
+											src="/duty-free/Sources/usaFlag.svg"
 											alt=""
 											className="countryFlag"
 										/>
@@ -115,7 +115,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/duty-free/Sources/britishFlag.png"
+											src="/duty-free/Sources/britishFlag.svg"
 											alt=""
 											className="countryFlag"
 										/>
@@ -123,7 +123,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/duty-free/Sources/chinaFlag.png"
+											src="/duty-free/Sources/chinaFlag.svg"
 											alt=""
 											className="countryFlag"
 										/>
@@ -131,7 +131,7 @@ const CurrencyConvert = () => {
 									</div>
 									<div className="countryCurrencyItem">
 										<img
-											src="/duty-free/Sources/japanFlag.png"
+											src="/duty-free/Sources/japanFlag.svg"
 											alt=""
 											className="countryFlag"
 										/>
@@ -225,7 +225,7 @@ const CurrencyConvert = () => {
 				</div>
 
 				<img
-					src="/duty-free/Sources/realRedHeart.png"
+					src="/duty-free/Sources/mainRedHeart.svg"
 					alt=""
 					className="emptyHeart"
 				/>

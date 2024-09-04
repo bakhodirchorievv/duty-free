@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Analyze.css";
 import "./AnalyzeResponsive.css";
 
@@ -7,9 +8,15 @@ const Analyze = () => {
 			<div className="analyzeWrapper">
 				<h4 className="adminWord">Admin</h4>
 				<ul className="actions">
-					<li className="action-type">Продукция</li>
-					<li className="action-type">Заказы</li>
-					<li className="action-type onIt">Аналитика</li>
+					<Link to={"/production"}>
+						<li className="action-type">Продукция</li>
+					</Link>
+					<Link to={"/order"}>
+						<li className="action-type">Заказы</li>
+					</Link>
+					<Link to={"/analyze"}>
+						<li className="action-type onIt">Аналитика</li>
+					</Link>
 				</ul>
 
 				<div className="analyzeBody">

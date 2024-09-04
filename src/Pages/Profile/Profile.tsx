@@ -11,7 +11,7 @@ const Profile = () => {
 						<span className="forUnderline">Профиль</span>
 					</h3>
 
-					<Link to={"/ContactInfo"}>
+					<Link to={"/contactinfo"}>
 						<h3 className="profileHeadTitle">
 							<span className="forUnderline">Контактная информация</span>
 						</h3>

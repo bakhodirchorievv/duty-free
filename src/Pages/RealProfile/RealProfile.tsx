@@ -20,13 +20,13 @@ const RealProfile = () => {
 							<div className="contentHeadRight">
 								<h3 className="realProfileUserName">Nickname</h3>
 								<img
-									src="/duty-free/Sources/recoStar.png"
+									src="/duty-free/Sources/realStars.svg"
 									alt=""
 									className="realProfileGoldStar"
 								/>
 								<p className="realProfileUserInfo">
 									<img
-										src="/duty-free/Sources/recoClock.png"
+										src="/duty-free/Sources/realClockIcon.svg"
 										alt=""
 										className="realProfileClock"
 									/>
@@ -79,7 +79,7 @@ const RealProfile = () => {
 											Заказ <span className="montserratFamily">№123</span>
 										</h4>
 										<img
-											src="/duty-free/Sources/fullGold.png"
+											src="/duty-free/Sources/realFullStars.svg"
 											alt=""
 											className="realProGoldStar"
 										/>
@@ -104,7 +104,7 @@ const RealProfile = () => {
 											Заказ <span className="montserratFamily">№123</span>
 										</h4>
 										<img
-											src="/duty-free/Sources/fullGold.png"
+											src="/duty-free/Sources/realFullStars.svg"
 											alt=""
 											className="realProGoldStar"
 										/>

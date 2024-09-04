@@ -324,12 +324,12 @@ const BrandDutyFree = () => {
 												Как я смогу заработать с помощью Duty Free?
 												<div>
 													<img
-														src="/duty-free/Sources/plus.png"
+														src="/duty-free/Sources/plus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerPlus getNone"
 													/>
 													<img
-														src="/duty-free/Sources/minus.png"
+														src="/duty-free/Sources/minus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerMinus getBlock"
 													/>
@@ -346,12 +346,12 @@ const BrandDutyFree = () => {
 												Какой максимальный процент я могу получить?
 												<div>
 													<img
-														src="/duty-free/Sources/plus.png"
+														src="/duty-free/Sources/plus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerPlus"
 													/>
 													<img
-														src="/duty-free/Sources/minus.png"
+														src="/duty-free/Sources/minus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerMinus"
 													/>
@@ -364,12 +364,12 @@ const BrandDutyFree = () => {
 												Могу ли я купить акции компании?
 												<div>
 													<img
-														src="/duty-free/Sources/plus.png"
+														src="/duty-free/Sources/plus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerPlus"
 													/>
 													<img
-														src="/duty-free/Sources/minus.png"
+														src="/duty-free/Sources/minus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerMinus"
 													/>
@@ -382,12 +382,12 @@ const BrandDutyFree = () => {
 												Сколько стоит открыть франшизу?
 												<div>
 													<img
-														src="/duty-free/Sources/plus.png"
+														src="/duty-free/Sources/plus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerPlus"
 													/>
 													<img
-														src="/duty-free/Sources/minus.png"
+														src="/duty-free/Sources/minus-circle.svg"
 														alt=""
 														className="workWith-moreAnswerMinus"
 													/>

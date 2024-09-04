@@ -276,6 +276,8 @@ body {
 	height: 150px;
 	border-radius: 5px;
 	margin-bottom: 14px;
+	outline: none;
+	padding: 5px;
 }
 .addProductBtn {
 	font-size: 20px;
@@ -339,7 +341,7 @@ body {
 
 .productionSecondWrapper {
 	margin: 200px 100px;
-	border-top: 5px solid;
+	/* border-top: 5px solid; */
 	padding: 20px 0;
 }
 

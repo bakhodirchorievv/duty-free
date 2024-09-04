@@ -151,9 +151,9 @@ const ForWho = () => {
 						</div>
 					</div>
 					<div className="catalogRightSide">
-						<div className="popular-products-body forHerContent">
+						<div className="popular-products-bodyP forHerContent">
 							<div className="popular-product">
-								<div className="grayBack">
+								<div className="grayBackP">
 									<img
 										src="/duty-free/Sources/banner-right-img.png"
 										alt=""
@@ -166,7 +166,7 @@ const ForWho = () => {
 							</div>
 							<div className="popular-product">
 								{" "}
-								<div className="grayBack">
+								<div className="grayBackP">
 									<img
 										src="/duty-free/Sources/pProductImg3.png"
 										alt=""
@@ -178,10 +178,10 @@ const ForWho = () => {
 								<p className="p-product-price">$30</p>
 							</div>
 						</div>
-						<div className="popular-products-body forHimContent">
+						<div className="popular-products-bodyP forHimContent">
 							<div className="popular-product">
 								{" "}
-								<div className="grayBack">
+								<div className="grayBackP">
 									<img
 										src="/duty-free/Sources/pProductImg2.png"
 										alt=""

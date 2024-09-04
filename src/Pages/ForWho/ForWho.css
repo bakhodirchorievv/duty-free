@@ -68,6 +68,7 @@ body {
 	margin-bottom: 24px;
 	outline: none;
 	color: rgba(26, 26, 26, 1);
+	appearance: none;
 }
 
 .catalogSelectWrap {
@@ -195,7 +196,7 @@ input[type="radio"]:checked::before {
 }
 
 /* right side start */
-.popular-products-body {
+.popular-products-bodyP {
 	display: flex;
 	justify-content: flex-start;
 	gap: 33px;
@@ -211,7 +212,7 @@ input[type="radio"]:checked::before {
 .product-img {
 	scale: 0.8;
 }
-.grayBack {
+.grayBackP {
 	height: 290px;
 	background-color: rgba(248, 248, 248, 1);
 	display: flex;

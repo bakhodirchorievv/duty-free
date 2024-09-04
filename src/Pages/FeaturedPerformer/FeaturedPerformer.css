@@ -24,8 +24,14 @@ body {
 .onCurrently {
 	background-color: rgba(247, 247, 247, 1);
 	color: rgba(34, 34, 34, 1);
-	text-decoration: underline 2px solid rgba(249, 77, 141, 1);
+	padding-bottom: 2px;
+	border-bottom: 2px solid rgba(249, 77, 141, 1);
 }
+
+.onCurrentlyy {
+	background-color: rgba(247, 247, 247, 1);
+}
+
 .performersBody {
 	background-color: rgba(238, 238, 238, 0.5);
 	padding: 41px;

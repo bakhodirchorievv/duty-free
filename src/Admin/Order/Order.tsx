@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Order.css";
 import "./OrderResponsive.css";
 
@@ -44,15 +45,23 @@ const Order = () => {
 			<div className="firstOrderWrapper">
 				<h4 className="adminWord">Admin</h4>
 				<ul className="actions">
-					<li className="action-type">Продукция</li>
-					<li className="action-type onIt">Заказы</li>
-					<li className="action-type">Аналитика</li>
+					<Link to={"/production"}>
+						<li className="action-type">Продукция</li>
+					</Link>
+					<Link to={"/order"}>
+						<li className="action-type onIt">Заказы</li>
+					</Link>
+					<Link to={"/analyze"}>
+						<li className="action-type">Аналитика</li>
+					</Link>
 				</ul>
 
 				<ul className="orderTypes">
 					<li className="orderType onIt">Текущие</li>
 					<li className="orderType">Завершенные</li>
-					<li className="orderType">Связь с клиентом</li>
+					<Link to={"/chatwithclient"}>
+						<li className="orderType">Связь с клиентом</li>
+					</Link>
 				</ul>
 
 				<ul className="orderInfos">

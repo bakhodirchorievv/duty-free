@@ -87,14 +87,16 @@ const Header = () => {
 			{firstPages.includes(currentPath) && (
 				<header className="header">
 					<div className="header-left">
-						<img
-							src="/duty-free/Sources/HeadMainImg.png"
-							alt=""
-							className="headerMainImg"
-						/>
+						<Link to={"/"}>
+							<img
+								src="/duty-free/Sources/HeadMainImg.svg"
+								alt=""
+								className="headerMainImg"
+							/>
+						</Link>
 						<div>
 							<img
-								src="/duty-free/Sources/Duty Free.png"
+								src="/duty-free/Sources/Duty Free.svg"
 								alt=""
 								className="headTitle"
 							/>
@@ -102,18 +104,22 @@ const Header = () => {
 					</div>
 
 					<ul className="header-list">
-						<li onClick={handleHeadPages} className="header-item redFont">
-							Главная
-						</li>
+						<Link to={"/"}>
+							<li onClick={handleHeadPages} className="header-item redFont">
+								Главная
+							</li>
+						</Link>
 						<li onClick={handleHeadPages} className="header-item">
 							Мои заказы
 						</li>
 						<li onClick={handleHeadPages} className="header-item">
 							Исполнители
 						</li>
-						<li onClick={handleHeadPages} className="header-item">
-							Каталог
-						</li>
+						<Link to={"/catalog"}>
+							<li onClick={handleHeadPages} className="header-item">
+								Каталог
+							</li>
+						</Link>
 					</ul>
 
 					{/* <div className="header-right">
@@ -189,7 +195,7 @@ const Header = () => {
 						</div>
 
 						<ul className="userLoginUl">
-							<Link to={"/Profile"}>
+							<Link to={"/profile"}>
 								<li
 									onClick={handleLoginLis}
 									className="userLoginItem loginFocus"
@@ -197,12 +203,12 @@ const Header = () => {
 									Настройки
 								</li>
 							</Link>
-							<Link to={"/Balance"}>
+							<Link to={"/balance"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Баланс
 								</li>
 							</Link>
-							<Link to={"/Help"}>
+							<Link to={"/help"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Помощь
 								</li>
@@ -217,14 +223,16 @@ const Header = () => {
 			{secondPages.includes(currentPath) && (
 				<header className="header">
 					<div className="header-left">
-						<img
-							src="/duty-free/Sources/HeadMainImg.png"
-							alt=""
-							className="headerMainImg"
-						/>
+						<Link to={"/"}>
+							<img
+								src="/duty-free/Sources/HeadMainImg.svg"
+								alt=""
+								className="headerMainImg"
+							/>
+						</Link>
 						<div>
 							<img
-								src="/duty-free/Sources/Duty Free.png"
+								src="/duty-free/Sources/Duty Free.svg"
 								alt=""
 								className="headTitle"
 							/>
@@ -232,9 +240,11 @@ const Header = () => {
 					</div>
 
 					<ul className="header-list">
-						<li onClick={handleHeadPages} className="header-item redFont">
-							Главная
-						</li>
+						<Link to={"/"}>
+							<li onClick={handleHeadPages} className="header-item redFont">
+								Главная
+							</li>
+						</Link>
 						<li onClick={handleHeadPages} className="header-item">
 							Заказы
 						</li>
@@ -314,7 +324,7 @@ const Header = () => {
 						</div>
 
 						<ul className="userLoginUl">
-							<Link to={"/Profile"}>
+							<Link to={"/profile"}>
 								<li
 									onClick={handleLoginLis}
 									className="userLoginItem loginFocus"
@@ -322,12 +332,12 @@ const Header = () => {
 									Настройки
 								</li>
 							</Link>
-							<Link to={"/Balance"}>
+							<Link to={"/balance"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Баланс
 								</li>
 							</Link>
-							<Link to={"/Help"}>
+							<Link to={"/help"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Помощь
 								</li>
@@ -342,14 +352,16 @@ const Header = () => {
 			{thirdPages.includes(currentPath) && (
 				<header className="header">
 					<div className="header-left">
-						<img
-							src="/duty-free/Sources/HeadMainImg.png"
-							alt=""
-							className="headerMainImg"
-						/>
+						<Link to={"/"}>
+							<img
+								src="/duty-free/Sources/HeadMainImg.svg"
+								alt=""
+								className="headerMainImg"
+							/>
+						</Link>
 						<div>
 							<img
-								src="/duty-free/Sources/Duty Free.png"
+								src="/duty-free/Sources/Duty Free.svg"
 								alt=""
 								className="headTitle"
 							/>
@@ -357,41 +369,49 @@ const Header = () => {
 					</div>
 
 					<ul className="header-list">
-						<li onClick={handleHeadPages} className="header-item">
-							Главная
-						</li>
-						<li
-							onClick={handleHeadPages}
-							className={
-								currentPath === "/catalog" ||
-								currentPath === "/catalogpro" ||
-								currentPath === "/moreinfo"
-									? "header-item redFont"
-									: "header-item"
-							}
-						>
-							Каталог
-						</li>
-						<li
-							onClick={handleHeadPages}
-							className={
-								currentPath === "/perfume"
-									? "header-item redFont"
-									: "header-item"
-							}
-						>
-							Парфюмерия
-						</li>
-						<li
-							onClick={handleHeadPages}
-							className={
-								currentPath === "/alcohol"
-									? "header-item redFont"
-									: "header-item"
-							}
-						>
-							Алкоголь
-						</li>
+						<Link to={"/"}>
+							<li onClick={handleHeadPages} className="header-item">
+								Главная
+							</li>
+						</Link>
+						<Link to={"/catalog"}>
+							<li
+								onClick={handleHeadPages}
+								className={
+									currentPath === "/catalog" ||
+									currentPath === "/catalogpro" ||
+									currentPath === "/moreinfo"
+										? "header-item redFont"
+										: "header-item"
+								}
+							>
+								Каталог
+							</li>
+						</Link>
+						<Link to={"/perfume"}>
+							<li
+								onClick={handleHeadPages}
+								className={
+									currentPath === "/perfume"
+										? "header-item redFont"
+										: "header-item"
+								}
+							>
+								Парфюмерия
+							</li>
+						</Link>
+						<Link to={"/alcohol"}>
+							<li
+								onClick={handleHeadPages}
+								className={
+									currentPath === "/alcohol"
+										? "header-item redFont"
+										: "header-item"
+								}
+							>
+								Алкоголь
+							</li>
+						</Link>
 					</ul>
 
 					{/* <div className="header-right">
@@ -480,7 +500,7 @@ const Header = () => {
 						</div>
 
 						<ul className="userLoginUl">
-							<Link to={"/Profile"}>
+							<Link to={"/profile"}>
 								<li
 									onClick={handleLoginLis}
 									className="userLoginItem loginFocus"
@@ -488,12 +508,12 @@ const Header = () => {
 									Настройки
 								</li>
 							</Link>
-							<Link to={"/Balance"}>
+							<Link to={"/balance"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Баланс
 								</li>
 							</Link>
-							<Link to={"/Help"}>
+							<Link to={"/help"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Помощь
 								</li>
@@ -507,15 +527,17 @@ const Header = () => {
 			)}
 			{fourthPage === currentPath && (
 				<header className="header">
-					<div className="header-left">
-						<img
-							src="/duty-free/Sources/HeadMainImg.png"
-							alt=""
-							className="headerMainImg"
-						/>
+					<div className="header-left headerLeftMain">
+						<Link to={"/"}>
+							<img
+								src="/duty-free/Sources/HeadMainImg.svg"
+								alt=""
+								className="headerMainImg"
+							/>
+						</Link>
 						<div>
 							<img
-								src="/duty-free/Sources/Duty Free.png"
+								src="/duty-free/Sources/Duty Free.svg"
 								alt=""
 								className="headTitle"
 							/>
@@ -523,9 +545,11 @@ const Header = () => {
 					</div>
 
 					<ul className="header-list">
-						<li onClick={handleHeadPages} className="header-item redFont">
-							Главная
-						</li>
+						<Link to={"/"}>
+							<li onClick={handleHeadPages} className="header-item redFont">
+								Главная
+							</li>
+						</Link>
 						<li onClick={handleHeadPages} className="header-item">
 							О нас
 						</li>
@@ -613,7 +637,7 @@ const Header = () => {
 						</div>
 
 						<ul className="userLoginUl">
-							<Link to={"/Profile"}>
+							<Link to={"/profile"}>
 								<li
 									onClick={handleLoginLis}
 									className="userLoginItem loginFocus"
@@ -621,12 +645,12 @@ const Header = () => {
 									Настройки
 								</li>
 							</Link>
-							<Link to={"/Balance"}>
+							<Link to={"/balance"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Баланс
 								</li>
 							</Link>
-							<Link to={"/Help"}>
+							<Link to={"/help"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Помощь
 								</li>
@@ -641,14 +665,16 @@ const Header = () => {
 			{fifthPage === currentPath && (
 				<header className="header">
 					<div className="header-left">
-						<img
-							src="/duty-free/Sources/HeadMainImg.png"
-							alt=""
-							className="headerMainImg"
-						/>
+						<Link to={"/"}>
+							<img
+								src="/duty-free/Sources/HeadMainImg.svg"
+								alt=""
+								className="headerMainImg"
+							/>
+						</Link>
 						<div>
 							<img
-								src="/duty-free/Sources/Duty Free.png"
+								src="/duty-free/Sources/Duty Free.svg"
 								alt=""
 								className="headTitle"
 							/>
@@ -656,9 +682,11 @@ const Header = () => {
 					</div>
 
 					<ul className="header-list">
-						<li onClick={handleHeadPages} className="header-item redFont">
-							Главная
-						</li>
+						<Link to={"/"}>
+							<li onClick={handleHeadPages} className="header-item redFont">
+								Главная
+							</li>
+						</Link>
 						<li onClick={handleHeadPages} className="header-item">
 							О проекте
 						</li>
@@ -746,7 +774,7 @@ const Header = () => {
 						</div>
 
 						<ul className="userLoginUl">
-							<Link to={"/Profile"}>
+							<Link to={"/profile"}>
 								<li
 									onClick={handleLoginLis}
 									className="userLoginItem loginFocus"
@@ -754,12 +782,12 @@ const Header = () => {
 									Настройки
 								</li>
 							</Link>
-							<Link to={"/Balance"}>
+							<Link to={"/balance"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Баланс
 								</li>
 							</Link>
-							<Link to={"/Help"}>
+							<Link to={"/help"}>
 								<li onClick={handleLoginLis} className="userLoginItem">
 									Помощь
 								</li>

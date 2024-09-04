@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ChatWithClient.css";
 import "./ChatWithClientResponsive.css";
 
@@ -7,15 +8,23 @@ const ChatWithClient = () => {
 			<div className="secondOrderWrapper">
 				<h4 className="adminWord">Admin</h4>
 				<ul className="actions">
-					<li className="action-type">Продукция</li>
-					<li className="action-type onIt">Заказы</li>
-					<li className="action-type">Аналитика</li>
+					<Link to={"/production"}>
+						<li className="action-type">Продукция</li>
+					</Link>
+					<Link to={"/order"}>
+						<li className="action-type onIt">Заказы</li>
+					</Link>
+					<Link to={"/analyze"}>
+						<li className="action-type">Аналитика</li>
+					</Link>
 				</ul>
 
 				<ul className="orderTypes">
 					<li className="orderType">Текущие</li>
 					<li className="orderType">Завершенные</li>
-					<li className="orderType onIt">Связь с клиентом</li>
+					<Link to={"/chatWithClient"}>
+						<li className="orderType onIt">Связь с клиентом</li>
+					</Link>
 				</ul>
 
 				<div className="chatBody">
@@ -57,7 +66,7 @@ const ChatWithClient = () => {
 									></textarea>
 									<div>
 										<img
-											src="/duty-free/Sources/sendImage.png"
+											src="/duty-free/Sources/sendImage.svg"
 											alt=""
 											className="sendImg"
 										/>

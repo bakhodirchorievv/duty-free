@@ -6,8 +6,15 @@ const TopPerFormers = () => {
 		<>
 			<div className="performersWrapper">
 				<div className="performersHead">
-					<h3 className="topPerformerTitle onCurrently">Топ исполнителей</h3>
-					<h3 className="topPerformerTitle">Избранные исполнители</h3>
+					<h3 className="topPerformerTitle onCurrentlyy">
+						<span className="borderBottomDiv onCurrently">
+							Топ исполнителей
+						</span>
+					</h3>
+
+					<h3 className="topPerformerTitle">
+						<span className="borderBottomDiv">Избранные исполнители</span>
+					</h3>
 				</div>
 
 				<div className="performersBody">
@@ -69,7 +76,7 @@ const TopPerFormers = () => {
 										/>
 									</h3>
 									<img
-										src="/duty-free/Sources/recoStar.png"
+										src="/duty-free/Sources/realStars.svg"
 										alt=""
 										className="performerStar"
 									/>
@@ -78,7 +85,7 @@ const TopPerFormers = () => {
 										{" "}
 										<div>
 											<img
-												src="/duty-free/Sources/recoClock.png"
+												src="/duty-free/Sources/realClockIcon.svg"
 												alt=""
 												className="performerClock"
 											/>{" "}
@@ -117,7 +124,7 @@ const TopPerFormers = () => {
 								<div className="performerItemRight">
 									<h3 className="performerNick">Nickname </h3>
 									<img
-										src="/duty-free/Sources/recoStar.png"
+										src="/duty-free/Sources/realStars.svg"
 										alt=""
 										className="performerStar"
 									/>
@@ -126,7 +133,7 @@ const TopPerFormers = () => {
 										{" "}
 										<div>
 											<img
-												src="/duty-free/Sources/recoClock.png"
+												src="/duty-free/Sources/realClockIcon.svg"
 												alt=""
 												className="performerClock"
 											/>{" "}
@@ -165,7 +172,7 @@ const TopPerFormers = () => {
 								<div className="performerItemRight">
 									<h3 className="performerNick">Nickname </h3>
 									<img
-										src="/duty-free/Sources/recoStar.png"
+										src="/duty-free/Sources/realStars.svg"
 										alt=""
 										className="performerStar"
 									/>
@@ -174,7 +181,7 @@ const TopPerFormers = () => {
 										{" "}
 										<div>
 											<img
-												src="/duty-free/Sources/recoClock.png"
+												src="/duty-free/Sources/realClockIcon.svg"
 												alt=""
 												className="performerClock"
 											/>{" "}
@@ -223,7 +230,7 @@ const TopPerFormers = () => {
 						<div className="topBarRight">
 							<h3 className="topBarTitle">Nickname</h3>
 							<img
-								src="/duty-free/Sources/recoStar.png"
+								src="/duty-free/Sources/realStars.svg"
 								alt=""
 								className="topBarDesc"
 							/>
@@ -231,7 +238,7 @@ const TopPerFormers = () => {
 								{" "}
 								<div>
 									<img
-										src="/duty-free/Sources/recoClock.png"
+										src="/duty-free/Sources/realClockIcon.svg"
 										alt=""
 										className="performerClock"
 									/>{" "}

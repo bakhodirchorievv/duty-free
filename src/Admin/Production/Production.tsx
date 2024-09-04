@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Production.css";
 import "./ProductionResponsive.css";
 
@@ -8,9 +9,13 @@ const Production = () => {
 				<h4 className="adminWord">Admin</h4>
 				<ul className="actions">
 					<li className="action-type onIt">Продукция</li>
-					<li className="action-type">Заказы</li>
+					<Link to={"/order"}>
+						<li className="action-type">Заказы</li>
+					</Link>
 					<li className="action-type">Клиенты</li>
-					<li className="action-type">Аналитика</li>
+					<Link to={"/analyze"}>
+						<li className="action-type">Аналитика</li>
+					</Link>
 					<li className="action-type">Обратная связь</li>
 				</ul>
 				<ul className="catalogProducts">
@@ -55,7 +60,7 @@ const Production = () => {
 										<input type="file" id="file-input" className="file-input" />
 										<label htmlFor="file-input" className="file-label">
 											<img
-												src="/duty-free/Sources/cameraImg.png"
+												src="/duty-free/Sources/cameraImg.svg"
 												alt="Upload"
 												className="camera-icon"
 											/>
@@ -98,7 +103,7 @@ const Production = () => {
 				</div>
 			</div>
 
-			<div className="productionSecondWrapper">
+			{/* <div className="productionSecondWrapper">
 				<h4 className="adminWord">Admin</h4>
 				<ul className="actions">
 					<li className="action-type onIt">Продукция</li>
@@ -164,7 +169,7 @@ const Production = () => {
 					</li>
 					<li className="productRealInfo productRealDoc liHasImg">Загрузить</li>
 				</ul>
-			</div>
+			</div> */}
 		</>
 	);
 };

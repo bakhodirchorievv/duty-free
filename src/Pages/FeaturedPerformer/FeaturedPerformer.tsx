@@ -6,9 +6,13 @@ const FeaturedPerformer = () => {
 		<>
 			<div className="performersWrapper">
 				<div className="performersHead">
-					<h3 className="topPerformerTitle">Топ исполнителей</h3>
-					<h3 className="topPerformerTitle onCurrently">
-						Избранные исполнители
+					<h3 className="topPerformerTitle">
+						<span className="borderBottomDiv">Топ исполнителей</span>
+					</h3>
+					<h3 className="topPerformerTitle onCurrentlyy">
+						<span className="borderBottomDiv onCurrently">
+							Избранные исполнители
+						</span>
 					</h3>
 				</div>
 
@@ -64,7 +68,7 @@ const FeaturedPerformer = () => {
 								<div className="performerItemRight">
 									<h3 className="performerNick">Nickname </h3>
 									<img
-										src="/duty-free/Sources/recoStar.png"
+										src="/duty-free/Sources/realStars.svg"
 										alt=""
 										className="performerStar"
 									/>
@@ -73,7 +77,7 @@ const FeaturedPerformer = () => {
 										{" "}
 										<div>
 											<img
-												src="/duty-free/Sources/recoClock.png"
+												src="/duty-free/Sources/realClockIcon.svg"
 												alt=""
 												className="performerClock"
 											/>{" "}

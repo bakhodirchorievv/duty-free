@@ -116,13 +116,13 @@ const DMyOrders = () => {
 										<div className="uploadContainer">
 											<input type="file" className="fileInput" />
 											<img
-												src="/duty-free/Sources/uploadingImg.png"
+												src="/duty-free/Sources/uploadingImg.svg"
 												alt="Upload"
 												className="DmyOrdersUpload"
 											/>
 										</div>
 										<img
-											src="/duty-free/Sources/telegramImg.png"
+											src="/duty-free/Sources/telegramImg.svg"
 											alt=""
 											className="DmyOrdersSend"
 										/>

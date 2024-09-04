@@ -10,11 +10,11 @@
 	justify-content: space-between;
 	position: relative;
 	padding-bottom: 140px;
+
 	box-shadow: inset 0px -70.93px 57.63px rgba(169, 169, 169, 0.4),
-		/* Darker and more opaque for the bottom */ inset 0px 0.89px 57.63px
-			rgba(255, 255, 255, 1),
-		/* Pure white for the top */ inset 0px 3.55px 14.19px
-			rgba(233, 233, 233, 0.2);
+		inset 0px 0px 0px rgba(255, 255, 255, 0),
+		inset 0px 0px 0px rgba(233, 233, 233, 0);
+
 	border-radius: 0 0 100px 100px;
 	background-image: url(/duty-free/Sources/mainPageBackImg.png);
 	background-repeat: no-repeat;

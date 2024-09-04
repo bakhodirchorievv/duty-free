@@ -130,6 +130,11 @@ body {
 	padding-bottom: 25px;
 }
 
+.exitAndFile {
+	display: flex;
+	gap: 35px;
+}
+
 .myOrdersRightHeadRight {
 	display: flex;
 	align-items: center;

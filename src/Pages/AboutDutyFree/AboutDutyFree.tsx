@@ -289,12 +289,12 @@ const AboutDutyFree = () => {
 									Где дешевле в обычных магазинах или дьюти фри?
 									<div>
 										<img
-											src="/duty-free/Sources/plus.png"
+											src="/duty-free/Sources/plus-circle.svg"
 											alt=""
 											className="moreAnswerPlus getNone"
 										/>
 										<img
-											src="/duty-free/Sources/minus.png"
+											src="/duty-free/Sources/minus-circle.svg"
 											alt=""
 											className="moreAnswerMinus getBlock"
 										/>
@@ -312,12 +312,12 @@ const AboutDutyFree = () => {
 									Можно ли в дьюти фри расплачиваться долларами?
 									<div>
 										<img
-											src="/duty-free/Sources/plus.png"
+											src="/duty-free/Sources/plus-circle.svg"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/duty-free/Sources/minus.png"
+											src="/duty-free/Sources/minus-circle.svg"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -330,12 +330,12 @@ const AboutDutyFree = () => {
 									Какая валюта в дьюти фри?
 									<div>
 										<img
-											src="/duty-free/Sources/plus.png"
+											src="/duty-free/Sources/plus-circle.svg"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/duty-free/Sources/minus.png"
+											src="/duty-free/Sources/minus-circle.svg"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -348,12 +348,12 @@ const AboutDutyFree = () => {
 									Сколько можно покупать алкоголя в дьюти фри на человека?
 									<div>
 										<img
-											src="/duty-free/Sources/plus.png"
+											src="/duty-free/Sources/plus-circle.svg"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/duty-free/Sources/minus.png"
+											src="/duty-free/Sources/minus-circle.svg"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -366,12 +366,12 @@ const AboutDutyFree = () => {
 									Есть ли duty free на внутренних рейсах?
 									<div>
 										<img
-											src="/duty-free/Sources/plus.png"
+											src="/duty-free/Sources/plus-circle.svg"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/duty-free/Sources/minus.png"
+											src="/duty-free/Sources/minus-circle.svg"
 											alt=""
 											className="moreAnswerMinus"
 										/>
@@ -384,12 +384,12 @@ const AboutDutyFree = () => {
 									Кому принадлежит duty free?
 									<div>
 										<img
-											src="/duty-free/Sources/plus.png"
+											src="/duty-free/Sources/plus-circle.svg"
 											alt=""
 											className="moreAnswerPlus"
 										/>
 										<img
-											src="/duty-free/Sources/minus.png"
+											src="/duty-free/Sources/minus-circle.svg"
 											alt=""
 											className="moreAnswerMinus"
 										/>
