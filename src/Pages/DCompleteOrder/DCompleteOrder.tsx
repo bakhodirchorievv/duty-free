@@ -8,10 +8,12 @@ const DCompleteOrder = () => {
 				<h2 className="myOrdersTitle">Мои заказы</h2>
 
 				<div className="myOrdersHead">
-					<h4 className="myOrdersHeadTitle allOrdersTitle">Все заказы</h4>
-					<h4 className="myOrdersHeadTitle completedTitle onFocus">
-						Завершенные
-					</h4>
+					<div className="divBorderBottom">
+						<h4 className="myOrdersHeadTitle allOrdersTitle">Все заказы</h4>
+					</div>
+					<div className="divBorderBottom onFocus">
+						<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					</div>
 				</div>
 
 				<div className="myOrdersBody">

@@ -33,7 +33,7 @@ body {
 .onFocus {
 	font-weight: 600 !important;
 	padding-bottom: 2px;
-	text-decoration: underline 2px solid rgba(255, 0, 90, 1);
+	border-bottom: 2px solid rgba(255, 0, 90, 1);
 }
 .myOrdersBody {
 	display: flex;

@@ -43,6 +43,8 @@ const ChatWithClient = lazy(
 	() => import("./Admin/ChatWithClient/ChatWithClient")
 );
 const Registration = lazy(() => import("./Pages/Registration/Registration"));
+const UserOrders = lazy(() => import("./Pages/UserOrders/UserOrders"));
+const UserMessages = lazy(() => import("./Pages/UserMessages/UserMessages"));
 
 const App = () => {
 	return (
@@ -79,6 +81,8 @@ const App = () => {
 						<Route path="/perfume" element={<ForWho />} />
 						<Route path="/alcohol" element={<Alcohol />} />
 						<Route path="/search" element={<Search />} />
+						<Route path="/userorders" element={<UserOrders />} />
+						<Route path="/UserMessages" element={<UserMessages />} />
 						<Route path="/registration" element={<Registration />} />
 					</Routes>
 					<Footer />

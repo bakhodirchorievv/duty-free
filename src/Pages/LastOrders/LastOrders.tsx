@@ -12,7 +12,7 @@ const LastOrders = () => {
 
 					<div className="allOrdersWrapper">
 						<div className="allOrderItem">
-							<div className="orderItemHead">
+							<div className="orderItemHead orderItemHead1">
 								<button className="inProccess">В процессе</button>
 								<h3 className="numberOfOrder">Заказ №123</h3>
 							</div>

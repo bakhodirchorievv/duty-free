@@ -30,10 +30,13 @@ body {
 	line-height: 23px;
 	font-weight: 400;
 }
+.divBorderBottom {
+	border-bottom: 2px;
+}
 .onFocus {
 	font-weight: 600 !important;
 	padding-bottom: 2px;
-	text-decoration: underline 2px solid rgba(255, 0, 90, 1);
+	border-bottom: 2px solid rgba(255, 0, 90, 1);
 }
 .DmyOrdersBody {
 	display: flex;

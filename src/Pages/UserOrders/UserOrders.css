@@ -8,35 +8,41 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
-/* last orders start */
-.lastOrders {
-	margin: 131px 100px;
+.myOrdersWrapper {
+	margin: 130px 100px;
+	background-color: rgba(238, 238, 238, 0.5);
+	padding: 25px 44px;
+	border-radius: 5px;
 }
-
-.lastOrdersBottom {
-	margin-top: 130px;
+.myOrdersTitle {
+	font-size: 32px;
+	line-height: 37px;
+	font-weight: 700;
+	margin-bottom: 41px;
 }
-
-.lastOrdersTitle {
-	margin-bottom: 74px;
+.myOrdersHead {
 	display: flex;
-	align-items: center;
+	justify-content: flex-start;
+	gap: 53px;
 }
-.pinkBackFont {
-	font-size: 13px;
-	line-height: 15px;
-	font-weight: 600;
-	color: rgba(34, 34, 34, 0.78);
-	background-color: rgba(253, 195, 217, 1);
-	padding: 8px 19px;
-	border-radius: 1000px;
-	margin-left: 20px;
+.myOrdersHeadTitle {
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 400;
 }
+.onFocus {
+	font-weight: 600 !important;
+	padding-bottom: 2px;
+	border-bottom: 2px solid rgba(255, 0, 90, 1);
+}
+/* orders start */
+
 .allOrdersWrapper {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	gap: 20px;
+	margin-top: 54px;
 }
 .allOrderItem {
 	background-color: rgba(82, 82, 82, 0.1);
@@ -109,33 +115,4 @@ body {
 	border: none;
 	border-radius: 3px;
 	background-color: rgba(249, 77, 141, 1);
-}
-
-.orderItemFootRight {
-	display: flex;
-	justify-content: flex-start;
-	gap: 5px;
-}
-.orderItemFootBtn {
-	font-size: 14px;
-	line-height: 16px;
-	padding: 5px 8px;
-	color: rgba(249, 77, 141, 1);
-	background-color: inherit;
-	font-family: inherit;
-	font-weight: 800;
-	border: 0.5px solid rgba(249, 77, 141, 1);
-	border-radius: 3px;
-	width: 130px;
-	letter-spacing: 1px;
-}
-
-.orderItemFootPinkbtn {
-	background-color: rgba(249, 77, 141, 1);
-	color: white;
-}
-
-.orderItemHadImg {
-	width: 81px;
-	height: 81px;
 }

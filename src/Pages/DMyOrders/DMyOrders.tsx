@@ -8,10 +8,12 @@ const DMyOrders = () => {
 				<h2 className="DmyOrdersTitle">Мои заказы</h2>
 
 				<div className="DmyOrdersHead">
-					<h4 className="DmyOrdersHeadTitle allOrdersTitle onFocus">
-						Все заказы
-					</h4>
-					<h4 className="DmyOrdersHeadTitle completedTitle">Завершенные</h4>
+					<div className="divBorderBottom onFocus">
+						<h4 className="DmyOrdersHeadTitle allOrdersTitle">Все заказы</h4>
+					</div>
+					<div className="divBorderBottom">
+						<h4 className="DmyOrdersHeadTitle completedTitle">Завершенные</h4>
+					</div>
 				</div>
 
 				<div className="DmyOrdersBody">
