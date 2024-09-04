@@ -6,41 +6,42 @@ import { useLocation } from "react-router-dom";
 const Header = () => {
 	// header logic start
 	const firstPages = [
-		"/MyOrdering",
-		"/MyOrders",
-		"/CompleteOrder",
-		"/TopPerformers",
-		"/FeaturedPerformer",
-		"/RealProfile",
-		"/Help",
-		"/Profile",
-		"/ContactInfo",
-		"/Balance",
+		"/myordering",
+		"/myorders",
+		"/completeorder",
+		"/topperformers",
+		"/featuredperformer",
+		"/realprofile",
+		"/help",
+		"/profile",
+		"/contactinfo",
+		"/balance",
 	];
 
 	const secondPages = [
-		"/LastOrders",
-		"/DMyOrders",
-		"/DCompleteOrder",
-		"/Orders",
+		"/lastorders",
+		"/dmyorders",
+		"/dcompleteorder",
+		"/orders",
 	];
 
 	const thirdPages = [
-		"/Production",
-		"/Order",
-		"/Analyze",
-		"/ChatWithClient",
-		"/Catalog",
-		"/MoreInfo",
-		"/OService",
-		"/CurrencyConvert",
-		"/ForWho",
-		"/Alcohol",
-		"/MainPage",
+		"/production",
+		"/order",
+		"/analyze",
+		"/chatwithclient",
+		"/catalog",
+		"/catalogpro",
+		"/moreinfo",
+		"/oservice",
+		"/currencyconvert",
+		"/perfume",
+		"/alcohol",
+		"/mainpage",
 	];
 
 	const fourthPage = "/";
-	const fifthPage = "/BrandDutyFree";
+	const fifthPage = "/branddutyfree";
 
 	// getting path name
 	const location = useLocation();
@@ -356,16 +357,39 @@ const Header = () => {
 					</div>
 
 					<ul className="header-list">
-						<li onClick={handleHeadPages} className="header-item redFont">
+						<li onClick={handleHeadPages} className="header-item">
 							Главная
 						</li>
-						<li onClick={handleHeadPages} className="header-item">
+						<li
+							onClick={handleHeadPages}
+							className={
+								currentPath === "/catalog" ||
+								currentPath === "/catalogpro" ||
+								currentPath === "/moreinfo"
+									? "header-item redFont"
+									: "header-item"
+							}
+						>
 							Каталог
 						</li>
-						<li onClick={handleHeadPages} className="header-item">
+						<li
+							onClick={handleHeadPages}
+							className={
+								currentPath === "/perfume"
+									? "header-item redFont"
+									: "header-item"
+							}
+						>
 							Парфюмерия
 						</li>
-						<li onClick={handleHeadPages} className="header-item">
+						<li
+							onClick={handleHeadPages}
+							className={
+								currentPath === "/alcohol"
+									? "header-item redFont"
+									: "header-item"
+							}
+						>
 							Алкоголь
 						</li>
 					</ul>

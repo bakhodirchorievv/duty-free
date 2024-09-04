@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./AboutDutyFree.css";
 import "./AboutDutyFreeResponsive.css";
 
@@ -63,7 +64,11 @@ const AboutDutyFree = () => {
 								флаконом духов тебе предложат разжиться и во время полета, в
 								самолете, или на борту морского судна.
 							</p>
-							<button className="aboutTradingBtn generalBtn">Подробнее</button>
+							<Link to={"/branddutyfree"}>
+								<button className="aboutTradingBtn generalBtn">
+									Подробнее
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>

@@ -52,34 +52,34 @@ const App = () => {
 					<Header />
 					<Routes>
 						<Route path="/" element={<AboutDutyFree />} />
-						<Route path="/MainPage" element={<MainPage />} />
-						<Route path="/BrandDutyFree" element={<BrandDutyFree />} />
-						<Route path="/Production" element={<Production />} />
-						<Route path="/Order" element={<Order />} />
-						<Route path="/ChatWithClient" element={<ChatWithClient />} />
-						<Route path="/Analyze" element={<Analyze />} />
-						<Route path="/MyOrdering" element={<MyOrdering />} />
-						<Route path="/MyOrders" element={<MyOrders />} />
-						<Route path="/TopPerformers" element={<TopPerformers />} />
-						<Route path="/FeaturedPerformer" element={<FeaturedPerformer />} />
-						<Route path="/CompleteOrder" element={<CompleteOrder />} />
-						<Route path="/Balance" element={<Balance />} />
-						<Route path="/Help" element={<Help />} />
-						<Route path="/Profile" element={<Profile />} />
-						<Route path="/ContactInfo" element={<ContactInfo />} />
-						<Route path="/LastOrders" element={<LastOrders />} />
-						<Route path="/Orders" element={<Orders />} />
-						<Route path="/DMyOrders" element={<DMyOrders />} />
-						<Route path="/DCompleteOrder" element={<DCompleteOrder />} />
-						<Route path="/RealProfile" element={<RealProfile />} />
-						<Route path="/Catalog" element={<Catalog />} />
-						<Route path="/MoreInfo" element={<MoreInfo />} />
-						<Route path="/OService" element={<OService />} />
-						<Route path="/CurrencyConvert" element={<CurrencyConvert />} />
-						<Route path="/ForWho" element={<ForWho />} />
-						<Route path="/Alcohol" element={<Alcohol />} />
-						<Route path="/Search" element={<Search />} />
-						<Route path="/Registration" element={<Registration />} />
+						<Route path="/catalog" element={<MainPage />} />
+						<Route path="/branddutyfree" element={<BrandDutyFree />} />
+						<Route path="/production" element={<Production />} />
+						<Route path="/order" element={<Order />} />
+						<Route path="/chatwithclient" element={<ChatWithClient />} />
+						<Route path="/analyze" element={<Analyze />} />
+						<Route path="/myordering" element={<MyOrdering />} />
+						<Route path="/myorders" element={<MyOrders />} />
+						<Route path="/topperformers" element={<TopPerformers />} />
+						<Route path="/featuredperformer" element={<FeaturedPerformer />} />
+						<Route path="/completeorder" element={<CompleteOrder />} />
+						<Route path="/balance" element={<Balance />} />
+						<Route path="/help" element={<Help />} />
+						<Route path="/profile" element={<Profile />} />
+						<Route path="/contactinfo" element={<ContactInfo />} />
+						<Route path="/lastorders" element={<LastOrders />} />
+						<Route path="/orders" element={<Orders />} />
+						<Route path="/dmyorders" element={<DMyOrders />} />
+						<Route path="/dcompleteorder" element={<DCompleteOrder />} />
+						<Route path="/realprofile" element={<RealProfile />} />
+						<Route path="/catalogpro" element={<Catalog />} />
+						<Route path="/moreinfo" element={<MoreInfo />} />
+						<Route path="/oservice" element={<OService />} />
+						<Route path="/currencyconvert" element={<CurrencyConvert />} />
+						<Route path="/perfume" element={<ForWho />} />
+						<Route path="/alcohol" element={<Alcohol />} />
+						<Route path="/search" element={<Search />} />
+						<Route path="/registration" element={<Registration />} />
 					</Routes>
 					<Footer />
 				</Container>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./MainPage.css";
 import "./MainPageResponsive.css";
 
@@ -37,7 +38,9 @@ const MainPage = () => {
 				<div className="popular-products">
 					<div className="popular-head">
 						<h3 className="popular-products-title">Популярные товары</h3>
-						<p className="seeAll">Смотреть все</p>
+						<Link to={"/catalogpro"}>
+							<p className="seeAll">Смотреть все</p>
+						</Link>
 					</div>
 					<div className="Mpopular-products-body">
 						<div className="Mpopular-product">
@@ -104,7 +107,7 @@ const MainPage = () => {
 							</div>
 							<h4 className="p-product-name">The Claymore whisky 1L</h4>
 							<p className="p-product-price">
-								$9<span className="formerPrice">$10</span>
+								$9<span className="formerPrice"> $10</span>
 							</p>
 							<p className="discount">7%</p>
 						</div>
@@ -121,7 +124,7 @@ const MainPage = () => {
 								Bushmills original irish whiskey 1L{" "}
 							</h4>
 							<p className="p-product-price">
-								$17<span className="formerPrice">$18</span>
+								$17<span className="formerPrice"> $18</span>
 							</p>
 							<p className="discount">7%</p>
 						</div>

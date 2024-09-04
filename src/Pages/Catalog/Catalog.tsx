@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Catalog.css";
 import "./CatalogResponsive.css";
+import { Link } from "react-router-dom";
 
 const Catalog = () => {
 	const [minPrice, setMinPrice] = useState<number>(0);
@@ -125,19 +126,21 @@ const Catalog = () => {
 					</div>
 					<div className="catalogRightSide">
 						<div className="popular-products-body">
-							<div className="popular-product">
+							<div className="popular-productC">
 								<div className="grayBack">
-									<img
-										src="/duty-free/Sources/banner-right-img.png"
-										alt=""
-										className="product-img firstProductImg"
-									/>
+									<Link to={"/moreinfo"}>
+										<img
+											src="/duty-free/Sources/banner-right-img.png"
+											alt=""
+											className="product-img firstProductImg"
+										/>
+									</Link>
 								</div>
 								<h4 className="p-product-name">Moschino</h4>
 								<p className="p-product-size">Funny EdT 50ml</p>
 								<p className="p-product-price">$20</p>
 							</div>
-							<div className="popular-product">
+							<div className="popular-productC">
 								{" "}
 								<div className="grayBack">
 									<img
@@ -150,7 +153,7 @@ const Catalog = () => {
 								<p className="p-product-size">Uomo EdT 75ml</p>
 								<p className="p-product-price">$20</p>
 							</div>
-							<div className="popular-product">
+							<div className="popular-productC">
 								{" "}
 								<div className="grayBack">
 									<img
@@ -163,7 +166,7 @@ const Catalog = () => {
 								<p className="p-product-size">Funny EdT 30ml</p>
 								<p className="p-product-price">$30</p>
 							</div>
-							<div className="popular-product">
+							<div className="popular-productC">
 								{" "}
 								<div className="grayBack">
 									<img
@@ -178,7 +181,7 @@ const Catalog = () => {
 								</p>
 								<p className="discount">7%</p>
 							</div>
-							<div className="popular-product">
+							<div className="popular-productC">
 								{" "}
 								<div className="grayBack">
 									<img
@@ -193,7 +196,7 @@ const Catalog = () => {
 								</p>
 								<p className="discount">7%</p>
 							</div>
-							<div className="popular-product">
+							<div className="popular-productC">
 								{" "}
 								<div className="grayBack">
 									<img
