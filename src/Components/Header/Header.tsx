@@ -123,7 +123,9 @@ const Header = () => {
 							<li
 								onClick={handleHeadPages}
 								className={
-									currentPath === "/" ? "header-item redFont" : "header-item"
+									currentPath === "/myordering"
+										? "header-item redFont"
+										: "header-item"
 								}
 							>
 								Главная

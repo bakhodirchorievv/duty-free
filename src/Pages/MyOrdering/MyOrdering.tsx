@@ -172,7 +172,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/duty-free/Sources/topProduct-second.png"
+									src="/duty-free/Sources/pProductImg4.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -188,7 +188,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/duty-free/Sources/topProduct-third.png"
+									src="/duty-free/Sources/pProductImg5.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -204,7 +204,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/duty-free/Sources/topProduct-fourth.png"
+									src="/duty-free/Sources/pProductImg3.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -218,7 +218,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/duty-free/Sources/topProduct-fifth.png"
+									src="/duty-free/Sources/pProductImg2.png"
 									alt=""
 									className="popProductImg"
 								/>
@@ -232,7 +232,7 @@ const MyOrdering = () => {
 						<div className="popProduct-item">
 							<div className="popProductGrayBack">
 								<img
-									src="/duty-free/Sources/topProduct-sixth.png"
+									src="/duty-free/Sources/pProductImg6.png"
 									alt=""
 									className="popProductImg"
 								/>
