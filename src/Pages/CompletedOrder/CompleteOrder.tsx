@@ -21,7 +21,7 @@ const CompleteOrder = () => {
 					</div>
 				</div>
 
-				<div className="myOrdersBody">
+				{/* <div className="myOrdersBody">
 					<div className="myOrdersLeft">
 						<div className="myOrdersLeftItem">
 							<img
@@ -85,32 +85,58 @@ const CompleteOrder = () => {
 								</div>
 								<p className="chatBottomDesc">Заказ исполнен</p>
 							</div>
+						</div>
+					</div>
+				</div> */}
+				<div className="allOrdersWrapperC">
+					<div className="allOrderItem">
+						<div className="orderItemHeadC orderItemHead1">
+							<button className="inProccess">В процессе</button>
+							<h3 className="numberOfOrder">Заказ №123</h3>
+						</div>
 
-							{/* <div className="chatTextWrapper">
-								<div className="textAreaRelative">
-									<textarea
-										name=""
-										id=""
-										className="myOrdersTextarea"
-										placeholder="Написать..."
-									></textarea>
-									<div className="sendAndFile">
-										<div className="uploadContainer">
-											<input type="file" className="fileInput" />
-											<img
-												src="/duty-free/Sources/uploadingImg.png"
-												alt="Upload"
-												className="myOrdersUpload"
-											/>
-										</div>
-										<img
-											src="/duty-free/Sources/telegramImg.png"
-											alt=""
-											className="myOrdersSend"
-										/>
-									</div>
-								</div>
-							</div> */}
+						<div className="orderItemBody">
+							<p className="orderItemInfo orderItemNickname">
+								Исполнитель: <span className="lighterSpan">Nickname </span>
+							</p>
+							<p className="orderItemInfo orderItemPrice">
+								Сумма заказа: <span className="orderPriceWeight">20$</span>
+							</p>
+							<p className="orderItemInfo orderItemAddress">
+								Доставка: <span className="lighterSpan">улица, дом</span>
+							</p>
+						</div>
+
+						<div className="orderItemFoot">
+							<p className="orderItemDate">
+								Создан<span className="orderPriceWeight"> 25.05.24</span>
+							</p>
+							<button className="orderItemState">Отклики</button>
+						</div>
+					</div>
+					<div className="allOrderItem">
+						<div className="orderItemHeadC orderItemHead1">
+							<button className="inProccess">В процессе</button>
+							<h3 className="numberOfOrder">Заказ №123</h3>
+						</div>
+
+						<div className="orderItemBody">
+							<p className="orderItemInfo orderItemNickname">
+								Исполнитель: <span className="lighterSpan">Nickname </span>
+							</p>
+							<p className="orderItemInfo orderItemPrice">
+								Сумма заказа: <span className="orderPriceWeight">20$</span>
+							</p>
+							<p className="orderItemInfo orderItemAddress">
+								Доставка: <span className="lighterSpan">улица, дом</span>
+							</p>
+						</div>
+
+						<div className="orderItemFoot">
+							<p className="orderItemDate">
+								Создан<span className="orderPriceWeight"> 25.05.24</span>
+							</p>
+							<button className="orderItemState">Отклики</button>
 						</div>
 					</div>
 				</div>

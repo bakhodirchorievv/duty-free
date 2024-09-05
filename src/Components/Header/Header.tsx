@@ -38,6 +38,7 @@ const Header = () => {
 		"/oservice",
 		"/currencyconvert",
 		"/perfume",
+		"/forher",
 		"/alcohol",
 		"/mainpage",
 		"/search",
@@ -50,6 +51,7 @@ const Header = () => {
 		"/oservice",
 		"/currencyconvert",
 		"/perfume",
+		"/forher",
 		"/alcohol",
 		"/search",
 	];
@@ -390,7 +392,7 @@ const Header = () => {
 							<li
 								onClick={handleHeadPages}
 								className={
-									currentPath === "/perfume"
+									currentPath === "/perfume" || currentPath === "/forher"
 										? "header-item redFont"
 										: "header-item"
 								}
@@ -600,7 +602,14 @@ const Header = () => {
 
 					<ul className="header-list">
 						<Link to={"/"}>
-							<li onClick={handleHeadPages} className="header-item redFont">
+							<li
+								onClick={handleHeadPages}
+								className={
+									currentPath === "/branddutyfree"
+										? "header-item redFont"
+										: "header-item"
+								}
+							>
 								Главная
 							</li>
 						</Link>

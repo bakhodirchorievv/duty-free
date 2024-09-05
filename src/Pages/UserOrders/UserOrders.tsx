@@ -21,20 +21,20 @@ const UserOrders = () => {
 
 				<div className="allOrdersWrapper">
 					<div className="allOrderItem">
-						<div className="orderItemHead orderItemHead1">
+						<div className="orderItemHeadU orderItemHead1">
 							<button className="inProccess">В процессе</button>
 							<h3 className="numberOfOrder">Заказ №123</h3>
 						</div>
 
 						<div className="orderItemBody">
 							<p className="orderItemInfo orderItemNickname">
-								Заказчик: <span className="lighterSpan">User </span>
+								Исполнитель: <span className="lighterSpan">Nickname </span>
 							</p>
 							<p className="orderItemInfo orderItemPrice">
 								Сумма заказа: <span className="orderPriceWeight">20$</span>
 							</p>
 							<p className="orderItemInfo orderItemAddress">
-								Доставка: <span className="lighterSpan">до адреса</span>
+								Доставка: <span className="lighterSpan">улица, дом</span>
 							</p>
 						</div>
 
@@ -48,20 +48,20 @@ const UserOrders = () => {
 						</div>
 					</div>
 					<div className="allOrderItem">
-						<div className="orderItemHead orderItemHead1">
+						<div className="orderItemHeadU orderItemHead1">
 							<button className="inProccess">В процессе</button>
 							<h3 className="numberOfOrder">Заказ №123</h3>
 						</div>
 
 						<div className="orderItemBody">
 							<p className="orderItemInfo orderItemNickname">
-								Заказчик: <span className="lighterSpan">User </span>
+								Исполнитель: <span className="lighterSpan">Nickname </span>
 							</p>
 							<p className="orderItemInfo orderItemPrice">
 								Сумма заказа: <span className="orderPriceWeight">20$</span>
 							</p>
 							<p className="orderItemInfo orderItemAddress">
-								Доставка: <span className="lighterSpan">до адреса</span>
+								Доставка: <span className="lighterSpan">улица, дом</span>
 							</p>
 						</div>
 

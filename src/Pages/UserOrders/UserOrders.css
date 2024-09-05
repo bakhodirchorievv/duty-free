@@ -49,12 +49,12 @@ body {
 	border-radius: 5px;
 	padding: 20px 25px;
 }
-.orderItemHead {
+.orderItemHeadU {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
 	margin-bottom: 10px;
-	gap: 180px;
+	gap: 120px;
 	align-items: center;
 }
 .orderItemHead1 {

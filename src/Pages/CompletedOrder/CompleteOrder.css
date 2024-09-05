@@ -11,7 +11,7 @@ body {
 .myOrdersWrapper {
 	margin: 130px 100px;
 	background-color: rgba(238, 238, 238, 0.5);
-	padding: 25px 44px;
+	padding: 35px 44px;
 	border-radius: 5px;
 	position: relative;
 }
@@ -37,7 +37,7 @@ body {
 	padding-bottom: 2px;
 	border-bottom: 2px solid rgba(255, 0, 90, 1);
 }
-.myOrdersBody {
+/* .myOrdersBody {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 55px;
@@ -60,10 +60,6 @@ body {
 	align-items: flex-start;
 }
 
-.itemOnFocus {
-	background-color: rgba(193, 193, 193, 1) !important;
-}
-
 .myOrdersLeftRight {
 	width: 100%;
 }
@@ -71,13 +67,13 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-}
-.myOrdersNick,
-.myOrdersOrderNum {
+	}
+	.myOrdersNick,
+	.myOrdersOrderNum {
 	font-size: 20px;
 	line-height: 23px;
 	font-weight: 700;
-}
+	}
 .myOrdersOrderNum {
 	line-height: 23px;
 }
@@ -86,14 +82,97 @@ body {
 	line-height: 23px;
 	font-weight: 400;
 	margin-top: 18px;
+	}
+	.seeDetail {
+		color: rgba(255, 0, 90, 1);
+		margin-top: 30px;
+		border-bottom: 1px solid rgba(255, 0, 90, 1);
+		width: fit-content;
+		} */
+
+.allOrdersWrapperC {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-top: 50px;
 }
-.seeDetail {
-	color: rgba(255, 0, 90, 1);
-	margin-top: 30px;
-	border-bottom: 1px solid rgba(255, 0, 90, 1);
-	width: fit-content;
+.allOrderItem {
+	background-color: rgba(82, 82, 82, 0.1);
+	border-radius: 5px;
+	padding: 20px 25px;
+}
+.orderItemHeadC {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 10px;
+	gap: 120px;
+	align-items: center;
+}
+.orderItemHead1 {
+	margin-bottom: 40px;
 }
 
+.orderItemHeadLong {
+	gap: 240px;
+}
+.inProccess {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	color: rgba(249, 77, 141, 1);
+	padding: 4px 22px;
+	border-radius: 1000px;
+	font-family: inherit;
+	border: 0.5px solid rgba(249, 77, 141, 1);
+	background-color: inherit;
+}
+.numberOfOrder {
+	font-family: "Montserrat", sans-serif;
+}
+.orderItemBody {
+	margin-bottom: 30px;
+}
+.orderItemInfo {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+.lighterSpan {
+	font-weight: 300 !important;
+}
+.orderPriceWeight {
+	font-family: "Montserrat", sans-serif;
+}
+.orderItemFoot {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.orderItemDate {
+	color: rgba(106, 106, 106, 1);
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.orderItemState {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	font-family: inherit;
+	color: white;
+	padding: 5px 36px;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(249, 77, 141, 1);
+}
+
+.itemOnFocus {
+	background-color: rgba(193, 193, 193, 1) !important;
+}
 .montserratFamily {
 	font-family: "Montserrat", sans-serif !important;
 }

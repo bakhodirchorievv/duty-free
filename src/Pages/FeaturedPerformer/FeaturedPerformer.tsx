@@ -87,7 +87,7 @@ const FeaturedPerformer = () => {
 												className="performerClock"
 											/>{" "}
 										</div>
-										&gt;<span className="montserratFamily">1</span> года на
+										<span className="montserratFamily"> &gt;1</span> года на
 										сервисе
 									</p>
 								</div>

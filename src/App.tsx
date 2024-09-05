@@ -45,6 +45,7 @@ const ChatWithClient = lazy(
 const Registration = lazy(() => import("./Pages/Registration/Registration"));
 const UserOrders = lazy(() => import("./Pages/UserOrders/UserOrders"));
 const UserMessages = lazy(() => import("./Pages/UserMessages/UserMessages"));
+const ForHer = lazy(() => import("./Pages/ForHer/ForHer"));
 
 const App = () => {
 	return (
@@ -83,6 +84,7 @@ const App = () => {
 						<Route path="/search" element={<Search />} />
 						<Route path="/userorders" element={<UserOrders />} />
 						<Route path="/UserMessages" element={<UserMessages />} />
+						<Route path="/forher" element={<ForHer />} />
 						<Route path="/registration" element={<Registration />} />
 					</Routes>
 					<Footer />

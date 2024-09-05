@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
-import "./ForWho.css";
-import "./ForWhoResponsive.css";
+import "./ForHer.css";
+import "./ForHerResponsive.css";
 import { Link } from "react-router-dom";
 
-const ForWho = () => {
+const ForHer = () => {
 	const [minPrice, setMinPrice] = useState<number>(0);
 	const [maxPrice, setMaxPrice] = useState<number>(1000);
 
 	const gradientStyle = {
-		background: `linear-gradient(to right,
-		  rgba(96, 97, 97, 0.6) 0%,
-		  rgba(96, 97, 97, 0.6) ${minPrice / 10}%,
-		  rgba(255, 0, 20, 1) ${minPrice / 10}%,
-		  rgba(255, 0, 20, 1) ${maxPrice / 10}%,
-		  rgba(96, 97, 97, 0.6) ${maxPrice / 10}%,
+		background: `linear-gradient(to right, 
+		  rgba(96, 97, 97, 0.6) 0%, 
+		  rgba(96, 97, 97, 0.6) ${minPrice / 10}%, 
+		  rgba(255, 0, 20, 1) ${minPrice / 10}%, 
+		  rgba(255, 0, 20, 1) ${maxPrice / 10}%, 
+		  rgba(96, 97, 97, 0.6) ${maxPrice / 10}%, 
 		  rgba(96, 97, 97, 0.6) 100%)`,
 	};
 
@@ -84,31 +84,31 @@ const ForWho = () => {
 						</div>
 
 						<div className="forWhoWrapper">
-							<Link to={"/forher"}>
-								<div className="forHer">
-									<input
-										type="radio"
-										id="forHer"
-										className="forHerInput forWhoInput"
-										name="forWho"
-									/>
-									<label className="forWhoLabel" htmlFor="forHer">
-										Для нее
-									</label>
-								</div>
-							</Link>
-							<div className="forHim">
+							<div className="forHer">
 								<input
 									checked={true}
 									type="radio"
-									id="forHim"
-									className="forHimInput forWhoInput"
+									id="forHer"
+									className="forHerInput forWhoInput"
 									name="forWho"
 								/>
-								<label className="forWhoLabel" htmlFor="forHim">
-									Для него
+								<label className="forWhoLabel" htmlFor="forHer">
+									Для нее
 								</label>
 							</div>
+							<Link to={"/perfume"}>
+								<div className="forHim">
+									<input
+										type="radio"
+										id="forHim"
+										className="forHimInput forWhoInput"
+										name="forWho"
+									/>
+									<label className="forWhoLabel" htmlFor="forHim">
+										Для него
+									</label>
+								</div>
+							</Link>
 						</div>
 
 						<div className="rangeSliderWrapper">
@@ -154,19 +154,31 @@ const ForWho = () => {
 						</div>
 					</div>
 					<div className="catalogRightSide">
-						<div className="popular-products-bodyP forHimContent">
+						<div className="popular-products-bodyP forHerContent">
+							<div className="popular-product">
+								<div className="grayBackP">
+									<img
+										src="/duty-free/Sources/banner-right-img.png"
+										alt=""
+										className="product-img firstProductImg"
+									/>
+								</div>
+								<h4 className="p-product-name">Moschino</h4>
+								<p className="p-product-size">Funny EdT 50ml</p>
+								<p className="p-product-price">$20</p>
+							</div>
 							<div className="popular-product">
 								{" "}
 								<div className="grayBackP">
 									<img
-										src="/duty-free/Sources/pProductImg2.png"
+										src="/duty-free/Sources/pProductImg3.png"
 										alt=""
 										className="product-img"
 									/>
 								</div>
 								<h4 className="p-product-name">Moschino</h4>
-								<p className="p-product-size">Uomo EdT 75ml</p>
-								<p className="p-product-price">$20</p>
+								<p className="p-product-size">Funny EdT 30ml</p>
+								<p className="p-product-price">$30</p>
 							</div>
 						</div>
 					</div>
@@ -176,4 +188,4 @@ const ForWho = () => {
 	);
 };
 
-export default ForWho;
+export default ForHer;
