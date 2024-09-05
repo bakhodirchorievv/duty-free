@@ -20,6 +20,7 @@ body {
 	/* height: 500px; */
 	background-color: white;
 	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(249, 77, 141, 0.21);
 }
 .registerTitle {
 	text-align: center;
@@ -79,6 +80,7 @@ body {
 	font-weight: 400;
 	color: rgba(106, 106, 106, 1);
 	padding: 12px 15px 13px;
+	outline: none;
 }
 .registrationBtn {
 	background-color: rgba(251, 55, 129, 1);

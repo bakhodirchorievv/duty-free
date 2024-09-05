@@ -30,6 +30,7 @@ body {
 .orderingHeadItemImg {
 	width: 40px;
 	height: 40px;
+	border-radius: 100px;
 }
 .orderingHeadItemDesc {
 	font-size: 15px;

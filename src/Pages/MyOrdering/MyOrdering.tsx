@@ -21,7 +21,7 @@ const MyOrdering = () => {
 				<div className="myOrderingHead">
 					<div className="orderingHeadItem">
 						<img
-							src="/duty-free/Sources/orderingHead1.png"
+							src="/duty-free/Sources/orderingHead1.svg"
 							alt=""
 							className="orderingHeadItemImg"
 						/>
@@ -29,14 +29,14 @@ const MyOrdering = () => {
 					</div>
 					<div>
 						<img
-							src="/duty-free/Sources/orderingDashImg.png"
+							src="/duty-free/Sources/orderingDashImg.svg"
 							alt=""
 							className="orderingHeadDash"
 						/>
 					</div>
 					<div className="orderingHeadItem">
 						<img
-							src="/duty-free/Sources/orderingHead2.png"
+							src="/duty-free/Sources/orderingHead2.svg"
 							alt=""
 							className="orderingHeadItemImg"
 						/>
@@ -46,7 +46,7 @@ const MyOrdering = () => {
 					</div>
 					<div>
 						<img
-							src="/duty-free/Sources/orderingDashImg.png"
+							src="/duty-free/Sources/orderingDashImg.svg"
 							alt=""
 							className="orderingHeadDash"
 						/>
@@ -61,7 +61,7 @@ const MyOrdering = () => {
 					</div>
 					<div>
 						<img
-							src="/duty-free/Sources/orderingDashImg.png"
+							src="/duty-free/Sources/orderingDashImg.svg"
 							alt=""
 							className="orderingHeadDash"
 						/>
