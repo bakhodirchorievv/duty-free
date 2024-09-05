@@ -1,18 +1,58 @@
 import "./Footer.css";
 import "./FooterResponsive.css";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+	const firstPages = [
+		"/production",
+		"/order",
+		"/analyze",
+		"/chatwithclient",
+		"/catalog",
+		"/catalogpro",
+		"/moreinfo",
+		"/oservice",
+		"/currencyconvert",
+		"/perfume",
+		"/forher",
+		"/alcohol",
+		"/mainpage",
+		"/search",
+		"/",
+	];
+
+	// getting path name
+	const location = useLocation();
+	const currentPath = location.pathname;
+
 	return (
 		<div>
 			<footer className="footer">
 				<div className="foot-ul-wrap">
-					<ul className="footer-ul">
-						<li className="footer-list">О нас</li>
-						<li className="footer-list">Условия</li>
-						<li className="footer-list">Вопросы</li>
-						<li className="footer-list">FAQs</li>
-						<li className="footer-list">Контакты</li>
-					</ul>
+					{firstPages.includes(currentPath) ? (
+						<ul className="footer-ul">
+							<li className="footer-list">О НАС</li>
+							<li className="footer-list">УСЛОВИЯ</li>
+							<li className="footer-list">ВОПРОСЫ</li>
+							<li className="footer-list">FAQS</li>
+							<li className="footer-list">КОНТАКТЫ</li>
+						</ul>
+					) : currentPath === "/branddutyfree" ? (
+						<ul className="footer-ul">
+							<li className="footer-list">О ПРОЕКТЕ</li>
+							<li className="footer-list">ROAD MAP</li>
+							<li className="footer-list">FAQ</li>
+							<li className="footer-list">КОНТАКТЫ</li>
+						</ul>
+					) : (
+						<ul className="footer-ul">
+							<li className="footer-list">ГЛАВНАЯ</li>
+							<li className="footer-list">УСЛОВИЯ</li>
+							<li className="footer-list">ВОПРОСЫ</li>
+							<li className="footer-list">FAQS</li>
+							<li className="footer-list">КОНТАКТЫ</li>
+						</ul>
+					)}
 				</div>
 
 				<p className="foot-bottom-text">
