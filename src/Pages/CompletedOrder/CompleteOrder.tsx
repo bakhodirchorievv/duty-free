@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CompleteOrder.css";
 import "./CompleteOrderResponsive.css";
 
@@ -9,10 +10,14 @@ const CompleteOrder = () => {
 
 				<div className="myOrdersHead">
 					<div className="divBorderBottom">
-						<h4 className="myOrdersHeadTitle allOrdersTitle">Все заказы</h4>
+						<Link to={"/userorders"}>
+							<h4 className="myOrdersHeadTitle allOrdersTitle">Все заказы</h4>
+						</Link>
 					</div>
 					<div className="divBorderBottom onFocus">
-						<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+						<Link to={"/completeorder"}>
+							<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+						</Link>
 					</div>
 				</div>
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./TopPerformers.css";
 import "./TopPerformersResponsive.css";
 
@@ -7,13 +8,17 @@ const TopPerFormers = () => {
 			<div className="performersWrapper">
 				<div className="performersHead">
 					<h3 className="topPerformerTitle onCurrentlyy">
-						<span className="borderBottomDiv onCurrently">
-							Топ исполнителей
-						</span>
+						<Link to={"/topperformers"}>
+							<span className="borderBottomDiv onCurrently">
+								Топ исполнителей
+							</span>
+						</Link>
 					</h3>
 
 					<h3 className="topPerformerTitle">
-						<span className="borderBottomDiv">Избранные исполнители</span>
+						<Link to={"/featuredperformers"}>
+							<span className="borderBottomDiv">Избранные исполнители</span>
+						</Link>
 					</h3>
 				</div>
 

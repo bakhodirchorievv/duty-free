@@ -12,7 +12,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 30px 100px 0 100px;
+	margin: 0px 100px 0 100px;
+	padding-top: 30px;
 	position: relative;
 }
 .header-left {
@@ -98,6 +99,9 @@ body {
 
 .headImgsActiveColor path {
 	fill: rgba(255, 0, 90, 1) !important;
+}
+.mr-More {
+	margin-right: 40px;
 }
 
 /* userLoginWrapper start */

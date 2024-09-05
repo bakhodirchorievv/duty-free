@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./UserMessages.css";
 import "./UserMessagesResponsive.css";
 
@@ -11,12 +12,14 @@ const UserMessages = () => {
 					<h4 className="myOrdersHeadTitle allOrdersTitle onFocus">
 						Все заказы
 					</h4>
-					<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					<Link to={"/completeorder"}>
+						<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					</Link>
 				</div>
 
 				<div className="myOrdersBody">
 					<div className="myOrdersLeft">
-						<div className="allOrderItem itemOnFocus">
+						<div className="allOrderItemMe itemOnFocus">
 							<div className="orderItemHeadM orderItemHead1">
 								<button className="inProccess">В процессе</button>
 								<h3 className="numberOfOrder">Заказ №123</h3>
@@ -43,8 +46,8 @@ const UserMessages = () => {
 						</div>
 					</div>
 
-					<div className="myOrdersRight">
-						<div className="userMessageItem">
+					<div className="myOrdersRightM">
+						<div className="userMessageItemM">
 							<div className="userMessageLeft">
 								<img
 									src="/duty-free/Sources/recoUserImg.png"
@@ -68,7 +71,7 @@ const UserMessages = () => {
 								</p>
 							</div>
 						</div>
-						<div className="userMessageItem">
+						<div className="userMessageItemM">
 							<div className="userMessageLeft">
 								<img
 									src="/duty-free/Sources/recoUserImg.png"

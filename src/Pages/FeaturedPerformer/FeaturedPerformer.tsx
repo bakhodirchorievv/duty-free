@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FeaturedPerformer.css";
 import "./FeaturedPerformerRes.css";
 
@@ -7,12 +8,16 @@ const FeaturedPerformer = () => {
 			<div className="performersWrapper">
 				<div className="performersHead">
 					<h3 className="topPerformerTitle">
-						<span className="borderBottomDiv">Топ исполнителей</span>
+						<Link to={"/topperformers"}>
+							<span className="borderBottomDiv">Топ исполнителей</span>
+						</Link>
 					</h3>
 					<h3 className="topPerformerTitle onCurrentlyy">
-						<span className="borderBottomDiv onCurrently">
-							Избранные исполнители
-						</span>
+						<Link to={"/featuredperformers"}>
+							<span className="borderBottomDiv onCurrently">
+								Избранные исполнители
+							</span>
+						</Link>
 					</h3>
 				</div>
 

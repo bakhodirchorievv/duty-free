@@ -364,8 +364,9 @@ body {
 	background-image: url(/Sources/realNewOrderBackImg.png);
 	background-repeat: no-repeat;
 	position: fixed;
-	width: 100%;
+	width: 102%;
 	top: -200px;
+	left: -10px;
 }
 .relativeInAbsolute {
 	position: relative;

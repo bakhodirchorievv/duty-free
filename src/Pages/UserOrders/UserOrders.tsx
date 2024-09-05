@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./UserOrders.css";
 import "./UserOrdersResponsive.css";
 
@@ -8,10 +9,14 @@ const UserOrders = () => {
 				<h2 className="myOrdersTitle">Мои заказы</h2>
 
 				<div className="myOrdersHead">
-					<h4 className="myOrdersHeadTitle allOrdersTitle onFocus">
-						Все заказы
-					</h4>
-					<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					<Link to={"/userorders"}>
+						<h4 className="myOrdersHeadTitle allOrdersTitle onFocus">
+							Все заказы
+						</h4>
+					</Link>
+					<Link to={"/completeorder"}>
+						<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					</Link>
 				</div>
 
 				<div className="allOrdersWrapper">
@@ -37,7 +42,9 @@ const UserOrders = () => {
 							<p className="orderItemDate">
 								Создан<span className="orderPriceWeight"> 25.05.24</span>
 							</p>
-							<button className="orderItemState">В заказ</button>
+							<Link to={"/usermessages"}>
+								<button className="orderItemState">Отклики</button>
+							</Link>
 						</div>
 					</div>
 					<div className="allOrderItem">
@@ -62,7 +69,9 @@ const UserOrders = () => {
 							<p className="orderItemDate">
 								Создан<span className="orderPriceWeight"> 25.05.24</span>
 							</p>
-							<button className="orderItemState">В заказ</button>
+							<Link to={"/usermessages"}>
+								<button className="orderItemState">Отклики</button>
+							</Link>
 						</div>
 					</div>
 				</div>

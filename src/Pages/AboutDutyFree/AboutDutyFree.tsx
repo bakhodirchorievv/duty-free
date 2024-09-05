@@ -228,7 +228,9 @@ const AboutDutyFree = () => {
 						</div>
 					</div>
 
-					<button className="topProductsBtn">ПЕРЕЙТИ НА САЙТ</button>
+					<Link to={"/catalog"}>
+						<button className="topProductsBtn">ПЕРЕЙТИ НА САЙТ</button>
+					</Link>
 
 					<img
 						src="/duty-free/Sources/topProduct-last.png"

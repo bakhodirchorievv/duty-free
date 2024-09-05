@@ -6,6 +6,7 @@
 
 body {
 	font-family: "Raleway", sans-serif;
+	position: relative;
 }
 
 .myOrdersWrapper {
@@ -51,65 +52,81 @@ body {
 	font-weight: 400 !important;
 }
 
-.myOrdersLeftItem {
-	background-color: rgba(230, 230, 230, 1);
+.allOrderItemMy {
+	background-color: rgba(82, 82, 82, 0.1);
 	border-radius: 5px;
 	padding: 20px 25px;
 	width: 450px;
+}
+.orderItemHeadM {
 	display: flex;
-	justify-content: flex-start;
-	gap: 20px;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 10px;
+	gap: 160px;
 	align-items: center;
 }
+.orderItemHead1 {
+	margin-bottom: 40px;
+}
 
+.orderItemHeadLong {
+	gap: 240px;
+}
+.inProccess {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	color: rgba(249, 77, 141, 1);
+	padding: 4px 22px;
+	border-radius: 1000px;
+	font-family: inherit;
+	border: 0.5px solid rgba(249, 77, 141, 1);
+	background-color: inherit;
+}
+.numberOfOrder {
+	font-family: "Montserrat", sans-serif;
+}
+.orderItemBody {
+	margin-bottom: 30px;
+}
+.orderItemInfo {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+.lighterSpan {
+	font-weight: 300 !important;
+}
 .itemOnFocus {
 	background-color: rgba(193, 193, 193, 1) !important;
 }
-
-.myOrdersLeftRight {
-	width: 100%;
+.orderPriceWeight {
+	font-family: "Montserrat", sans-serif;
 }
-.nickAndOrder {
+.orderItemFoot {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
-}
-.myOrdersNick,
-.myOrdersOrderNum {
-	font-size: 20px;
-	line-height: 23px;
-	font-weight: 700;
-}
-.myOrdersOrderNum {
-	line-height: 23px;
-}
-.myOrderDesc {
-	font-size: 20px;
-	line-height: 23px;
-	font-weight: 400;
-	margin-top: 18px;
-}
-.seeDetail {
-	color: rgba(255, 0, 90, 1);
-	margin-top: 30px;
-	border-bottom: 1px solid rgba(255, 0, 90, 1);
-	width: fit-content;
-}
-
-.myOrdersLeftImg {
-	width: 120px;
-	height: 120px;
-}
-.HeadRightImg {
-	width: 81px;
-	height: 81px;
-}
-
-.flexJustifyCenter {
-	display: flex;
-	flex-direction: column;
 	align-items: flex-end;
-	gap: 5px;
+}
+.orderItemDate {
+	color: rgba(106, 106, 106, 1);
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.orderItemState {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	font-family: inherit;
+	color: white;
+	padding: 5px 36px;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(249, 77, 141, 1);
 }
 
 .montserratFamily {
@@ -132,6 +149,7 @@ body {
 
 .exitAndFile {
 	display: flex;
+	align-items: center;
 	gap: 35px;
 }
 
@@ -256,18 +274,18 @@ body {
 }
 
 /* navbar start */
-.topNavBarWrap {
+.topNavBarWrapM {
 	max-width: 700px;
 	border-radius: 20px 0 0 20px;
-	position: absolute;
+	position: fixed;
 	background-color: white;
 	top: 0px;
 	right: 0;
-	border: 2px solid black;
+	z-index: 5;
 }
-.topPerNavBar {
+.topPerNavBarM {
 	max-width: 700px;
-	padding: 160px 40px 0 40px;
+	padding: 100px 40px 0 40px;
 	height: 100vh;
 	position: relative;
 	border-radius: 20px 0 0 20px;
@@ -276,17 +294,31 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 25px;
+	position: relative;
+}
+
+.navBarRedHeart {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 25px;
+	height: 20px;
 }
 
 .topNavBarImg {
-	width: 142px;
-	height: 142px;
+	width: 122px;
+	height: 122px;
 }
 
 .topBarTitle {
 	font-size: 27px;
 	line-height: 32px;
 	font-weight: 700;
+}
+
+.navBarClock {
+	font-size: 20px;
+	line-height: 24px;
 }
 .topBarDesc {
 	font-size: 20px;
@@ -315,4 +347,97 @@ body {
 	left: 38px;
 	width: 40px;
 	height: 40px;
+}
+
+.navbarFootCenter {
+	margin-top: 30px;
+}
+
+.navBarBottom {
+	margin-top: 32px;
+}
+.navbarBottomTitle,
+.NavBarAddress,
+.aboutUser {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+}
+
+.navbarBottomTitle {
+	padding-bottom: 11px;
+	border-bottom: 0.5px solid rgba(34, 34, 34, 1);
+}
+
+.inputAndStar {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin-top: 14px;
+}
+.writeReviewInput {
+	background-color: rgba(217, 217, 217, 1);
+	border: none;
+	outline: none;
+	padding: 5px 12px;
+	width: 60%;
+	border-radius: 2px;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+	color: rgba(34, 34, 34, 1);
+}
+
+.writeReviewInput::placeholder {
+	color: rgba(34, 34, 34, 1);
+}
+
+.grayStars {
+	width: 120px;
+}
+
+.navBarSelect {
+	font-size: 16px;
+	line-height: 20px;
+	border: 0.5px solid rgba(255, 0, 90, 1);
+	padding: 5px 50px 5px 20px;
+	border-radius: 5px;
+	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.navBarSelectWrap {
+	margin-top: 15px;
+	position: relative;
+	width: fit-content;
+}
+.arrowOpenNavBar {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 14px;
+	width: 12px;
+}
+.performerDesc {
+	display: flex;
+	align-items: center;
+}
+.performerClock {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.getNone {
+	display: none;
+}
+
+.myOrdersOverlay {
+	position: absolute;
+	background-color: rgba(34, 34, 34, 0.19);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 }

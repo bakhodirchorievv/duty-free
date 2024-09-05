@@ -1,7 +1,24 @@
+import { Link } from "react-router-dom";
 import "./MyOrders.css";
 import "./MyOrdersResponsive.css";
 
 const MyOrders = () => {
+	const handleNavBar = () => {
+		const navBar = document.querySelector(".topNavBarWrapM") as HTMLDivElement;
+		const overlay = document.querySelector(
+			".myOrdersOverlay"
+		) as HTMLDivElement;
+
+		if (navBar.classList.contains("getNone")) {
+			navBar.classList.remove("getNone");
+			overlay.classList.remove("getNone");
+			document.body.style.overflowY = "hidden";
+		} else {
+			navBar.classList.add("getNone");
+			overlay.classList.add("getNone");
+			document.body.style.overflowY = "visible";
+		}
+	};
 	return (
 		<>
 			<div className="myOrdersWrapper">
@@ -11,45 +28,36 @@ const MyOrders = () => {
 					<h4 className="myOrdersHeadTitle allOrdersTitle onFocus">
 						Все заказы
 					</h4>
-					<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					<Link to={"/completeorder"}>
+						<h4 className="myOrdersHeadTitle completedTitle">Завершенные</h4>
+					</Link>
 				</div>
 
 				<div className="myOrdersBody">
 					<div className="myOrdersLeft">
-						<div className="myOrdersLeftItem itemOnFocus">
-							<img
-								src="/duty-free/Sources/recoUserImg.png"
-								alt=""
-								className="myOrdersLeftImg"
-							/>
-
-							<div className="myOrdersLeftRight">
-								<div className="nickAndOrder">
-									<h3 className="myOrdersNick">Nickname</h3>
-									<h3 className="myOrdersOrderNum">
-										Заказ <span className="montserratFamily">№123</span>
-									</h3>
-								</div>
-								<p className="myOrderDesc">Описание заказа</p>
-								<p className="myOrderDesc seeDetail">Просмотреть детал</p>
+						<div className="allOrderItemMy itemOnFocus">
+							<div className="orderItemHeadM orderItemHead1">
+								<button className="inProccess">В процессе</button>
+								<h3 className="numberOfOrder">Заказ №123</h3>
 							</div>
-						</div>
-						<div className="myOrdersLeftItem">
-							<img
-								src="/duty-free/Sources/recoUserImg.png"
-								alt=""
-								className="myOrdersLeftImg"
-							/>
 
-							<div className="myOrdersLeftRight">
-								<div className="nickAndOrder">
-									<h3 className="myOrdersNick">Nickname</h3>
-									<h3 className="myOrdersOrderNum">
-										Заказ <span className="montserratFamily">№001</span>
-									</h3>
-								</div>
-								<p className="myOrderDesc">Описание заказа</p>
-								<p className="myOrderDesc seeDetail">Просмотреть детал</p>
+							<div className="orderItemBody">
+								<p className="orderItemInfo orderItemNickname">
+									Заказчик: <span className="lighterSpan">User </span>
+								</p>
+								<p className="orderItemInfo orderItemPrice">
+									Сумма заказа: <span className="orderPriceWeight">20$</span>
+								</p>
+								<p className="orderItemInfo orderItemAddress">
+									Доставка: <span className="lighterSpan">до адреса</span>
+								</p>
+							</div>
+
+							<div className="orderItemFoot">
+								<p className="orderItemDate">
+									Создан<span className="orderPriceWeight"> 25.05.24</span>
+								</p>
+								<button className="orderItemState">Детали заказа</button>
 							</div>
 						</div>
 					</div>
@@ -57,11 +65,13 @@ const MyOrders = () => {
 					<div className="myOrdersRight">
 						<div className="myOrdersRightHead">
 							<div className="exitAndFile">
-								<img
-									src="/duty-free/Sources/exitSign.svg"
-									alt=""
-									className="exitChatBtn"
-								/>
+								<Link to={"/usermessages"}>
+									<img
+										src="/duty-free/Sources/exitSign.svg"
+										alt=""
+										className="exitChatBtn"
+									/>
+								</Link>
 								<img
 									src="/duty-free/Sources/realFileImg.svg"
 									alt=""
@@ -76,6 +86,7 @@ const MyOrders = () => {
 									<h3 className="HeadrightTitle">Nickname</h3>
 								</div>
 								<img
+									onClick={handleNavBar}
 									src="/duty-free/Sources/recoUserImg.png"
 									alt=""
 									className="HeadRightImg"
@@ -135,35 +146,93 @@ const MyOrders = () => {
 				</div>
 			</div>
 
-			{/* <div className="topNavBarWrap">
-				<div className="topPerNavBar">
+			<div className="topNavBarWrapM getNone">
+				<div className="topPerNavBarM">
 					<div className="topBarBody">
 						<div className="topBarLeft">
 							<img
-								src="/duty-free/Sources/topNavBarImg.png"
+								src="/duty-free/Sources/recoUserImg.png"
 								alt=""
 								className="topNavBarImg"
 							/>
 						</div>
 						<div className="topBarRight">
-							<h3 className="topBarTitle">User</h3>
-							<p className="topBarDesc">
-								Сумма заказа: <span className="montserratFamily">20$</span>{" "}
-							</p>
-							<p className="topBarDesc">
-								Доставка: <span className="lighterWeight">до адреса</span>
+							<h3 className="topBarTitle">Nickname</h3>
+							<img
+								src="/duty-free/Sources/realStars.svg"
+								alt=""
+								className="topBarDesc"
+							/>
+							<p className="performerDesc navBarClock">
+								{" "}
+								{/* <div> */}
+								<img
+									src="/duty-free/Sources/realClockIcon.svg"
+									alt=""
+									className="performerClock"
+								/>{" "}
+								{/* </div> */}
+								&gt;<span className="montserratFamily">1 </span> года на сервисе
 							</p>
 						</div>
+
+						<img
+							src="/duty-free/Sources/redHeart.png"
+							alt=""
+							className="navBarRedHeart"
+						/>
 					</div>
+
 					<div className="navBarFoot">
-						<h4 className="navBarFootTitle">О заказе</h4>
-						<p className="navBarFootdesc">
-							Краткая информация, которую напишет пользователь
+						<p className="NavBarAddress">
+							Основные направления:
+							<span className="lighterWeight"> Россия, Германия</span>
 						</p>
+						<div className="navbarFootCenter">
+							<h3 className="aboutUser">О пользователе</h3>
+							<p className="navBarFootdesc">
+								Краткая информация, которую напишет пользователь
+							</p>
+						</div>
+
+						<div className="navBarBottom">
+							<h3 className="navbarBottomTitle">Отзывы</h3>
+
+							<div className="inputAndStar">
+								<input
+									type="text"
+									className="writeReviewInput"
+									placeholder="Написать отзыв"
+								/>
+								<img
+									src="/duty-free/Sources/grayStars.png"
+									alt=""
+									className="grayStars"
+								/>
+							</div>
+						</div>
+
+						<div className="navBarSelectWrap">
+							<select name="" id="" className="navBarSelect">
+								<option value="">Сначала новые</option>
+							</select>
+							<img
+								src="/duty-free/Sources/arrowOpen.svg"
+								alt=""
+								className="arrowOpenNavBar"
+							/>
+						</div>
 					</div>
-					<img src="/duty-free/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img
+						onClick={handleNavBar}
+						src="/duty-free/Sources/realCloseImg.svg"
+						alt=""
+						className="navBarCloseImg"
+					/>
 				</div>
-			</div> */}
+			</div>
+
+			<div onClick={handleNavBar} className="myOrdersOverlay getNone"></div>
 		</>
 	);
 };

@@ -6,6 +6,7 @@
 
 body {
 	font-family: "Raleway", sans-serif;
+	position: relative;
 }
 
 .DmyOrdersWrapper {
@@ -258,11 +259,12 @@ body {
 .topNavBarWrap {
 	max-width: 700px;
 	border-radius: 20px 0 0 20px;
-	position: absolute;
+	position: fixed;
 	background-color: white;
 	top: 0px;
 	right: 0;
-	border: 2px solid black;
+	z-index: 5;
+	border: none !important;
 }
 .topPerNavBar {
 	max-width: 700px;
@@ -275,23 +277,33 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 25px;
+	position: relative;
+}
+.dReadHeart {
+	position: absolute;
+	top: 0;
+	right: 50px;
 }
 
 .topNavBarImg {
-	width: 142px;
-	height: 142px;
+	width: 122px;
+	height: 122px;
+}
+
+.lighterWeight {
+	font-weight: 400 !important;
 }
 
 .topBarTitle {
-	font-size: 27px;
-	line-height: 32px;
+	font-size: 22px;
+	line-height: 27px;
 	font-weight: 700;
 }
 .topBarDesc {
-	font-size: 20px;
-	line-height: 25px;
+	font-size: 18px;
+	line-height: 22px;
 	font-weight: 700;
-	margin: 15px 0 10px;
+	margin: 10px 0 10px;
 }
 .navBarFoot {
 	margin-top: 31px;
@@ -314,4 +326,34 @@ body {
 	left: 38px;
 	width: 40px;
 	height: 40px;
+}
+.dMyOrderBtn {
+	position: absolute;
+	top: 80px;
+	right: 30px;
+	border: none;
+	background-color: rgba(249, 77, 141, 1);
+	color: white;
+	border-radius: 3px;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+	font-family: inherit;
+	letter-spacing: 1px;
+	padding: 7px 30px;
+}
+
+/* overlay start */
+.overlayDMyOrders {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(34, 34, 34, 0.19);
+	z-index: 4;
+}
+
+.getNone {
+	display: none;
 }

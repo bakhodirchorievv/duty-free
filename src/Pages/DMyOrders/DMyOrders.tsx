@@ -1,7 +1,24 @@
+import { Link } from "react-router-dom";
 import "./DMyOrders.css";
 import "./DMyOrdersResponsive.css";
 
 const DMyOrders = () => {
+	const handleNavBar = () => {
+		const navBar = document.querySelector(".topNavBarWrap") as HTMLDivElement;
+		const overlay = document.querySelector(
+			".overlayDMyOrders"
+		) as HTMLDivElement;
+
+		if (navBar.classList.contains("getNone")) {
+			navBar.classList.remove("getNone");
+			overlay.classList.remove("getNone");
+			document.body.style.overflowY = "hidden";
+		} else {
+			navBar.classList.add("getNone");
+			overlay.classList.add("getNone");
+			document.body.style.overflowY = "visible";
+		}
+	};
 	return (
 		<>
 			<div className="DmyOrdersWrapper">
@@ -9,10 +26,14 @@ const DMyOrders = () => {
 
 				<div className="DmyOrdersHead">
 					<div className="divBorderBottom onFocus">
-						<h4 className="DmyOrdersHeadTitle allOrdersTitle">Все заказы</h4>
+						<Link to={"/dmyorders"}>
+							<h4 className="DmyOrdersHeadTitle allOrdersTitle">Все заказы</h4>
+						</Link>
 					</div>
 					<div className="divBorderBottom">
-						<h4 className="DmyOrdersHeadTitle completedTitle">Завершенные</h4>
+						<Link to={"/dcompleteorder"}>
+							<h4 className="DmyOrdersHeadTitle completedTitle">Завершенные</h4>
+						</Link>
 					</div>
 				</div>
 
@@ -73,6 +94,7 @@ const DMyOrders = () => {
 									<h3 className="HeadrightTitle">User</h3>
 								</div>
 								<img
+									onClick={handleNavBar}
 									src="/duty-free/Sources/topNavBarImg.png"
 									alt=""
 									className="HeadRightImg"
@@ -134,7 +156,7 @@ const DMyOrders = () => {
 				</div>
 			</div>
 
-			{/* <div className="topNavBarWrap">
+			<div className="topNavBarWrap getNone">
 				<div className="topPerNavBar">
 					<div className="topBarBody">
 						<div className="topBarLeft">
@@ -153,6 +175,12 @@ const DMyOrders = () => {
 								Доставка: <span className="lighterWeight">до адреса</span>
 							</p>
 						</div>
+
+						<img
+							src="/duty-free/Sources/mainRedHeart.svg"
+							alt=""
+							className="dReadHeart"
+						/>
 					</div>
 					<div className="navBarFoot">
 						<h4 className="navBarFootTitle">О заказе</h4>
@@ -160,9 +188,18 @@ const DMyOrders = () => {
 							Краткая информация, которую напишет пользователь
 						</p>
 					</div>
-					<img src="/duty-free/Sources/closeImg.png" alt="" className="navBarCloseImg" />
+					<img
+						onClick={handleNavBar}
+						src="/duty-free/Sources/realCloseImg.svg"
+						alt=""
+						className="navBarCloseImg"
+					/>
+
+					<button className="dMyOrderBtn">Откликнуться</button>
 				</div>
-			</div> */}
+			</div>
+
+			<div onClick={handleNavBar} className="overlayDMyOrders getNone"></div>
 		</>
 	);
 };

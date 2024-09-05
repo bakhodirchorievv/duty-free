@@ -375,7 +375,7 @@ const MyOrdering = () => {
 
 					<img
 						onClick={handleNewOrdering}
-						src="/duty-free/Sources/newOrderExitImg.png"
+						src="/duty-free/Sources/newOrderExitImg.svg"
 						alt=""
 						className="newOrderExitImg"
 					/>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./OService.css";
 import "./OServiceResponsive.css";
 
@@ -78,9 +79,19 @@ const OService = () => {
 
 				<div className="moreInfoCenter">
 					<div className="moreInfocenterHead">
-						<h3 className="moreInfoSection">Дополнительная информация</h3>
-						<h3 className="moreInfoSection sectionFocus">О работе сервиса</h3>
-						<h3 className="moreInfoSection">Конвертер валют</h3>
+						<h3 className="moreInfoSection">
+							{" "}
+							<Link to={"/moreinfo"}>Дополнительная информация</Link>
+						</h3>
+
+						<h3 className="moreInfoSection sectionFocus">
+							<Link to={"/oservice"}>О работе сервиса </Link>
+						</h3>
+
+						<h3 className="moreInfoSection">
+							{" "}
+							<Link to={"/currencyconvert"}>Конвертер валют</Link>
+						</h3>
 					</div>
 
 					<ul className="productFullDesc">

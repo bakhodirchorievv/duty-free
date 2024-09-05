@@ -116,14 +116,14 @@ body {
 	font-family: "Montserrat", sans-serif !important;
 }
 
-.myOrdersRight {
+.myOrdersRightM {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 	width: 60.5%;
 }
 
-.allOrderItem {
+.allOrderItemMe {
 	background-color: rgba(82, 82, 82, 0.1);
 	border-radius: 5px;
 	padding: 20px 25px;
@@ -197,7 +197,7 @@ body {
 }
 
 /* right side */
-.userMessageItem {
+.userMessageItemM {
 	width: 100%;
 	border-radius: 5px;
 	background-color: rgba(230, 230, 230, 1);

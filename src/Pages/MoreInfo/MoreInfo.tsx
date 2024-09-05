@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./MoreInfo.css";
 import "./MoreInforesponsive.css";
 
@@ -79,10 +80,18 @@ const MoreInfo = () => {
 				<div className="moreInfoCenter">
 					<div className="moreInfocenterHead">
 						<h3 className="moreInfoSection sectionFocus">
-							Дополнительная информация
+							<Link to={"/moreinfo"}>Дополнительная информация</Link>
 						</h3>
-						<h3 className="moreInfoSection">О работе сервиса</h3>
-						<h3 className="moreInfoSection">Конвертер валют</h3>
+
+						<h3 className="moreInfoSection">
+							{" "}
+							<Link to={"/oservice"}>О работе сервиса </Link>
+						</h3>
+
+						<h3 className="moreInfoSection">
+							{" "}
+							<Link to={"/currencyconvert"}>Конвертер валют</Link>
+						</h3>
 					</div>
 
 					<div className="productFullInfo">
