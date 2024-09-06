@@ -134,3 +134,73 @@ option {
 	display: block;
 	width: 100%;
 }
+
+/* Default day styling */
+.calendar-container {
+	height: fit-content;
+	width: 260px;
+}
+
+.custom-calendar .react-datepicker__day {
+	background-color: white;
+	color: black;
+}
+
+/* Header Styling with 10px padding on top and bottom */
+.custom-calendar .react-datepicker__header {
+	background-color: rgba(255, 0, 90, 0.4);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: none;
+}
+
+/* Month name styling */
+.custom-calendar .react-datepicker__current-month {
+	color: black;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-family: inherit;
+	text-transform: capitalize;
+}
+
+/* Day names (Saturday and Sunday in red with border adjustments) */
+.custom-calendar .react-datepicker__day-names {
+	color: black;
+	background-color: white;
+	border-radius: 0px;
+}
+
+.custom-calendar
+	.react-datepicker__day-name.react-datepicker__day-name--saturday,
+.custom-calendar
+	.react-datepicker__day-name.react-datepicker__day-name--sunday {
+	color: rgba(255, 0, 90, 1);
+}
+
+/* Styling Saturday and Sunday dates inside the month in red */
+.custom-calendar .react-datepicker__day.react-datepicker__day--weekend {
+	color: rgba(255, 0, 90, 1);
+}
+
+/* Ensure the border around Saturday and Sunday is continuous */
+.custom-calendar .react-datepicker__day-name,
+.custom-calendar .react-datepicker__day {
+	margin: 0;
+	font-family: inherit;
+}
+
+/* Days between start and end dates should not be blue */
+.custom-calendar .react-datepicker__day--in-selecting-range,
+.custom-calendar .react-datepicker__day--in-range {
+	background-color: rgba(255, 0, 90, 0.2);
+	color: black;
+	border-radius: 0;
+}
+
+/* Styling for outside month days */
+.custom-calendar .react-datepicker__day--outside-month {
+	background-color: white;
+	color: rgb(136, 136, 136) !important;
+}

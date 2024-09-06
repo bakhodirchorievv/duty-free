@@ -1,8 +1,21 @@
 import { Link } from "react-router-dom";
 import "./Analyze.css";
 import "./AnalyzeResponsive.css";
+// import { useState } from "react";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
+// import { ru } from "date-fns/locale";
 
 const Analyze = () => {
+	// const [startDate, setStartDate] = useState();
+	// const [endDate, setEndDate] = useState();
+
+	// const handleSelect = (dates: [any, any]) => {
+	// 	const [start, end] = dates;
+	// 	setStartDate(start);
+	// 	setEndDate(end);
+	// };
+
 	return (
 		<>
 			<div className="analyzeWrapper">
@@ -24,8 +37,19 @@ const Analyze = () => {
 					<div className="analyzeBodyWrap">
 						<div className="analyzeBodyLeft">
 							<div className="analyzeLeftInnerBody">
-								{/* <input className="dateInput" type="date" placeholder="1" /> */}
 								<div className="date-range-container">
+									{/* <input
+										type="text"
+										id="date-range"
+										value={
+											startDate && endDate
+												? `${startDate.toLocaleDateString(
+														"en-GB"
+												  )} - ${endDate.toLocaleDateString("en-GB")}`
+												: ""
+										}
+										readOnly
+									/> */}
 									<input
 										type="text"
 										id="date-range"
@@ -54,8 +78,22 @@ const Analyze = () => {
 									<option value="">Финансы</option>
 								</select>
 							</div>
+							{/* <div className="calendar-container">
+								<DatePicker
+									selected={startDate}
+									onChange={handleSelect}
+									startDate={startDate}
+									endDate={endDate}
+									selectsRange
+									inline
+									monthsShown={1}
+									calendarClassName="custom-calendar"
+									locale={ru}
+									weekStartsOn={1}
+								/>
+							</div> */}
 							<img
-								src="/duty-free/Sources/calendarPicture.png"
+								src="/duty-free/Sources/calendarPicture.svg"
 								alt=""
 								className="calendarImg"
 							/>
