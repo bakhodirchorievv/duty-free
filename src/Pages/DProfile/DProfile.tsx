@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./Profile.css";
-import "./ProfileResponsive.css";
+import "./DProfile.css";
+import "./DProfileResponsive.css";
 
-const Profile = () => {
+const DProfile = () => {
 	return (
 		<>
 			<div className="profileWrapper">
@@ -11,7 +11,7 @@ const Profile = () => {
 						<span className="forUnderline">Профиль</span>
 					</h3>
 
-					<Link to={"/contactinfo"}>
+					<Link to={"/dcontactinfo"}>
 						<h3 className="profileHeadTitle">
 							<span className="forUnderline">Контактная информация</span>
 						</h3>
@@ -73,6 +73,36 @@ const Profile = () => {
 							</div>
 						</div>
 					</div>
+					<div className="profileBodyItem profileBodyItem2">
+						<h3 className="profileItemTitle">О пользователе</h3>
+
+						<div className="userInfoWrapper">
+							<h4 className="infoOfUser">Информация о пользователе</h4>
+							<textarea
+								name=""
+								id=""
+								className="userInfotextArea"
+								placeholder="Краткая информация о пользователе"
+							></textarea>
+						</div>
+					</div>
+					<div className="profileBodyItem profileBodyItem2">
+						<h3 className="profileItemTitle">Основные направления</h3>
+
+						<div className="countryOptions">
+							<h3 className="chooseTitle">Выберите:</h3>
+
+							<div className="chooseCountryWrap">
+								<button className="countryname">Россия</button>
+								<button className="countryname">Германия</button>
+								<img
+									src="/duty-free/Sources/plusMore.png"
+									alt=""
+									className="plusMoreSign"
+								/>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				{/* <div className="userLoginWrap">
@@ -93,4 +123,4 @@ const Profile = () => {
 	);
 };
 
-export default Profile;
+export default DProfile;

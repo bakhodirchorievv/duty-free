@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+.helpWrapper {
+	margin: 16px 100px;
+	padding: 120px 0 80px;
+	position: relative;
+}
+
+.helpTitle {
+	font-size: 32px;
+	line-height: 37px;
+	font-weight: 700;
+	color: rgba(34, 34, 34, 1);
+}
+.helpHeadDesc {
+	color: rgba(34, 34, 34, 0.69);
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 300;
+	margin-top: 9px;
+}
+
+/* questionarie start */
+.moreAnswerMinus {
+	display: none;
+}
+
+.getNone {
+	display: none;
+}
+.getBlock {
+	display: block;
+}
+.questionarie {
+	margin: 54px 0px 0;
+	position: relative;
+}
+
+.questionarieBody {
+	margin-top: 0px;
+}
+.questions-ul {
+	list-style: none;
+}
+.question-item {
+	margin-top: 42px;
+	border-top: 1.36px solid rgba(234, 236, 240, 1);
+	padding: 32px 0 0 0;
+	color: rgba(16, 24, 40, 1);
+	font-size: 26px;
+	line-height: 38px;
+	font-weight: 500;
+	font-family: "Raleway";
+}
+.question-item:nth-child(1) {
+	border: none;
+}
+.question-face {
+	display: flex;
+	justify-content: space-between;
+}
+.answer-item {
+	color: rgba(102, 112, 133, 1);
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 32px;
+	padding-right: 10px;
+}
+
+/* ask question start */
+.askQuestion {
+	margin-top: 54px;
+}
+.askQuestionTitle {
+	color: rgba(34, 34, 34, 1);
+	font-size: 32px;
+	line-height: 37px;
+	font-weight: 700;
+	margin-bottom: 29px;
+}
+.askQuestionBody {
+	max-width: 900px;
+	height: 260px;
+	position: relative;
+}
+.askTextarea {
+	width: 100%;
+	height: 100%;
+	resize: none;
+	border: none;
+	outline: none;
+	background-color: rgba(238, 238, 238, 1);
+	padding: 14px 17px;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: inherit;
+	color: rgba(34, 34, 34, 0.75);
+	border-radius: 5px;
+}
+.askTextarea::placeholder {
+	color: rgba(34, 34, 34, 0.75);
+}
+.askBtn {
+	font-size: 20px;
+	line-height: 23px;
+	font-family: inherit;
+	color: white;
+	padding: 10px 23px;
+	background-color: rgba(255, 0, 90, 1);
+	border: none;
+	border-radius: 3px;
+	font-weight: 700;
+	position: absolute;
+	right: 23px;
+	bottom: 22px;
+}
+
+/* userLoginWrapper start */
+/* .userLoginWrap {
+	border: 0.5px solid rgba(255, 0, 90, 1);
+	border-radius: 5px;
+	width: 213px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: white;
+}
+.userLoginHead {
+	border-bottom: 0.5px solid rgba(255, 0, 90, 1);
+	padding: 11px;
+}
+.userName {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+}
+.userEmail {
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 11px;
+}
+.userLoginUl {
+	list-style: none;
+	padding: 11px 11px 0 11px;
+}
+.userLoginItem {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: inherit;
+}
+.loginFocus {
+	color: rgba(255, 0, 90, 1);
+} */

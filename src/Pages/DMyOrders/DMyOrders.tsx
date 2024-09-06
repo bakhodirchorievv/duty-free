@@ -168,10 +168,10 @@ const DMyOrders = () => {
 						</div>
 						<div className="topBarRight">
 							<h3 className="topBarTitle">User</h3>
-							<p className="topBarDesc">
+							<p className="DtopBarDesc">
 								Сумма заказа: <span className="montserratFamily">20$</span>{" "}
 							</p>
-							<p className="topBarDesc">
+							<p className="DtopBarDesc">
 								Доставка: <span className="lighterWeight">до адреса</span>
 							</p>
 						</div>

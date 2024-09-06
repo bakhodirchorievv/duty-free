@@ -94,7 +94,7 @@ const DCompleteOrder = () => {
 					</div>
 				</div>
 
-				<div className="smallBar">
+				{/* <div className="smallBar">
 					<div className="smallBarBody">
 						<div className="smallBarBodyLeft">
 							<img
@@ -112,7 +112,7 @@ const DCompleteOrder = () => {
 							<p className="smallBarSecDesc">Нажмите, чтобы посмотреть</p>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 
 			{/* <div className="topNavBarWrap">

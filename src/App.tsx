@@ -46,6 +46,9 @@ const Registration = lazy(() => import("./Pages/Registration/Registration"));
 const UserOrders = lazy(() => import("./Pages/UserOrders/UserOrders"));
 const UserMessages = lazy(() => import("./Pages/UserMessages/UserMessages"));
 const ForHer = lazy(() => import("./Pages/ForHer/ForHer"));
+const DHelp = lazy(() => import("./Pages/DHelp/DHelp"));
+const DProfile = lazy(() => import("./Pages/DProfile/DProfile"));
+const DContactInfo = lazy(() => import("./Pages/DContactInfo/DContactInfo"));
 
 const App = () => {
 	return (
@@ -86,6 +89,9 @@ const App = () => {
 						<Route path="/UserMessages" element={<UserMessages />} />
 						<Route path="/forher" element={<ForHer />} />
 						<Route path="/registration" element={<Registration />} />
+						<Route path="/dhelp" element={<DHelp />} />
+						<Route path="/dprofile" element={<DProfile />} />
+						<Route path="/dcontactinfo" element={<DContactInfo />} />
 					</Routes>
 					<Footer />
 				</Container>

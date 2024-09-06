@@ -47,47 +47,51 @@ const UserMessages = () => {
 					</div>
 
 					<div className="myOrdersRightM">
-						<div className="userMessageItemM">
-							<div className="userMessageLeft">
-								<img
-									src="/duty-free/Sources/recoUserImg.png"
-									alt=""
-									className="userMessageImg"
-								/>
-							</div>
-							<div className="userMessageRight">
-								<h3 className="userRealNick">
-									Nickname{" "}
+						<Link to={"/myorders"}>
+							<div className="userMessageItemM">
+								<div className="userMessageLeft">
 									<img
-										src="/duty-free/Sources/realOnlineSign.svg"
+										src="/duty-free/Sources/recoUserImg.png"
 										alt=""
-										className="isUserOnline"
+										className="userMessageImg"
 									/>
-								</h3>
-								<p className="responseMessage">Отклик на заказ</p>
-								<p className="messageDesc">
-									Добрый день, опишите, пожалуйста, подробнее, что бы вы хотели
-									приобрести
-								</p>
+								</div>
+								<div className="userMessageRight">
+									<h3 className="userRealNick">
+										Nickname{" "}
+										<img
+											src="/duty-free/Sources/realOnlineSign.svg"
+											alt=""
+											className="isUserOnline"
+										/>
+									</h3>
+									<p className="responseMessage">Отклик на заказ</p>
+									<p className="messageDesc">
+										Добрый день, опишите, пожалуйста, подробнее, что бы вы
+										хотели приобрести
+									</p>
+								</div>
 							</div>
-						</div>
-						<div className="userMessageItemM">
-							<div className="userMessageLeft">
-								<img
-									src="/duty-free/Sources/recoUserImg.png"
-									alt=""
-									className="userMessageImg"
-								/>
+						</Link>
+						<Link to={"/myorders"}>
+							<div className="userMessageItemM">
+								<div className="userMessageLeft">
+									<img
+										src="/duty-free/Sources/recoUserImg.png"
+										alt=""
+										className="userMessageImg"
+									/>
+								</div>
+								<div className="userMessageRight">
+									<h3 className="userRealNick">Nickname </h3>
+									<p className="responseMessage">Отклик на заказ</p>
+									<p className="messageDesc">
+										Добрый день, опишите, пожалуйста, подробнее, что бы вы
+										хотели приобрести
+									</p>
+								</div>
 							</div>
-							<div className="userMessageRight">
-								<h3 className="userRealNick">Nickname </h3>
-								<p className="responseMessage">Отклик на заказ</p>
-								<p className="messageDesc">
-									Добрый день, опишите, пожалуйста, подробнее, что бы вы хотели
-									приобрести
-								</p>
-							</div>
-						</div>
+						</Link>
 					</div>
 				</div>
 			</div>
